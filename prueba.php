@@ -29,13 +29,13 @@
                 <ul>
 
 
-                  <li><a href="sinopsis.html">¿Que es The OA?</a></li>
+                  
 
-                  <li><a href="temporadas.html">Temporadas</a>
+                  <li><a href="juegos.html">JUEGOS</a>
 
                       <ul>
-                          <li><a href="temp1.html">Temporada 1</a></li>
-                          <li><a href="temp2.html">Temporada 2</a></li>
+                          <li><a href="AVENTURA.html">Temporada 1</a></li>
+                          <li><a href="ACCION.html">Temporada 2</a></li>
                       </ul>
 
                       </li>
@@ -49,7 +49,7 @@
   
                           </li>
 
-                          <li><a href= "galeria.html">Galeria</a></li>
+                          <li><a href= "INICIAR SESION.html">Galeria</a></li>
 
               </ul>       
             
