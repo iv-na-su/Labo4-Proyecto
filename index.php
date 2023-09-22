@@ -23,16 +23,16 @@
             <i class="fa fa-bars"></i>
         </a>
          <li><a href="index.php">INICIO</a>
-        </li>                
+        </li>     
         <ul>
             <li><a href="juegos.<?php  ?>">JUEGOS</a>
         <ul>
-            <li><a href="AVENTURA.php">Aventura</a></li>
-            <li><a href="ACCION.php">Acción</a></li>
-            <li><a href="SHOOTER.php">Shooter</a></li>
+            <li><a href="aventura.php">Aventura</a></li>
+            <li><a href="accion.php">Acción</a></li>
+            <li><a href="shooter.php">Shooter</a></li>
         </ul>
             </li>
-            <li><a href= "INICIAR_SESION.php">INICIAR</a></li>
+            <li><a href= "sesion.php">INICIAR</a></li>
         </ul>
     </nav>
 </header>
