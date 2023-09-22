@@ -59,7 +59,7 @@
 
     
     <footer>
-
+<!-- Imágenes de redes de contacto del footer
         <div>
         <a title="facebook" href="https://www.facebook.com/TheOANetflix/?locale=es_LA"><img src = "images/redes/facebook.png" type= "image/png" alt ="facebook" /></a>
         <a title="twitter" href="https://twitter.com/The_OA"><img src = "images/redes/twitter.png" type= "image/png" alt ="twitter" /></a>
@@ -67,7 +67,7 @@
         <a title="instagram" href="https://www.instagram.com/the_oa/?hl=es"><img src = "images/redes/instagram.png" type= "image/png" alt ="instagram" /></a>
         </div>
 
-        
+-->
         <a id="contacto" href="contacto.html">CONTACTENOS</a>
 
     </footer>
