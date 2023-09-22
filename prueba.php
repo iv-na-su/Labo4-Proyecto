@@ -17,7 +17,7 @@
 
 <header>
     <div>
-        <a title="inicio" href="index.html"><img src = "images/logo mini.png" type= "image/png" alt ="Vapor_logo_png" /></a>
+        <a title="inicio" href="index.html"><img src = "images/Vapor_logo_png" type= "image/png" alt ="Logo de página"/></a>
     </div>
 
     <nav id = "menu">
