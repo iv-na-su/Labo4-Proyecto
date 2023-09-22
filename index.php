@@ -23,11 +23,7 @@
             <i class="fa fa-bars"></i>
         </a>
          <li><a href="index.php">INICIO</a>
-        <ul>
-            <li><a href="personajes_principales.php">Personajes principales</a></li>
-            <li><a href="personajes_secundarios.php">Personajes secundarios</a></li>
-        </ul>
-            </li>                
+        </li>                
         <ul>
             <li><a href="juegos.<?php  ?>">JUEGOS</a>
         <ul>
