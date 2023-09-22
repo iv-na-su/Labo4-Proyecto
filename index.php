@@ -1,6 +1,6 @@
 <html>
     <head>
-            <link rel="shortcut icon" href="images/logo mini.png" type="image/png" />
+            <link rel="shortcut icon" href="images/Vapor_logo_png.png" type="image/png" />
             <link rel="stylesheet" href="css/estilo_santi.css">    
             <link rel="preconnect" href="https://fonts.googleapis.com">
             <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
