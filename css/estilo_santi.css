@@ -48,7 +48,7 @@ header{
 	background-size:auto;
 }
 
-#menu ul li a:hover + ul{
+#menu ul li a:hover{
 	display: block;
 }
 #menu ul li ul:hover{
