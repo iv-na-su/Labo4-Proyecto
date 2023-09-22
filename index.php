@@ -24,7 +24,7 @@
         <li><a href="index.php">INICIO</a></li>     
     </ul>
         <ul>
-            <li><a href="">JUEGOS</a>
+            <li><a>JUEGOS</a>
                 <ul>
                     <li><a href="aventura.php">Aventura</a></li>
                     <li><a href="accion.php">Acción</a></li>
