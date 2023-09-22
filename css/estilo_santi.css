@@ -48,10 +48,12 @@ header{
 	background-size:auto;
 }
 
-#menu ul li a:hover + ul, #menu ul li ul:hover {
+#menu ul li a:hover + ul{
 	display: block;
 }
-
+#menu ul li ul:hover{
+	display: inline;
+}
 
 #menu li a:hover{
 	background-color: #7c0ea7;
