@@ -13,11 +13,9 @@
         <img class="fondo"  src="images/fondo negro.jpg">
     </img>
 
-
-
 <header>
     <div>
-        <a title="inicio" href="index.html"><img src = "images/Vapor_logo_png" type= "image/png" alt ="Logo de página"/></a>
+        <a title="inicio" href="index.html"><img src = "images/Vapor_logo_png.png" type= "image/png" alt ="Logo de página"/></a>
     </div>
 
     <nav id = "menu">
