@@ -36,7 +36,7 @@
             <li><a href="SHOOTER.php">Shooter</a></li>
         </ul>
             </li>
-            <li><a href= "INICIAR SESION.php">INICIAR SESIÓN</a></li>
+            <li><a href= "INICIAR_SESION.php">INICIAR</a></li>
         </ul>
     </nav>
 </header>
