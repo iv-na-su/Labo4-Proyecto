@@ -29,9 +29,6 @@ header{
 #menu li{
 	margin-left: 15px;
 	float: left;
-		color: rgb(222, 173, 226);
-	display: block;
-	font-family: 'Alegreya Sans SC', sans-serif, black;
 }
 #menu li a{
 	color: rgb(222, 173, 226);
@@ -45,18 +42,18 @@ header{
 	padding: 7px;
 }
 #menu li ul {
-	display: inline;
+	display: none;
 	position: absolute;
 	min-width: 150px;
 	background-size:auto;
 }
 
-#menu ul li:hover + ul, #menu ul li ul:hover {
+#menu ul li a:hover + ul, #menu ul li ul:hover {
 	display: block;
 }
 
 
-#menu li:hover{
+#menu li a:hover{
 	background-color: #7c0ea7;
 }
 /*Fin Menú*/
