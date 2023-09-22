@@ -20,7 +20,9 @@
 
     <nav id = "menu">
     <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
-    <li><a href="index.php">INICIO</a></li>     
+    <ul>
+        <li><a href="index.php">INICIO</a></li>     
+    </ul>
         <ul>
             <li><a href="">JUEGOS</a>
                 <ul>
