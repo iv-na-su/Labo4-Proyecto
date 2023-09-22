@@ -21,7 +21,13 @@
     <nav id = "menu">
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
             <i class="fa fa-bars"></i>
-        </a>                
+        </a>
+         <li><a href="index.html">INICIO</a>
+        <ul>
+            <li><a href="personajes_principales.html">Personajes principales</a></li>
+            <li><a href="personajes_secundarios.html">Personajes secundarios</a></li>
+        </ul>
+            </li>                
         <ul>
             <li><a href="juegos.html">JUEGOS</a>
         <ul>
@@ -30,13 +36,7 @@
             <li><a href="SHOOTER.html">Shooter</a></li>
         </ul>
             </li>
-            <li><a href="reparto.html">Reparto</a>
-        <ul>
-            <li><a href="personajes_principales.html">Personajes principales</a></li>
-            <li><a href="personajes_secundarios.html">Personajes secundarios</a></li>
-        </ul>
-            </li>
-            <li><a href= "INICIAR SESION.html">Galeria</a></li>
+            <li><a href= "INICIAR SESION.html">INICIAR SESIÓN</a></li>
         </ul>
     </nav>
 </header>
