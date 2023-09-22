@@ -24,7 +24,7 @@ header{
 #menu{
 	padding-left: 45%;
 	margin-top: 1.5%;
-
+	background-color: #1A2A3E;
 }
 #menu li{
 	margin-left: 15px;
@@ -213,7 +213,8 @@ footer img{
 .fondo{
 	  width: 100%;
     height: 790px;
-    background-image: url("../images/wallpaper.jpg");
+   /* background-image: url("../images/wallpaper.jpg");*/
+   	background-color: #1A2A3E;
     background-size: contain;
     background-repeat: no-repeat;
     display: flex;
