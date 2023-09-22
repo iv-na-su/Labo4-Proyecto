@@ -19,13 +19,10 @@
     </div>
 
     <nav id = "menu">
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-            <i class="fa fa-bars"></i>
-        </a>
-         <li><a href="index.php">INICIO</a>
-        </li>     
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+    <li><a href="index.php">INICIO</a></li>     
         <ul>
-            <li><a href="juegos.<?php  ?>">JUEGOS</a>
+            <li><a href="juegos.php">JUEGOS</a>
                 <ul>
                     <li><a href="aventura.php">Aventura</a></li>
                     <li><a href="accion.php">Acción</a></li>
