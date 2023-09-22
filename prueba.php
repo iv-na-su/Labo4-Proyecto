@@ -15,47 +15,33 @@
 
 
 
-        <header>
-            <div>
-                <a title="inicio" href="index.html"><img src = "images/logo mini.png" type= "image/png" alt ="logo the oa" /></a>
-            </div>
+<header>
+    <div>
+        <a title="inicio" href="index.html"><img src = "images/logo mini.png" type= "image/png" alt ="Vapor_logo_png" /></a>
+    </div>
 
-            <nav id = "menu">
-                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                    <i class="fa fa-bars"></i>
-                </a>
-
-                
-                <ul>
-
-
-                  
-
-                  <li><a href="juegos.html">JUEGOS</a>
-
-                      <ul>
-                          <li><a href="AVENTURA.html">Temporada 1</a></li>
-                          <li><a href="ACCION.html">Temporada 2</a></li>
-                      </ul>
-
-                      </li>
-
-                      <li><a href="reparto.html">Reparto</a>
-
-                          <ul>
-                              <li><a href="personajes_principales.html">Personajes principales</a></li>
-                              <li><a href="personajes_secundarios.html">Personajes secundarios</a></li>
-                          </ul>
-  
-                          </li>
-
-                          <li><a href= "INICIAR SESION.html">Galeria</a></li>
-
-              </ul>       
-            
-
-            </nav>
-        </header>
+    <nav id = "menu">
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>                
+        <ul>
+            <li><a href="juegos.html">JUEGOS</a>
+        <ul>
+            <li><a href="AVENTURA.html">Aventura</a></li>
+            <li><a href="ACCION.html">Acción</a></li>
+            <li><a href="SHOOTER.html">Shooter</a></li>
+        </ul>
+            </li>
+            <li><a href="reparto.html">Reparto</a>
+        <ul>
+            <li><a href="personajes_principales.html">Personajes principales</a></li>
+            <li><a href="personajes_secundarios.html">Personajes secundarios</a></li>
+        </ul>
+            </li>
+            <li><a href= "INICIAR SESION.html">Galeria</a></li>
+        </ul>
+    </nav>
+</header>
         <div class="espacio"></div>
 
         <script type="text/javascript">
