@@ -55,8 +55,7 @@
 
         </script>
 
-    </body>
-
+</body>
     
     <footer>
 <!-- Imágenes de redes de contacto del footer
@@ -66,9 +65,7 @@
         <a title="netflix" href="https://www.netflix.com/title/80044950"><img src = "images/redes/netflix.png" type= "image/png" alt ="netflix" /></a>
         <a title="instagram" href="https://www.instagram.com/the_oa/?hl=es"><img src = "images/redes/instagram.png" type= "image/png" alt ="instagram" /></a>
         </div>
-
 -->
         <a id="contacto" href="contacto.html">CONTACTENOS</a>
-
     </footer>
 </html>
