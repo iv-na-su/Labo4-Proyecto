@@ -1,7 +1,7 @@
 <html>
     <head>
             <link rel="shortcut icon" href="images/logo mini.png" type="image/png" />
-            <link rel="stylesheet" href="css/estilos.css">    
+            <link rel="stylesheet" href="css/estilo_santi.css">    
             <link rel="preconnect" href="https://fonts.googleapis.com">
             <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
             <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC&family=Righteous&display=swap" rel="stylesheet">

@@ -1,0 +1,534 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+
+ul, ol, li{
+	list-style: none;
+}
+
+header{
+ 	display: flex;
+ 	background-color: rgba(0, 0, 0, 0.753);
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+.espacio{
+	margin-top: 10%;
+}
+
+/*Inicio Menú*/
+#menu{
+	padding-left: 45%;
+	margin-top: 1.5%;
+
+}
+#menu li{
+	margin-left: 15px;
+	float: left;
+}
+#menu li a{
+	color: rgb(222, 173, 226);
+	display: block;
+	font-family: 'Alegreya Sans SC', sans-serif, black;
+
+}
+#menu li ul li{
+	float: none;
+	background-color: rgba(0, 0, 0, 0.753);
+	padding: 7px;
+}
+#menu li ul {
+	display: none;
+	position: absolute;
+	min-width: 150px;
+	background-size:auto;
+}
+
+#menu ul li a:hover + ul, #menu ul li ul:hover {
+	display: block;
+}
+
+
+#menu li a:hover{
+	background-color: #7c0ea7;
+}
+/*Fin Menú*/
+
+header a{
+	text-decoration: none;
+	font-size: 2rem;
+	color: #f00ff5;
+}
+
+header div img{
+	width: 200px;
+	height: 100px;
+	margin-bottom: 0%;
+}
+
+
+
+a h4{
+	text-decoration: none;
+	color:#9052a0;
+	font-family: 'Alegreya Sans SC', sans-serif, black;
+}
+
+
+.principal{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-size: 100%;
+	background-image: url(../images/OARitual_comp.jpg);
+	background-repeat:no-repeat ;
+
+}
+
+
+.principal h2{
+	color:#9052a0;
+	height: 0rem;
+	margin-bottom: 1%;
+	margin-top: 33%;
+	margin-right: 0%;
+	font-size: 5rem;
+	font-family: 'Alegreya Sans SC', sans-serif, black;
+
+}
+
+
+
+
+.secundario{
+	margin-left: 6%;
+	margin-right: 6%;
+	display: flex;
+	
+}
+.secundario div{
+	width: 70%;
+	padding: 2%;
+	justify-content: center;
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.753);
+}
+.secundario div a img{
+	width: 100%;
+	height: 90%;
+	margin-bottom: 2rem;
+}
+.secundario h4{
+	font-size: 1.9rem;
+	text-transform: uppercase;
+	font-family: 'Alegreya Sans SC', sans-serif, black;
+}
+
+
+
+
+footer div{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 350px;
+}
+footer img{
+	max-width: 4rem;
+	width: auto;
+	height: auto;
+	margin-right: .5%;
+}
+
+#contacto{
+	margin-top: -7%;
+	display: flex;
+	border: 1px solid #2e518b;
+	padding: 10px; 
+	background-color: #7c0ea7;
+	color: rgb(222, 173, 226);
+	text-decoration: none; 
+	text-transform: uppercase; 
+	font-family: 'Alegreya Sans SC', sans-serif, black;
+	border-radius: 50px; 
+	width: 5%;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+
+
+.sinopsis{
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	color: violet;
+	margin-bottom: 15%;
+	font-size: 2.7rem;
+	font-family: 'Alegreya Sans SC', sans-serif, black;
+	background-color: rgba(0, 0, 0, 0.753);
+}
+
+
+.trailer{
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	color: #a70e09;
+	font-size: 4rem;
+	font-family: 'Bebas Neue', sans-serif;
+	background-color: rgba(0, 0, 0, 0.753);
+	padding-bottom: 3%;
+}
+
+.trailer iframe{
+	margin-top: 2%;
+    max-width: auto;
+    height: 93%;
+	width: 93%;
+}
+
+
+ .fondo{
+	position: fixed;
+	bottom: 0px;
+	right: 0px;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	z-index: -1000;
+	overflow: hidden;
+	}
+
+a{
+	text-decoration: none;
+}
+
+.capitulos{
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	margin-bottom: 100px;
+	font-size: 2rem;
+	font-family: 'Alegreya Sans SC', sans-serif, black;
+	background-color: rgba(0, 0, 0, 0.753);
+}
+
+
+.capitulos img{
+	margin: 2%;
+	max-height: 225px;
+}
+
+.capitulos h3{
+	margin-top: 4%;
+	color: #f00ff5;
+	margin-bottom: 2%;
+}
+
+.capitulos p{
+	margin-right: 2%;
+	margin-left: 2%;
+	color: #f084f1;
+}
+
+.personajes{
+	padding-top: 2%;
+	background-color: rgba(0, 0, 0, 0.753);
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 95%;
+	max-height: 95%;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+
+.personajes img{
+	width: 70%;
+	height: 80%;
+}
+
+.personajes h2{
+	font-family: 'Alegreya Sans SC', sans-serif, black;
+	color: #f084f1;
+}
+
+.personajes h4{
+	font-family: 'Alegreya Sans SC', sans-serif, black;
+	color: #f00ff5;
+}
+
+
+.formulario{
+	margin-left: auto;
+	margin-right: auto;
+	padding: 3%;
+	width: 40%;
+  	margin-top: 5%;
+	color: #f00ff5;
+	font-family: 'Alegreya Sans SC', sans-serif, black;
+
+	background-color: rgba(0, 0, 0, 0.753);
+
+}
+
+.formulario h2{
+	text-align: center;
+	font-size: 3rem;
+}
+
+.formulario label{
+	width: 10%;
+	margin-top: 50%;
+	text-align:end;
+	font-size: 1.9rem;
+}
+
+.formulario input{
+	float:right;
+	width: 40%;
+	height: 2rem;
+}
+.formulario textarea{
+	margin-left: auto;
+	margin-right: auto;
+
+	width: 70%;
+	height: 10%;
+}
+
+#enviar{
+	text-align: center;
+	width: 100%;
+	display:block;
+}
+#enviar input{
+	float:unset;
+}
+
+
+.icon{
+	display: none;
+}
+
+
+
+
+@media (max-width: 576px) { 
+
+	.espacio{
+		margin-top: 25%;
+	}
+	
+
+	#menu li{
+		float: none;
+		margin-left: 0px;
+	}
+
+
+	  nav {
+		margin-left: -30%;
+		margin-right: 5%;
+		display:block;   
+		width: 100%;
+		color: #000000;
+		max-height: 1px;
+		background-color: #000000;
+		
+		
+	   }
+
+	   nav ul{
+		 position: absolute;
+		 display:none;
+		 background-color: #000000;
+	   }
+
+
+	   .icon{
+		 margin-top: 0%;
+		 float: right; 
+		 display: block; 
+		 background-color: rgba(0, 0, 0, 0.753);
+	   }
+	   nav.responsive ul{
+		
+		 display:block;
+		 background-color: rgba(0, 0, 0, 0.883);
+		 
+	   }
+	   nav.responsive ul li{
+		 width: 90%;
+		 display: block;
+		 padding: 1rem;
+	   }
+
+	   nav.responsive ul li a{
+		 display: block;
+		 font-size: 2rem;
+	   }
+	   
+	   nav.responsive ul li ul {
+		list-style: none;
+		position: absolute;
+		width: 90%;
+		margin-top: 0%;
+		display: block;
+		
+	  }
+
+.secundario{
+	display: inline;
+	padding-top: 2%;
+}
+
+.secundario div{
+
+	width: auto;
+}
+
+
+.secundario div a img{
+	margin-bottom: 1%;
+	margin-top: 2%;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	height: 50%;
+	width: 97%;
+}
+
+.secundario h4{
+	margin-bottom: 2%;
+}
+
+
+
+#contacto{
+	font-size: 1.8rem;
+	margin-top: -20%;
+	width: 30%;
+}
+
+
+
+
+.principal h2{
+	margin-top: 50%;
+	height: auto;
+	font-size: 3.4rem;
+	text-align:center;
+}
+
+.principal{
+	margin-top: -10%;
+	background-size: 190%;
+	background-position: center;
+	display: flex;
+}
+
+
+.sinopsis{
+	font-size: 1.7rem;
+	width: 100%;
+}
+
+
+
+.trailer iframe{
+	margin-top: 0%;
+    max-width: auto;
+    height: 50%;
+	width: 95%;
+}
+
+.trailer{
+	width: 100%;
+}
+
+
+
+.capitulos{
+	padding-top: 4%;
+	padding-bottom: 4%;
+	display:block;
+	margin-bottom: 8%;
+	width: 97%;
+	align-self: center;
+	text-align: center;
+	align-items: center;
+	
+}
+
+
+.capitulos img{
+	max-height: max-content;
+	width: 95%;
+	height: 45%;
+
+}
+
+.capitulos h3{
+	margin-top: 1%;
+	margin-bottom: 4%;
+}
+
+
+.personajes {
+	max-width: 100%;
+	max-height: 100%;
+	width: 100%;
+	height: 100%;
+	display:inline-table;
+
+}
+
+.personajes div{
+	align-self: center;
+	margin-bottom: 5%;
+}
+
+.personajes h2{
+	font-size: 3rem;
+}
+
+.personajes h4{
+	font-size: 1.8rem;
+	
+}
+
+
+.formulario{
+width: 90%;
+}
+
+.formulario label{
+	font-size: 1.5rem;
+}
+
+.formulario input{
+	width: 50%;
+	height: 2rem;
+	font-size: 1rem;
+}
+.formulario textarea{
+	width: 90%;
+	height: 15%;
+}
+
+} /*Fin de CSS*/
