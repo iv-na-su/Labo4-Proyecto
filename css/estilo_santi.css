@@ -9,7 +9,7 @@ ul, ol, li{
 }
 
 header{
- 	display: flex;
+ 	display: inline;
  	background-color: rgba(0, 0, 0, 0.753);
 	position: fixed;
 	top: 0;
@@ -21,8 +21,9 @@ header{
 }
 
 /*Inicio Menú*/
-#menu{
-	padding-left: 45%;
+
+#menu{ 			/*Nav's*/
+	padding-left: 32%;
 	margin-top: 1.5%;
 	background-color: #1A2A3E;
 }
