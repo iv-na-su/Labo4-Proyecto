@@ -15,28 +15,28 @@
 
 <header>
     <div>
-        <a title="inicio" href="index.html"><img src = "images/Vapor_logo_png.png" type= "image/png" alt ="Logo de página"/></a>
+        <a title="inicio" href="index.php"><img src = "images/Vapor_logo_png.png" type= "image/png" alt ="Logo de página"/></a>
     </div>
 
     <nav id = "menu">
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
             <i class="fa fa-bars"></i>
         </a>
-         <li><a href="index.html">INICIO</a>
+         <li><a href="index.php">INICIO</a>
         <ul>
-            <li><a href="personajes_principales.html">Personajes principales</a></li>
-            <li><a href="personajes_secundarios.html">Personajes secundarios</a></li>
+            <li><a href="personajes_principales.php">Personajes principales</a></li>
+            <li><a href="personajes_secundarios.php">Personajes secundarios</a></li>
         </ul>
             </li>                
         <ul>
-            <li><a href="juegos.html">JUEGOS</a>
+            <li><a href="juegos.<?php  ?>">JUEGOS</a>
         <ul>
-            <li><a href="AVENTURA.html">Aventura</a></li>
-            <li><a href="ACCION.html">Acción</a></li>
-            <li><a href="SHOOTER.html">Shooter</a></li>
+            <li><a href="AVENTURA.php">Aventura</a></li>
+            <li><a href="ACCION.php">Acción</a></li>
+            <li><a href="SHOOTER.php">Shooter</a></li>
         </ul>
             </li>
-            <li><a href= "INICIAR SESION.html">INICIAR SESIÓN</a></li>
+            <li><a href= "INICIAR SESION.php">INICIAR SESIÓN</a></li>
         </ul>
     </nav>
 </header>
@@ -66,6 +66,6 @@
         <a title="instagram" href="https://www.instagram.com/the_oa/?hl=es"><img src = "images/redes/instagram.png" type= "image/png" alt ="instagram" /></a>
         </div>
 -->
-        <a id="contacto" href="contacto.html">CONTACTENOS</a>
+        <a id="contacto" href="contacto.php">CONTACTENOS</a>
     </footer>
 </html>
