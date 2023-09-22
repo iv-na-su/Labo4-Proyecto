@@ -26,13 +26,12 @@
         </li>     
         <ul>
             <li><a href="juegos.<?php  ?>">JUEGOS</a>
-        <ul>
-            <li><a href="aventura.php">Aventura</a></li>
-            <li><a href="accion.php">Acción</a></li>
-            <li><a href="shooter.php">Shooter</a></li>
-        </ul>
+                <ul>
+                    <li><a href="aventura.php">Aventura</a></li>
+                    <li><a href="accion.php">Acción</a></li>
+                    <li><a href="shooter.php">Shooter</a></li>
+                </ul>
             </li>
-            <li><a href= "sesion.php">INICIAR</a></li>
         </ul>
     </nav>
 </header>
