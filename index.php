@@ -10,7 +10,7 @@
      </head>
     <body>
 
-        <img class="fondo">
+    <img class="fondo">
     </img>
 
 <header>

@@ -8,7 +8,11 @@ ul, ol, li{
 	list-style: none;
 }
 
-header{
+header{ /*Afecta al Nav*/
+    padding-right: 2rem;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none
  	display: inline;
  	background-color: rgba(0, 0, 0, 0.753);
 	position: fixed;
@@ -16,7 +20,7 @@ header{
 	width: 100%;
 }
 
-.espacio{
+.espacio{ /*Afecta al botón de "Contactenos"*/
 	margin-top: 10%;
 }
 
@@ -24,7 +28,7 @@ header{
 
 #menu{ 			/*Nav's*/
 	padding-left: 32%;
-	margin-top: 1.5%;
+	/*margin-top: 1.5%;*/
 	background-color: #1A2A3E;
 }
 #menu li{
@@ -53,7 +57,6 @@ header{
 	display: block;
 }
 
-
 #menu li a:hover{
 	background-color: #7c0ea7;
 }
@@ -66,19 +69,16 @@ header a{
 }
 
 header div img{
-	width: 200px;
-	height: 100px;
+	width: 250px;
+	height: 200px;
 	margin-bottom: 0%;
 }
-
-
 
 a h4{
 	text-decoration: none;
 	color:#9052a0;
 	font-family: 'Alegreya Sans SC', sans-serif, black;
 }
-
 
 .principal{
 	width: 100%;
