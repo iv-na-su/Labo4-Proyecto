@@ -51,7 +51,7 @@ header{
 #menu ul li a:hover + ul{
 	display: block;
 }
-#menu ul li ul:hover{
+#menu ul li a{
 	display: inline;
 }
 
