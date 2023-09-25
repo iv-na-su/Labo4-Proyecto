@@ -373,6 +373,17 @@ display: inline-block;
 text-align: center;
 }
 
+.generos div h3{
+
+	font-size: 2rem;
+}
+
+
+.generos div img{
+	width: 600px;
+	height: 100%;
+}
+
 
 
 

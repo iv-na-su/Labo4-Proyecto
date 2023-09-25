@@ -109,10 +109,10 @@
 
     <section class="generos">
         <h2>SHOOTERS</h2>
-        
+
         <div>
-        <img src="images/Vapor_Logo_White.png" alt="">
-        <h3>AAAAAA</h3>
+        <img src="images/Capturas/Counter_Old/Counter_Old_1.jpg" alt="">
+        <h3>COUNTER STRIKE 1.6</h3>
         </div>
 
         <div>
