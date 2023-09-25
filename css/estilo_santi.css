@@ -27,18 +27,17 @@ header{ /*Afecta al Nav*/
 
 #menu{ 			/*Nav's*/
 	padding: 0%;
-
-	/*margin-top: 1.5%;*/
 }
 #menu li{
-
 	float: left;
+}
+#menu ul{
+	display: inline;
 }
 #menu li a{
 	color: rgb(222, 173, 226);
-	display: block;
+	display: inline-flex;
 	font-family: 'Alegreya Sans SC', sans-serif, black;
-
 }
 #menu li ul li{
 	float: none;
@@ -66,19 +65,16 @@ header a{
 	font-size: 2rem;
 	color: #f00ff5;
 }
-
 header div img{
 	width: 250px;
 	height: 200px;
 	margin-bottom: 0%;
 }
-
 a h4{
 	text-decoration: none;
 	color:#9052a0;
 	font-family: 'Alegreya Sans SC', sans-serif, black;
 }
-
 .principal{
 	width: 100%;
 	height: 100%;
@@ -88,10 +84,7 @@ a h4{
 	background-size: 100%;
 	background-image: url(../images/OARitual_comp.jpg);
 	background-repeat:no-repeat ;
-
 }
-
-
 .principal h2{
 	color:#9052a0;
 	height: 0rem;
