@@ -11,10 +11,14 @@ header{
     justify-content: space-between;
     background-color: #1A2A3E;
 }
+
 .logo{
-
-
-	max-width: 10%;
+	max-width: 30%;
+	max-height: 30%;
+}
+.logo img{
+	width: 25%;
+	height: 100%;
 }
 .icon{ 
   display: none; 
