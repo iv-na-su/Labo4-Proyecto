@@ -46,38 +46,17 @@
             </div>
 
     </header>
-    <section>
-        <article class="fondo">
-            <div>
-                <img src="Imagenes/Logo_White_PC.png" alt="Logo FRIENDS">
-                <h1>F·R·I·E·N·D·S:</h1>
-                <h2>The One With The Fan Page</h2>
-            </div>
-        </article>
-    <article class="title_logo">
-        <div>
-            <img src="Imagenes/Ini_Logo.png" alt="Sección Inicio">
-        </div>
-    </article>
-        <article>
-            <h3>Sinopsis:</h3>
-                <p><b>F·R·I·E·N·D·S</b> es una serie que narra las aventuras y desventuras de seis jóvenes veinteañeros de Nueva York: <i>Rachel</i>, <i>Monica</i>, <i>Phoebe</i>, <i>Ross</i>, <i>Chandler</i> y <i>Joey</i>. A pesar de los numerosos cambios que se producen en sus vidas, su amistad es inquebrantable en la dura batalla por salir adelante en sus periplos profesionales y personales.</p>
-        </article>
 
-        <article>
-            <h3>¿Que es <i>"F·R·I·E·N·D·S: The One With The Fan Page"</i>?</h3>
-                <p><strong><i>F·R·I·E·N·D·S: The One With The Fan Page</strong></i> es un sitio web <strong>no oficial</strong>, hecha de un fan para fans, sin fines de lucro. Este sitio recopila información sobre la serie, así como curiosidades de la misma, su historia y detalles del detrás de cámaras de esta mítica sitcom de los 90's.</p> 
-        </article>
 
-        <article>
-            <h3>¿Dónde puedo ver <i>"F·R·I·E·N·D·S"</i>?</h3>
-                <p>Actualmente la serie puede verse completa en la plataforma de HBO Max:
-                    <br><a href="https://www.hbomax.com/ar/es/series/urn:hbo:series:GXdbR_gOXWJuAuwEAACVH">Link aquí.</a>
-                </p> 
-        </article>
-        
-        
+
+
+    <section class="generos">
+        <h2>ACCION</h2>
     </section>
+
+
+
+
     <footer>
         <div>
             <a href="index.html"><strong>Inicio</strong></a>

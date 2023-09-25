@@ -355,45 +355,22 @@ body.lb-disable-scrolling {
   opacity: 1;
 }
 /*Fin del código de Lightbox*/
-div h1{
-	font-family: 'Caveat', cursive;
-	color: #FFFFFF;
-}
-div h2{
-  font-family: 'Caveat', cursive;
-  margin-bottom: 50%;
-  color: #FFFFFF;
-}
-article h3{
-  margin-left: 2.5%;
-  margin-bottom: 1.5%;
-  margin-top: 2%;
-}
-.caratula_a{
-  margin-right: 3%; 
-}
-.caratula_b{
-  margin-left: 3%; 
-}
-h3{
-	font-family: 'Caveat', cursive;
-	margin-left: 3%;
-	color: #000000;
+
+
+
+
+.genero h2{
+
+	justify-content: center;
+	text-align: center;
+	margin: 100%;
+	color: red;
 }
 
-h4{
-  font-family: 'Caveat', cursive;
-  margin-left: 3%;
-  color: #000000;
-  font-size: 1.2rem;
-  margin-top: 2%;
-}
-article p{
-	font-size: 1.3rem;
-	font-family: 'Caveat', cursive;
-	margin-left: 3%;
-  display: block;
-}
+
+
+
+
 
 footer{
   margin-top: 1%;
