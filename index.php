@@ -3,33 +3,33 @@
 
 <head>
     <link rel="icon" href="Imagenes/Marco_PC.png" type="Images/png">
-    <title>FRIENDS: The One With The Fan Page</title>
+    <title>Vapor: The Proyect</title>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    <link rel="stylesheet" type="text/css" href="css/estilo_santi.css">
 </head>
 
 <body>
     <header>
         <div>
-            <a href="index.html"><img src="Imagenes/Logo_PC.png" alt="Logo FRIENDS">
+            <a href="index.php"><img src="images/Vapor_Logo_Png.png" alt="Logo página">
         </div>
         
         <nav id="menu_hamburguesa">
         <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
         <div class="dropdown">
             <ul>
-                <li><a href="index.html">Inicio</a></li>
+                <li><a href="index.php">Inicio</a></li>
             </ul>
         </div>
             <div class="dropdown">
                 <ul>
                     <li><a>Personajes</a></li>
                     <div class="dropdown-content">
-                        <li><a href="protagonistas.html">Protagonistas</a></li>
-                        <li><a href="secundarios.html">Personajes Secundarios</a></li>
-                        <li><a href="cameos.html">Estrellas Invitadas</a></li>
+                        <li><a href="protagonistas.php">Protagonistas</a></li>
+                        <li><a href="secundarios.php">Personajes Secundarios</a></li>
+                        <li><a href="cameos.php">Estrellas Invitadas</a></li>
                     </div>
                 </ul>
             </div>
@@ -37,9 +37,9 @@
                 <ul>
                     <li><a>¿Que es<br>F·R·I·E·N·D·S?</a></li>
                     <div class="dropdown-content">
-                        <li><a href="resumen.html">Resumen</a></li>
-                        <li><a href="origen.html">Origen</a></li>
-                        <li><a href="derivados.html">Derivados</a></li>
+                        <li><a href="resumen.php">Resumen</a></li>
+                        <li><a href="origen.php">Origen</a></li>
+                        <li><a href="derivados.php">Derivados</a></li>
                     </div>
                 </ul>
             </div>
