@@ -52,9 +52,79 @@
 
     <section class="generos">
         <h2>ACCION</h2>
+        <div>
+        <img src="images/Vapor_Logo_White.png" alt="">
+        <h3>AAAAAA</h3>
+        </div>
+
+        <div>
+        <img src="images/Vapor_Logo_White.png" alt="">
+        <h3>AAAAAA</h3>
+        </div>
+        
+        <div>
+        <img src="images/Vapor_Logo_White.png" alt="">
+        <h3>AAAAAA</h3>
+        </div>
+
     </section>
 
+    <section class="generos">
+        <h2>AVENTURA</h2>
 
+        <div>
+        <img src="images/Vapor_Logo_White.png" alt="">
+        <h3>AAAAAA</h3>
+        </div>
+
+        <div>
+        <img src="images/Vapor_Logo_White.png" alt="">
+        <h3>AAAAAA</h3>
+        </div>
+
+        <div>
+        <img src="images/Vapor_Logo_White.png" alt="">
+        <h3>AAAAAA</h3>
+        </div>
+
+    </section>
+
+    <section class="generos">
+        <h2>TERROR</h2>
+        <div>
+        <img src="images/Vapor_Logo_White.png" alt="">
+        <h3>AAAAAA</h3>
+        </div>
+
+        <div>
+        <img src="images/Vapor_Logo_White.png" alt="">
+        <h3>AAAAAA</h3>
+        </div>
+        
+        <div>
+        <img src="images/Vapor_Logo_White.png" alt="">
+        <h3>AAAAAA</h3>
+        </div>
+    </section>
+
+    <section class="generos">
+        <h2>SHOOTERS</h2>
+        
+        <div>
+        <img src="images/Vapor_Logo_White.png" alt="">
+        <h3>AAAAAA</h3>
+        </div>
+
+        <div>
+        <img src="images/Vapor_Logo_White.png" alt="">
+        <h3>AAAAAA</h3>
+        </div>
+        
+        <div>
+        <img src="images/Vapor_Logo_White.png" alt="">
+        <h3>AAAAAA</h3>
+        </div>
+    </section>
 
 
     <footer>

@@ -359,15 +359,19 @@ body.lb-disable-scrolling {
 
 
 
-.genero h2{
-
+.generos h2{
+	margin-top: 10%;
 	justify-content: center;
 	text-align: center;
-	margin: 100%;
-	color: red;
+	font-size: 4rem;
+	color: rgb(199, 198, 198);
 }
 
-
+.generos div{
+margin-left: 1%;
+display: inline-block;
+text-align: center;
+}
 
 
 
