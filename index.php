@@ -18,21 +18,55 @@
         <a title="inicio" href="index.php"><img src = "images/Vapor_logo_png.png" type= "image/png" alt ="Logo de página"/></a>
     </div>
 
-    <nav id = "menu">
-    <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
-    <ul>
-        <li><a href="index.php">INICIO</a></li>     
-    </ul>
-        <ul>
-            <li><a>JUEGOS</a>
+   <nav id="menu_hamburguesa">
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+        <div class="dropdown">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+            </ul>
+        </div>
+            <div class="dropdown">
                 <ul>
-                    <li><a href="aventura.php">Aventura</a></li>
-                    <li><a href="accion.php">Acción</a></li>
-                    <li><a href="shooter.php">Shooter</a></li>
+                    <li><a>Personajes</a></li>
+                    <div class="dropdown-content">
+                        <li><a href="protagonistas.html">Protagonistas</a></li>
+                        <li><a href="secundarios.html">Personajes Secundarios</a></li>
+                        <li><a href="cameos.html">Estrellas Invitadas</a></li>
+                    </div>
                 </ul>
-            </li>
-        </ul>
-    </nav>
+            </div>
+            <div class="dropdown">
+                <ul>
+                    <li><a>¿Que es<br>F·R·I·E·N·D·S?</a></li>
+                    <div class="dropdown-content">
+                        <li><a href="resumen.html">Resumen</a></li>
+                        <li><a href="origen.html">Origen</a></li>
+                        <li><a href="derivados.html">Derivados</a></li>
+                    </div>
+                </ul>
+            </div>
+            <div class="dropdown">
+                <ul>
+                    <li><a>Detrás de<br>Cámaras</a></li>
+                    <div class="dropdown-content">
+                        <li><a href="produccion.html">Producción</a></li>
+                        <li><a href="impacto.html">Impacto Cultural</a></li>
+                        <li><a href="temporadas.html">Temporadas</a></li>
+                        <li><a href="prensa.html">Datos de Prensa</a></li>
+                    </div>
+                </ul>
+            </div>
+        <div class="dropdown">
+            <ul>
+                <li><a href="galeria.html">Galería</a></li>
+            </ul>
+        </div>
+        <div class="dropdown">
+            <ul>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </div>
+        </nav>
 </header>
         <div class="espacio"></div>
 
