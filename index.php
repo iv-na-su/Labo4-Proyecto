@@ -25,46 +25,26 @@
         </div>
             <div class="dropdown">
                 <ul>
-                    <li><a>Personajes</a></li>
+                    <li><a>Juegos</a></li>
                     <div class="dropdown-content">
-                        <li><a href="protagonistas.php">Protagonistas</a></li>
-                        <li><a href="secundarios.php">Personajes Secundarios</a></li>
-                        <li><a href="cameos.php">Estrellas Invitadas</a></li>
+                        <li><a href="protagonistas.php">AAAAA</a></li>
+                        <li><a href="secundarios.php">BBBBBBBBBBB</a></li>
+                        <li><a href="cameos.php">CCCCCCCCCCCCC</a></li>
                     </div>
                 </ul>
             </div>
             <div class="dropdown">
                 <ul>
-                    <li><a>¿Que es<br>F·R·I·E·N·D·S?</a></li>
-                    <div class="dropdown-content">
-                        <li><a href="resumen.php">Resumen</a></li>
-                        <li><a href="origen.php">Origen</a></li>
-                        <li><a href="derivados.php">Derivados</a></li>
-                    </div>
+                    <li><a href = "perfil.php">Perfil</a></li>
                 </ul>
             </div>
             <div class="dropdown">
                 <ul>
-                    <li><a>Detrás de<br>Cámaras</a></li>
-                    <div class="dropdown-content">
-                        <li><a href="produccion.html">Producción</a></li>
-                        <li><a href="impacto.html">Impacto Cultural</a></li>
-                        <li><a href="temporadas.html">Temporadas</a></li>
-                        <li><a href="prensa.html">Datos de Prensa</a></li>
-                    </div>
+                    <li><a href = "contacto.php">Contacto</a></li>
+
                 </ul>
             </div>
-        <div class="dropdown">
-            <ul>
-                <li><a href="galeria.html">Galería</a></li>
-            </ul>
-        </div>
-        <div class="dropdown">
-            <ul>
-                <li><a href="contacto.html">Contacto</a></li>
-            </ul>
-        </div>
-        </nav>
+
     </header>
     <section>
         <article class="fondo">
