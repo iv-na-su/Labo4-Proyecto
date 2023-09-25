@@ -1,24 +1,22 @@
-<html>
-    <head>
-            <link rel="shortcut icon" href="images/Vapor_logo_png.png" type="image/png" />
-            <link rel="stylesheet" href="css/estilo_santi.css">    
-            <link rel="preconnect" href="https://fonts.googleapis.com">
-            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-            <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC&family=Righteous&display=swap" rel="stylesheet">
-            <meta name="viewport" content="width=device-width, initial-scale=1" />
-            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-     </head>
-    <body>
+<!DOCTYPE html>
+<html lang="es">
 
-    <img class="fondo">
-    </img>
+<head>
+    <link rel="icon" href="Imagenes/Marco_PC.png" type="Images/png">
+    <title>FRIENDS: The One With The Fan Page</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+</head>
 
-<header>
-    <div>
-        <a title="inicio" href="index.php"><img src = "images/Vapor_logo_png.png" type= "image/png" alt ="Logo de página"/></a>
-    </div>
-
-   <nav id="menu_hamburguesa">
+<body>
+    <header>
+        <div>
+            <a href="index.html"><img src="Imagenes/Logo_PC.png" alt="Logo FRIENDS">
+        </div>
+        
+        <nav id="menu_hamburguesa">
         <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
         <div class="dropdown">
             <ul>
@@ -67,34 +65,85 @@
             </ul>
         </div>
         </nav>
-</header>
-        <div class="espacio"></div>
-
-        <script type="text/javascript">
-            function myFunction() {
-              var x = document.getElementById("menu");
-              if (x.className === "") {
-                  x.className = "responsive";
-                } 
-              else {
-                  x.className = "";
-                  }
-            }
-
-        </script>
-
-
-</body>
-    
-    <footer>
-<!-- Imágenes de redes de contacto del footer
+    </header>
+    <section>
+        <article class="fondo">
+            <div>
+                <img src="Imagenes/Logo_White_PC.png" alt="Logo FRIENDS">
+                <h1>F·R·I·E·N·D·S:</h1>
+                <h2>The One With The Fan Page</h2>
+            </div>
+        </article>
+    <article class="title_logo">
         <div>
-        <a title="facebook" href="https://www.facebook.com/TheOANetflix/?locale=es_LA"><img src = "images/redes/facebook.png" type= "image/png" alt ="facebook" /></a>
-        <a title="twitter" href="https://twitter.com/The_OA"><img src = "images/redes/twitter.png" type= "image/png" alt ="twitter" /></a>
-        <a title="netflix" href="https://www.netflix.com/title/80044950"><img src = "images/redes/netflix.png" type= "image/png" alt ="netflix" /></a>
-        <a title="instagram" href="https://www.instagram.com/the_oa/?hl=es"><img src = "images/redes/instagram.png" type= "image/png" alt ="instagram" /></a>
+            <img src="Imagenes/Ini_Logo.png" alt="Sección Inicio">
         </div>
--->
-        <a id="contacto" href="contacto.php">CONTACTENOS</a>
+    </article>
+        <article>
+            <h3>Sinopsis:</h3>
+                <p><b>F·R·I·E·N·D·S</b> es una serie que narra las aventuras y desventuras de seis jóvenes veinteañeros de Nueva York: <i>Rachel</i>, <i>Monica</i>, <i>Phoebe</i>, <i>Ross</i>, <i>Chandler</i> y <i>Joey</i>. A pesar de los numerosos cambios que se producen en sus vidas, su amistad es inquebrantable en la dura batalla por salir adelante en sus periplos profesionales y personales.</p>
+        </article>
+
+        <article>
+            <h3>¿Que es <i>"F·R·I·E·N·D·S: The One With The Fan Page"</i>?</h3>
+                <p><strong><i>F·R·I·E·N·D·S: The One With The Fan Page</strong></i> es un sitio web <strong>no oficial</strong>, hecha de un fan para fans, sin fines de lucro. Este sitio recopila información sobre la serie, así como curiosidades de la misma, su historia y detalles del detrás de cámaras de esta mítica sitcom de los 90's.</p> 
+        </article>
+
+        <article>
+            <h3>¿Dónde puedo ver <i>"F·R·I·E·N·D·S"</i>?</h3>
+                <p>Actualmente la serie puede verse completa en la plataforma de HBO Max:
+                    <br><a href="https://www.hbomax.com/ar/es/series/urn:hbo:series:GXdbR_gOXWJuAuwEAACVH">Link aquí.</a>
+                </p> 
+        </article>
+        
+        
+    </section>
+    <footer>
+        <div>
+            <a href="index.html"><strong>Inicio</strong></a>
+        </div>
+        <div>
+            <h7><strong>Personajes</strong></h7>
+            <br><a href="protagonistas.html">Protagonistas</a>
+            <br><a href="secundarios.html">Personajes Secundarios</a>
+            <br><a href="cameos.html">Estrellas Invitadas</a>
+        </div>
+        <div>
+            <h7><strong>¿Que es F·R·I·E·N·D·S?</strong></h7>
+            <br><a href="resumen.html">Resumen</a>
+            <br><a href="origen.html">Origen</a>
+            <br><a href="derivados.html">Derivados</a>
+        </div>
+        <div>
+            <h7><strong>Detrás de Cámaras</strong></h7>
+            <br><a href="produccion.html">Producción</a>
+            <br><a href="impacto.html">Impacto Cultural</a>
+            <br><a href="temporadas.html">Temporadas</a>
+            <br><a href="prensa.html">Datos de Prensa</a>
+        </div>
+        <div>
+            <a href="galeria.html"><strong>Galería</strong></a>
+        </div>
+        <div>
+            <a href="contacto.html"><strong>Contacto</strong></a>
+        </div>
+        <a href="https://es-la.facebook.com/"><img src="Imagenes/Iconos_Personajes/Icono_Facebook.png" alt="Facebook"></a>
+        <a href="https://www.instagram.com/"><img src="Imagenes/Iconos_Personajes/Icono_Instagram.png" alt="Instagram"></a>
+        <a href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZXMifQ%3D%3D%22%7D"><img src="Imagenes/Iconos_Personajes/Icono_Twitter.png" alt="Twitter"></a>
+        <a href="https://www.tiktok.com/es/"><img src="Imagenes/Iconos_Personajes/Icono_TikTok.png" alt="TikTok"></a>
     </footer>
+
+    <script type="text/javascript">
+        function myFunction() {
+          var x = document.getElementById("menu_hamburguesa");
+          if (x.className === "") {
+              x.className = "responsive";
+            } 
+          else {
+              x.className = "";
+            }
+        }
+    </script>
+</body>
+
 </html>
