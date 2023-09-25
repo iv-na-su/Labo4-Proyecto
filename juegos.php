@@ -111,17 +111,17 @@
         <h2>SHOOTERS</h2>
 
         <div>
-        <img src="images/Capturas/Counter_Old/Counter_Old_1.jpg" alt="">
+        <img src="images/Capturas/Stardew_Valley/Stardew_Valley_Portada.jpg" alt="">
         <h3>COUNTER STRIKE 1.6</h3>
         </div>
 
         <div>
-        <img src="images/Vapor_Logo_White.png" alt="">
+        <img src="images/Capturas/Stardew_Valley/Stardew_Valley_2.jpg" alt="">
         <h3>AAAAAA</h3>
         </div>
         
         <div>
-        <img src="images/Vapor_Logo_White.png" alt="">
+        <img src="images/Capturas/Stardew_Valley/Stardew_Valley_3.jpg" alt="">
         <h3>AAAAAA</h3>
         </div>
     </section>
