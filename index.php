@@ -74,44 +74,31 @@
                 <p>Actualmente la serie puede verse completa en la plataforma de HBO Max:
                     <br><a href="https://www.hbomax.com/ar/es/series/urn:hbo:series:GXdbR_gOXWJuAuwEAACVH">Link aquí.</a>
                 </p> 
-        </article>
-        
-        
+        </article>  
     </section>
-    <footer>
-        <div>
-            <a href="index.html"><strong>Inicio</strong></a>
-        </div>
-        <div>
-            <h7><strong>Personajes</strong></h7>
-            <br><a href="protagonistas.html">Protagonistas</a>
-            <br><a href="secundarios.html">Personajes Secundarios</a>
-            <br><a href="cameos.html">Estrellas Invitadas</a>
-        </div>
-        <div>
-            <h7><strong>¿Que es F·R·I·E·N·D·S?</strong></h7>
-            <br><a href="resumen.html">Resumen</a>
-            <br><a href="origen.html">Origen</a>
-            <br><a href="derivados.html">Derivados</a>
-        </div>
-        <div>
-            <h7><strong>Detrás de Cámaras</strong></h7>
-            <br><a href="produccion.html">Producción</a>
-            <br><a href="impacto.html">Impacto Cultural</a>
-            <br><a href="temporadas.html">Temporadas</a>
-            <br><a href="prensa.html">Datos de Prensa</a>
-        </div>
-        <div>
-            <a href="galeria.html"><strong>Galería</strong></a>
-        </div>
-        <div>
-            <a href="contacto.html"><strong>Contacto</strong></a>
-        </div>
-        <a href="https://es-la.facebook.com/"><img src="Imagenes/Iconos_Personajes/Icono_Facebook.png" alt="Facebook"></a>
-        <a href="https://www.instagram.com/"><img src="Imagenes/Iconos_Personajes/Icono_Instagram.png" alt="Instagram"></a>
-        <a href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZXMifQ%3D%3D%22%7D"><img src="Imagenes/Iconos_Personajes/Icono_Twitter.png" alt="Twitter"></a>
-        <a href="https://www.tiktok.com/es/"><img src="Imagenes/Iconos_Personajes/Icono_TikTok.png" alt="TikTok"></a>
-    </footer>
+<footer>
+    <div>
+        <a href="index.php"><strong>Inicio</strong></a>
+    </div>
+    <div>
+        <a href="juegos.php"><strong>Juegos</strong></a>
+            <br><a href="juegos.php/#accion">Acción</a>
+            <br><a href="juegos.php/#indie">Indie</a>
+            <br><a href="juegos.php/#terror">Terror</a>
+            <br><a href="juegos.php/#shooter">Shooter</a>
+    </div>
+    <div>
+        <h7><strong>Perfil</strong></h7>
+    </div>
+    <div>
+        <h7><strong>Contacto</strong></h7>
+    </div>
+    <br>
+    <a href="https://es-la.facebook.com/"><img src="images/Icono_Facebook.png" alt="Facebook"></a>
+    <a href="https://www.instagram.com/"><img src="images/Icono_Instagram.png" alt="Instagram"></a>
+    <a href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZXMifQ%3D%3D%22%7D"><img src="images/Icono_Twitter.png" alt="Twitter"></a>
+    <a href="https://www.tiktok.com/es/"><img src="images/Icono_TikTok.png" alt="TikTok"></a>
+</footer>
 
     <script type="text/javascript">
         function myFunction() {

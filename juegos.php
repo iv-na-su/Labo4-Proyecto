@@ -45,8 +45,8 @@
         </div>
 </header>
 
-<section class="generos">
-    <h2>ACCION</h2>
+<section class="generos" id="accion">
+    <h2>ACCIÓN</h2>
     <div>
         <img src="images/Vapor_Logo_White.png" alt="">
         <h3>AAAAAA</h3>
@@ -61,7 +61,7 @@
     </div>
 </section>
 
-<section class="generos">
+<section class="generos" id="indie">
     <h2>INDIE</h2>
     <div>
         <img src="images/Capturas/Stardew_Valley/Stardew_Valley_Portada.jpg" alt="Portada de Stardew Valley">
@@ -77,7 +77,7 @@
     </div>
 </section>
 
-<section class="generos">
+<section class="generos" id="terror">
     <h2>TERROR</h2>
         <div>
         <img src="images/Vapor_Logo_White.png" alt="">
@@ -93,8 +93,8 @@
     </div>
 </section>
 
-<section class="generos">
-    <h2>SHOOTERS</h2>
+<section class="generos" id="shooter">
+    <h2>SHOOTER</h2>
 
     <div>
         <img src="images/Capturas/PayDay_2/PayDay_Portada.jpg" alt="Portada de Pay Day 2">
@@ -118,22 +118,13 @@
     </div>
     <div>
         <a href="juegos.php"><strong>Juegos</strong></a>
-            <br><h7><strong>Acción</strong></h7>
-                <br><a href=".php">Juego 1</a>
+            <br><a href="#accion">Acción</a>
+                <!--<br><a href=".php">Juego 1</a>
                 <br><a href=".php">Juego 2</a>
-                <br><a href=".php">Juego 3</a>
-            <br><h7><strong>Indie</strong></h7>
-                <br><a href="stardew_valley.php">Stardew Valley</a>
-                <br><a href=".php">Juego 2</a>
-                <br><a href=".php">Juego 3</a>
-            <br><h7><strong>Terror</strong></h7>
-                <br><a href=".php">Juego 1</a>
-                <br><a href=".php">Juego 2</a>
-                <br><a href=".php">Juego 3</a>
-            <br><h7><strong>Shooter</strong></h7>
-                <br><a href=".php">Juego 1</a>
-                <br><a href=".php">Juego 2</a>
-                <br><a href=".php">Juego 3</a>
+                <br><a href=".php">Juego 3</a>-->
+            <br><a href="#indie">Indie</a>
+            <br><a href="#terror">Terror</a>
+            <br><a href="#shooter">Shooter</a>
     </div>
     <div>
         <h7><strong>Perfil</strong></h7>
