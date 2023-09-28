@@ -46,8 +46,9 @@
 </header>
 
 
+<h2 class = "titulos">COUNTER STRIKE 1.6</h2>
 
-
+<article></article>
 
 
 
