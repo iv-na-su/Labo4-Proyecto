@@ -381,10 +381,39 @@ width: 32%;
   color: white;
 }
 
+.juegos {
+
+  display: flex;
+
+}
+
+.juegos div {
+margin-left: 5%;
 
 
+}
 
+.juegos div img{
 
+  width: 60%;
+  height: 30%;
+  margin-bottom: 5%;
+
+}
+
+.juegos div h2{
+  width: 60%;
+  height: 30%;
+  font-size: 1.2rem;
+  color: white;
+  
+  }
+  
+  .juegos div iframe {
+
+    width: 00%;
+    height: 100%;
+  }
 
 
 
