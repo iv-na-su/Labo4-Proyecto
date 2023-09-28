@@ -73,7 +73,23 @@
 <textarea name="" id="" cols="30" rows="10"></textarea>
 </div>
 
+<div class= "acerca_de">
+<h3>ACERCA DE ESTE JUEGO</h3>
+<br>
+<br>
+<p>Disfruta del juego de acción en línea n° 1 en el mundo. Sumérgete en el fragor de la guerra antiterrorista más realista con este archiconocido juego por equipos. Alíate con compañeros para superar misiones estratégicas, asalta bases enemigas, rescata rehenes, y recuerda que tu personaje contribuye al éxito del equipo y viceversa.</p>
+</div>
 
+
+<div class= "acerca_de">
+<h3>REQUISITOS DEL JUEGO</h3>
+<br>
+<br>
+<p>MÍNIMO: procesador de 500 MHz, 96 MB de RAM, tarjeta de vídeo de 16 MB, Windows XP, ratón, teclado y conexión a Internet
+<br>
+<br>
+RECOMENDADO: procesador de 800 MHz, 128 MB de RAM, tarjeta de video de 32 MB, Windows XP, ratón, teclado y conexión a Internet</p>
+</div>
 
 
 <footer>

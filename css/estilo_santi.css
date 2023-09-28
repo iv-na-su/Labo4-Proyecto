@@ -447,6 +447,19 @@ margin-left: 5%;
 
 
 
+.acerca_de {
+  margin-top: 5%;
+  margin-right: 20%;
+	font-size: 1rem;
+	color: rgba(255, 255, 255, 0.713);
+	font-family: 'Roboto Condensed', sans-serif;	
+  margin-left: 14%;
+}
+
+
+
+
+
 footer{
   margin-top: 1%;
   background-color: #171D25;

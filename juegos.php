@@ -62,7 +62,7 @@
 </section>
 
 <section class="generos" id="indie">
-    <h2>INDIE</h2>
+    <h2>CASUAL</h2>
     <div>
         <img src="images/Capturas/Stardew_Valley/Stardew_Valley_Portada.jpg" alt="Portada de Stardew Valley">
         <h3>STARDEW VALLEY</h3>
@@ -125,6 +125,38 @@
     <div>
         <img src="images/Capturas/Dead_Cells/Dead_Cells_Portada.jpg" alt="">
         <h3>DEAD CELLS</h3>
+    </div>
+</section>
+
+<section class="generos" id="accion">
+    <h2>AVENTURA</h2>
+    <div>
+        <img src="images/Vapor_Logo_White.png" alt="">
+        <h3>AAAAAA</h3>
+    </div>
+    <div>
+        <img src="images/Vapor_Logo_White.png" alt="">
+        <h3>AAAAAA</h3>
+    </div>
+    <div>
+        <img src="images/Vapor_Logo_White.png" alt="">
+        <h3>AAAAAA</h3>
+    </div>
+</section>
+
+<section class="generos" id="accion">
+    <h2>RPG</h2>
+    <div>
+        <img src="images/Vapor_Logo_White.png" alt="">
+        <h3>AAAAAA</h3>
+    </div>
+    <div>
+        <img src="images/Vapor_Logo_White.png" alt="">
+        <h3>AAAAAA</h3>
+    </div>
+    <div>
+        <img src="images/Vapor_Logo_White.png" alt="">
+        <h3>AAAAAA</h3>
     </div>
 </section>
 
