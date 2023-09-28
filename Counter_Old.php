@@ -45,88 +45,11 @@
         </div>
 </header>
 
-<section class="generos" id="accion">
-    <h2>ACCIÓN</h2>
-    <div>
-        <img src="images/Vapor_Logo_White.png" alt="">
-        <h3>AAAAAA</h3>
-    </div>
-    <div>
-        <img src="images/Vapor_Logo_White.png" alt="">
-        <h3>AAAAAA</h3>
-    </div>
-    <div>
-        <img src="images/Vapor_Logo_White.png" alt="">
-        <h3>AAAAAA</h3>
-    </div>
-</section>
 
-<section class="generos" id="indie">
-    <h2>INDIE</h2>
-    <div>
-        <img src="images/Capturas/Stardew_Valley/Stardew_Valley_Portada.jpg" alt="Portada de Stardew Valley">
-        <h3>STARDEW VALLEY</h3>
-    </div>
-    <div>
-        <img src="images/Vapor_Logo_White.png" alt="">
-        <h3>AAAAAA</h3>
-    </div>
-    <div>
-        <img src="images/Vapor_Logo_White.png" alt="">
-        <h3>AAAAAA</h3>
-    </div>
-</section>
 
-<section class="generos" id="terror">
-    <h2>TERROR</h2>
-        <div>
-        <img src="images/Vapor_Logo_White.png" alt="">
-        <h3>AAAAAA</h3>
-    </div>
-    <div>
-        <img src="images/Vapor_Logo_White.png" alt="">
-        <h3>AAAAAA</h3>
-    </div>
-    <div>
-        <img src="images/Vapor_Logo_White.png" alt="">
-        <h3>AAAAAA</h3>
-    </div>
-</section>
 
-<section class="generos" id="shooter">
-    <h2>SHOOTER</h2>
 
-    <div>
-        <img src="images/Capturas/PayDay_2/PayDay_Portada.jpg" alt="Portada de Pay Day 2">
-        <h3>PAY DAY 2</h3>
-    </div>
 
-    <div>
-        <img src="images/Capturas/Counter_Old/Counter_Old_Portada.jpg" alt="Portada de Counter Strike 1.6">
-        <h3>COUNTER STRIKE 1.6</h3>
-    </div>
-    
-    <div>
-        <img src="images/Capturas/Team_Fortress_2/Team_Fortress_2_Portada.jpg" alt="">
-        <h3>TEAM FORTRESS 2</h3>
-    </div>
-</section>
-
-<section class="generos" id="roguelike">
-    <h2>ROGUELIKE</h2>
-        <div>
-        <img src="images/Capturas/The_Binding_Of_Isaac/The_Binding_Of_Isaac_Portada.jpg" alt="">
-        <h3>THE BINDING OF ISAAC: REBIRTH</h3>
-    </div>
-    <div>
-        <img src="images/Capturas/Voidigo/Voidigo_Portada.jpg" alt="">
-        <h3>VOIDIGO</h3>
-    </div>
-    <div>
-        <img src="images/Capturas/Dead_Cells/Dead_Cells_Portada.jpg" alt="">
-        <h3>DEAD CELLS</h3>
-    </div>
-</section>
 
 <footer>
     <div>
