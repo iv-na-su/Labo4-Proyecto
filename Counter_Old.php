@@ -55,11 +55,24 @@
 
     <div>
         <img src="images/Capturas/Counter_Old/Counter_Old_Portada.jpg" alt="">
-        <h2>Disfruta del juego de acción en línea n° 1 en el mundo. Sumérgete en el fragor de la guerra antiterrorista más realista con este archiconocido juego por equipos. Alíate con compañeros para superar misiones estratégicas, asalta bases enemigas, rescata rehenes, y recuerda que tu personaje contribuye al éxito del equipo y viceversa.</h2>
-        <h4>FECHA DE LANZAMIENTO: 1 NOV 2000</h4>
+        <p>Disfruta del juego de acción en línea n° 1 en el mundo. Sumérgete en el fragor de la guerra antiterrorista más realista con este archiconocido juego por equipos. Alíate con compañeros para superar misiones estratégicas, asalta bases enemigas, rescata rehenes, y recuerda que tu personaje contribuye al éxito del equipo y viceversa.</p>
+        <br>
+        <h4>FECHA DE LANZAMIENTO: 1 NOV 2000
+        <br>
+        <br>
+        DESARROLLADOR: <a href="https://www.valvesoftware.com/es/" target="_blank">Valve</a> 
+        <br>
+        EDITOR: <a href="https://www.valvesoftware.com/es/" target="_blank">Valve</a> 
+        </h4>
     </div>
 
 </article>
+
+<div class = "reseña">
+<h3>DEJA TU RESEÑA</h3>
+<textarea name="" id="" cols="30" rows="10"></textarea>
+</div>
+
 
 
 

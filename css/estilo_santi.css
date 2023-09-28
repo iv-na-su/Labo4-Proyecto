@@ -24,7 +24,8 @@ header{
   display: none; 
 }
 a{
-	text-decoration: none;
+	color: #42f5d1;
+  text-decoration: none;
 }
 nav{
   display: flex;
@@ -386,38 +387,38 @@ width: 32%;
 .juegos {
 
   display: flex;
-  
+  margin-left: 10%;
+  margin-right: 5%;
 
 }
 
 .juegos div {
 margin-left: 5%;
-
-
 }
 
 .juegos div img{
 
-  width: 60%;
+  width: 70%;
   height: 40%;
   margin-bottom: 5%;
 
 }
 
-.juegos div h2{
-  width: 60%;
+.juegos div p{
+  width: 70%;
   height: 30%;
   font-size: 1.2rem;
   color: white;
-  margin-bottom: 4%;
+  font-family: 'Roboto Condensed', sans-serif;
   
   }
 
   .juegos div h4{
-    width: 60%;
+    width: 70%;
     height: 30%;
-    font-size: 0.8rem;
+    font-size: 1rem;
     color: rgba(255, 255, 255, 0.713);
+    font-family: 'Roboto Condensed', sans-serif;
     
     }
   
@@ -425,7 +426,11 @@ margin-left: 5%;
 
   }
 
+.reseña{
 
+
+  
+}
 
 
 
