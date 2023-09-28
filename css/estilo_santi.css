@@ -380,8 +380,11 @@ width: 32%;
 .titulos{
   font-size: 1.5rem;
   color: white;
-  margin-left: 5%;
-  margin-bottom: 5%;
+  margin-top: 5%;
+  margin-left: 8%;
+  margin-bottom: 2%;
+  color: rgba(255, 255, 255, 0.713);
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 .juegos {
@@ -427,11 +430,19 @@ margin-left: 5%;
   }
 
 .reseña{
-
-
-  
+	width: 70%;
+	height: 30%;
+	font-size: 1rem;
+	color: rgba(255, 255, 255, 0.713);
+	font-family: 'Roboto Condensed', sans-serif;	
+    margin-left: 14%;
 }
 
+.reseña textarea{
+	width: 85%;
+	height: 100%;
+	background-color: #171D25;
+}
 
 
 
