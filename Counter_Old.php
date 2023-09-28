@@ -45,12 +45,7 @@
         </div>
 </header>
 
-<section>
-    <iframe src="https://www.youtube.com/watch?v=j71GvZ26H6c"></iframe>
-</section>
-<br>
-<br>
-<br>
+
 <h2 class = "titulos">COUNTER STRIKE 1.6</h2>
 
 <article class="juegos">
