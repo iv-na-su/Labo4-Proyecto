@@ -48,8 +48,22 @@
 <section>
     <iframe src="https://www.youtube.com/watch?v=j71GvZ26H6c"></iframe>
 </section>
+<br>
+<br>
+<br>
+<h2 class = "titulos">COUNTER STRIKE 1.6</h2>
 
+<article class="juegos">
+    <div>
+        <iframe src="https://www.youtube.com/embed/j71GvZ26H6c" title="Counter-Strike 1.6 - Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
 
+    <div>
+        <img src="images/Capturas/Counter_Old/Counter_Old_Portada.jpg" alt="">
+        <h2>Disfruta del juego de acción en línea n° 1 en el mundo. Sumérgete en el fragor de la guerra antiterrorista más realista con este archiconocido juego por equipos. Alíate con compañeros para superar misiones estratégicas, asalta bases enemigas, rescata rehenes, y recuerda que tu personaje contribuye al éxito del equipo y viceversa.</h2>
+    </div>
+
+</article>
 
 
 

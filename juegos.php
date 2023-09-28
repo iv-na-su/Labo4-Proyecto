@@ -102,7 +102,7 @@
     </div>
 
     <div>
-        <img src="images/Capturas/Counter_Old/Counter_Old_Portada.jpg" alt="Portada de Counter Strike 1.6">
+        <a href="Counter_Old.php"><img src="images/Capturas/Counter_Old/Counter_Old_Portada.jpg" href="Counter_Old.php" alt="Portada de Counter Strike 1.6"></a>
         <h3>COUNTER STRIKE 1.6</h3>
     </div>
     
