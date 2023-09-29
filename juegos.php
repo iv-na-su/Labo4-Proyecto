@@ -48,7 +48,7 @@
 <section class="generos" id="accion">
     <h2>ACCIÓN</h2>
     <div>
-        <a href="Cuphead.php"><img src="images/Capturas/Cuphead/Cuphead_Portada.jpg" alt="Portada de Cuphead"></a>
+        <a href="Cuphead.php"><img src="images/Capturas/Cuphead/Cuphead_Portada.jpg" alt="Portada de Cuphead" class="zoom"></a>
         <h3>CUPHEAD</h3>
     </div>
     <div>
@@ -80,8 +80,8 @@
 <section class="generos" id="terror">
     <h2>TERROR</h2>
         <div>
-        <img src="images/Vapor_Logo_White.png" alt="">
-        <h3>AAAAAA</h3>
+        <a href="FNAF1.php"><img src="images/Capturas/FNAF1/FNAF1_Portada.jpg" alt="Portada de Five Nights At Freddy's"></a>
+        <h3>Five Nights At Freddy's</h3>
     </div>
     <div>
         <img src="images/Vapor_Logo_White.png" alt="">
@@ -97,7 +97,7 @@
     <h2>SHOOTER</h2>
 
     <div>
-        <a href="PayDay_2.php"><img src="images/Capturas/PayDay_2/PayDay_Portada.jpg" alt="Portada de Pay Day 2"></a>
+        <a href="PayDay_2.php"><img src="images/Capturas/PayDay_2/PayDay_Portada.jpg" alt="Portada de Pay Day 2" class="zoom"></a>
         <h3>PAY DAY 2</h3>
     </div>
 
@@ -147,8 +147,8 @@
 <section class="generos" id="accion">
     <h2>RPG</h2>
     <div>
-        <img src="images/Vapor_Logo_White.png" alt="">
-        <h3>AAAAAA</h3>
+        <a href="Dota2.php"><img src="images/Capturas/Dota2/Dota2_Portada.jpg" alt="Portada de Dota 2"></a>
+        <h3>DOTA 2</h3>
     </div>
     <div>
         <img src="images/Vapor_Logo_White.png" alt="">
@@ -204,6 +204,20 @@
           x.className = "";
         }
     }
+</script>
+
+
+<!-- Script de efecto zoom -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
+<script>
+$(document).ready(function(){
+    $('.zoom').hover(function() {
+        $(this).addClass('transition');
+    }, function() {
+        $(this).removeClass('transition');
+    });
+});
 </script>
 </body>
 

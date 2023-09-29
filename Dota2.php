@@ -46,26 +46,25 @@
 </header>
 
 
-<h2 class = "titulos">STARDEW VALLEY</h2>
+<h2 class = "titulos">DOTA 2</h2>
 
 <article class="juegos">
     <div>
-       <iframe width="800" height="500" src="https://www.youtube.com/embed/ot7uXNQskhs" title="Stardew Valley Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe width="800" height="500" src="https://www.youtube.com/embed/-cSFPIwMEq4" title="Dota 2 Gamescom Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
 
     <div>
-        <img src="images/Capturas/Stardew_Valley/Stardew_Valley_Portada.jpg" alt="Portada de Stardew Valley">
-        <p>Acabas de heredar la vieja parcela agrícola de tu abuelo de Stardew Valley. Decides partir hacia una nueva vida con unas herramientas usadas y algunas monedas. ¿Te ves capaz de vivir de la tierra y convertir estos campos descuidados en un hogar próspero?.</p>
+        <img src="images/Capturas/Dota2/Dota2_Portada.jpg" alt="Portada de Dota 2">
+        <p>Cada día, millones de jugadores de todo el mundo entran en batalla como uno de los más de cien héroes de Dota. Y no importa si es su décima hora de juego o la milésima, siempre hay algo nuevo que descubrir.</p>
         <br>
-        <h4>FECHA DE LANZAMIENTO: 26 FEB 2016
+        <h4>FECHA DE LANZAMIENTO: 9 JUL 2013
         <br>
         <br>
-        DESARROLLADOR: <a href="https://www.stardewvalley.net/" target="_blank">ConcernedApe</a> 
+        DESARROLLADOR: <a href="https://www.valvesoftware.com/es/" target="_blank">Valve</a> 
         <br>
-        EDITOR: <a href="https://www.stardewvalley.net/" target="_blank">ConcernedApe</a>  
+        EDITOR: <a href="https://www.valvesoftware.com/es/" target="_blank">Valve</a> 
         </h4>
     </div>
-
 </article>
 
 <div class = "reseña">
@@ -77,14 +76,15 @@
 <h3>ACERCA DE ESTE JUEGO</h3>
 <br>
 <br>
-<p>Te vas a vivir al valle...
-<br>Acabas de heredar la vieja parcela agrícola de tu abuelo de Stardew Valley. Decides partir hacia una nueva vida con unas herramientas usadas y algunas monedas. ¿Te ves capaz de vivir de la tierra y convertir estos campos descuidados en un hogar próspero?.
-<br><br><strong>¡Crea la granja de tus sueños!</strong> Constrúyela desde cero en una de las cinco configuraciones del mapa.
-<br><br><strong>¡Domina tu habilidad con la ganadería!</strong> Cría animales, siembra cultivos y fabrica maquinaria útil entre muchas más cosas.
-<br><br><strong>¡Únete a la comunidad local!</strong> Entabla amistad con más de 30 habitantes de Pelican Town.
-<br><br><strong>¡Personaliza a tu granjero!</strong> Podrás elegir entre cientos de opciones de personalización de personajes.
-<br><br><strong>¡Instálate y empieza a formar una familia!</strong> Comparte tu vida en la granja con uno de los doce personajes con los que podrás tener una relación.
-<br><br><strong>¡Explora grandes y misteriosas cuevas!</strong> Encuentra monstruos peligrosos y tesoros valiosos.</p>
+<p><strong>El juego más jugado en Steam.</strong>
+<br>Cada día, millones de jugadores de todo el mundo entran en batalla como uno de los más de cien héroes de Dota. Y no importa si es su décima hora de juego o la milésima, siempre hay algo nuevo que descubrir. Con frecuentes actualizaciones que garantizan una evolución constante de jugabilidad, características y héroes, Dota 2 realmente ha cobrado vida propia.
+<br><br><strong>Un campo de batalla. Infinitas posibilidades.</strong>
+<br>Cuando se trata de variedad de héroes, habilidades y poderosos objetos, Dota no tiene límite. No hay dos partidas iguales. Cada héroe puede desempeñar varios roles, y hay multitud de objetos para ayudar a satisfacer las necesidades de cada partida. Dota no pone límites a tu forma de jugar, te da el poder de expresar tu propio estilo.
+<br><br><strong>Todos los héroes son gratuitos.</strong>
+<br>El equilibrio competitivo es la joya de la corona de Dota, y para garantizar que todo el mundo juegue en un campo de batalla equilibrado, el contenido principal del juego —como el vasto grupo de héroes— está disponible para todos los jugadores. Los fans pueden coleccionar objetos cosméticos para los héroes y divertidos complementos para el mundo en que estos habitan, pero todo lo necesario para jugar ya está ahí antes de que te unas a tu primera partida.
+<br><br><strong>Trae a tus amigos y forma un equipo.</strong>
+<br>Dota es complejo y evoluciona constantemente, pero nunca es tarde para unirse.
+Aprende los conceptos básicos jugando en modo cooperativo contra bots. Mejora tus habilidades en el modo de prueba de héroes. Entra en el sistema de emparejamiento basado en el comportamiento y la habilidad que se encarga de hacer que juegues con los jugadores adecuados en cada partida.</p>
 </div>
 
 
@@ -92,7 +92,8 @@
 <h3>REQUISITOS DEL JUEGO</h3>
 <br>
 <br>
-<p>MÍNIMO: SO: Windows Vista or greater, Procesador: 2 Ghz, Memoria: 2 GB de RAM, Gráficos: 256 mb video memory, shader model 3.0+, DirectX: Versión 10, Almacenamiento: 500 MB de espacio disponible.</p>
+<p>MÍNIMO: SO: Windows 7 o posterior, Procesador: Intel o AMD de doble núcleo a 2,8 GHz, Memoria: 4 GB de RAM
+Gráficos: NVIDIA GeForce 8600/9600GT, ATI/AMD Radeon HD2600/3600, DirectX: Versión 11, Red: Conexión de banda ancha a Internet, Almacenamiento: 60 GB de espacio disponible, Tarjeta de sonido: Compatible con DirectX.</p>
 </div>
 
 

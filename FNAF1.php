@@ -46,23 +46,23 @@
 </header>
 
 
-<h2 class = "titulos">STARDEW VALLEY</h2>
+<h2 class = "titulos">FIVE NIGHTS AT FREDDY'S</h2>
 
 <article class="juegos">
     <div>
-       <iframe width="800" height="500" src="https://www.youtube.com/embed/ot7uXNQskhs" title="Stardew Valley Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+       <iframe width="800" height="500" src="https://www.youtube.com/embed/Ws-yd9YPfdE" title="Five Nights at Freddy&#39;s - Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
 
     <div>
-        <img src="images/Capturas/Stardew_Valley/Stardew_Valley_Portada.jpg" alt="Portada de Stardew Valley">
-        <p>Acabas de heredar la vieja parcela agrícola de tu abuelo de Stardew Valley. Decides partir hacia una nueva vida con unas herramientas usadas y algunas monedas. ¿Te ves capaz de vivir de la tierra y convertir estos campos descuidados en un hogar próspero?.</p>
+        <img src="images/Capturas/FNAF1/FNAF1_Portada.jpg" alt="Portada de Five Nights At Freddy's">
+        <p>¡Bienvenido a tu nuevo trabajo de verano en Freddy Fazbear's Pizza, donde tanto niños como padres vienen en busca de entretenimiento y comida! La atracción principal es Freddy Fazbear, por supuesto; y sus dos amigos. ¡Son robots animatrónicos, programados para complacer a las multitudes!.</p>
         <br>
-        <h4>FECHA DE LANZAMIENTO: 26 FEB 2016
+        <h4>FECHA DE LANZAMIENTO: 18 AGO 2014
         <br>
         <br>
-        DESARROLLADOR: <a href="https://www.stardewvalley.net/" target="_blank">ConcernedApe</a> 
+        DESARROLLADOR: <a href="http://www.scottgames.com/" target="_blank">Scott Cawthon</a> 
         <br>
-        EDITOR: <a href="https://www.stardewvalley.net/" target="_blank">ConcernedApe</a>  
+        EDITOR: <a href="http://www.scottgames.com/" target="_blank">Scott Cawthon</a>  
         </h4>
     </div>
 
@@ -77,14 +77,10 @@
 <h3>ACERCA DE ESTE JUEGO</h3>
 <br>
 <br>
-<p>Te vas a vivir al valle...
-<br>Acabas de heredar la vieja parcela agrícola de tu abuelo de Stardew Valley. Decides partir hacia una nueva vida con unas herramientas usadas y algunas monedas. ¿Te ves capaz de vivir de la tierra y convertir estos campos descuidados en un hogar próspero?.
-<br><br><strong>¡Crea la granja de tus sueños!</strong> Constrúyela desde cero en una de las cinco configuraciones del mapa.
-<br><br><strong>¡Domina tu habilidad con la ganadería!</strong> Cría animales, siembra cultivos y fabrica maquinaria útil entre muchas más cosas.
-<br><br><strong>¡Únete a la comunidad local!</strong> Entabla amistad con más de 30 habitantes de Pelican Town.
-<br><br><strong>¡Personaliza a tu granjero!</strong> Podrás elegir entre cientos de opciones de personalización de personajes.
-<br><br><strong>¡Instálate y empieza a formar una familia!</strong> Comparte tu vida en la granja con uno de los doce personajes con los que podrás tener una relación.
-<br><br><strong>¡Explora grandes y misteriosas cuevas!</strong> Encuentra monstruos peligrosos y tesoros valiosos.</p>
+<p>¡Bienvenido a tu nuevo trabajo de verano en Freddy Fazbear's Pizza, donde tanto niños como padres vienen en busca de entretenimiento y comida hasta donde alcanza la vista! La atracción principal es Freddy Fazbear, por supuesto; y sus dos amigos. ¡Son robots animatrónicos, programados para complacer a las multitudes! Sin embargo, el comportamiento de los robots se ha vuelto algo impredecible por la noche, y era mucho más barato contratarte como guardia de seguridad que encontrar un reparador.
+<br><br>Desde tu pequeña oficina debes vigilar atentamente las cámaras de seguridad. Tienes una cantidad muy limitada de electricidad que puedes usar por noche (recortes presupuestarios corporativos, ya sabes). Eso significa que cuando te quedas sin energía por la noche, ¡no más puertas de seguridad ni luces! Si algo no está bien, es decir, si el oso Freddy o sus amigos no están en sus lugares adecuados, ¡debes encontrarlos en los monitores y protegerte si es necesario!
+<br><br>¿Podrás sobrevivir cinco noches en Freddy's?
+<br><br>¡Este juego fue creado usando Clickteam Fusion!</p>
 </div>
 
 
@@ -92,7 +88,8 @@
 <h3>REQUISITOS DEL JUEGO</h3>
 <br>
 <br>
-<p>MÍNIMO: SO: Windows Vista or greater, Procesador: 2 Ghz, Memoria: 2 GB de RAM, Gráficos: 256 mb video memory, shader model 3.0+, DirectX: Versión 10, Almacenamiento: 500 MB de espacio disponible.</p>
+<p>MÍNIMO: SO: XP,Vista,Windows7, Procesador: 2 GHz Intel Pentium 4 or AMD Athlon or equivalent, Memoria: 1 GB de RAM
+Gráficos: 1 GB, DirectX: Versión 9.0, Almacenamiento: 250 MB de espacio disponible.</p>
 </div>
 
 
@@ -130,6 +127,7 @@
     <a href="https://www.tiktok.com/es/"><img src="images/Icono_TikTok.png" alt="TikTok"></a>
 </footer>
 
+<!-- Script de versión móvil -->
 <script type="text/javascript">
     function myFunction() {
       var x = document.getElementById("menu_hamburguesa");
