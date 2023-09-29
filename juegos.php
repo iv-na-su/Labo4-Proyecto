@@ -48,7 +48,7 @@
 <section class="generos" id="accion">
     <h2>ACCIÓN</h2>
     <div>
-        <a href="PayDay_2.php"><img src="images/Capturas/Cuphead/Cuphead_Portada.jpg" alt="Portada de Cuphead"></a>
+        <a href="Cuphead.php"><img src="images/Capturas/Cuphead/Cuphead_Portada.jpg" alt="Portada de Cuphead"></a>
         <h3>CUPHEAD</h3>
     </div>
     <div>
