@@ -46,23 +46,23 @@
 </header>
 
 
-<h2 class = "titulos">COUNTER STRIKE 1.6</h2>
+<h2 class = "titulos">TEAM FORTRESS 2</h2>
 
 <article class="juegos">
     <div>
-        <iframe width="800" height="500" src="https://www.youtube.com/embed/j71GvZ26H6c" title="Counter-Strike 1.6 - Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe width="800" height="500" src="https://www.youtube.com/embed/N7ZafWA2jd8" title="Team Fortress 2 Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
 
     <div>
-        <img src="images/Capturas/Counter_Old/Counter_Old_Portada.jpg" alt="Portada de Counter Strike 1.6">
-        <p>Disfruta del juego de acción en línea n° 1 en el mundo. Sumérgete en el fragor de la guerra antiterrorista más realista con este archiconocido juego por equipos. Alíate con compañeros para superar misiones estratégicas, asalta bases enemigas, rescata rehenes, y recuerda que tu personaje contribuye al éxito del equipo y viceversa.</p>
+        <img src="images/Capturas/Team_Fortress_2/Team_Fortress_2_Portada.jpg" alt="Portada de Team Fortress 2">
+        <p>Nueve clases diferentes ofrecen una amplia variedad de habilidades tácticas y personalidades. Constantemente actualizado con nuevos modos de juego, mapas, equipamiento y, lo que es más importante, ¡sombreros!.</p>
         <br>
-        <h4>FECHA DE LANZAMIENTO: 1 NOV 2000
+        <h4>FECHA DE LANZAMIENTO: 10 OCT 2007
         <br>
         <br>
         DESARROLLADOR: <a href="https://www.valvesoftware.com/es/" target="_blank">Valve</a> 
         <br>
-        EDITOR: <a href="https://www.valvesoftware.com/es/" target="_blank">Valve</a> 
+        EDITOR: <a href="https://www.valvesoftware.com/es/" target="_blank">Valve</a>  
         </h4>
     </div>
 
@@ -77,7 +77,12 @@
 <h3>ACERCA DE ESTE JUEGO</h3>
 <br>
 <br>
-<p>Disfruta del juego de acción en línea n° 1 en el mundo. Sumérgete en el fragor de la guerra antiterrorista más realista con este archiconocido juego por equipos. Alíate con compañeros para superar misiones estratégicas, asalta bases enemigas, rescata rehenes, y recuerda que tu personaje contribuye al éxito del equipo y viceversa.</p>
+<p>¡El juego gratuito más valorado de todos los tiempos!
+Uno de los juegos de acción online más popular, Team Fortress 2, publica constantemente actualizaciones gratuitas: nuevos modos de juego, mapas, equipamiento y lo que es más importante, sombreros. Nueve clases diferentes proporcionan un enorme abanico de habilidades tácticas y personalidades y se prestan a una gran variedad de habilidades del jugador.
+<br><br>¿Nuevo en Team Fortress? ¡No te preocupes!
+No importa cuál sea tu estilo o tu experiencia, tenemos un personaje para ti. El detallado entrenamiento y los modos de práctica individual te ayudarán a pulir tus habilidades antes dar el salto a uno de los muchos modos de juego de TF2, de entre los que se incluyen Capturar la Bandera, Puntos de Control, Carga Explosiva, Arena, Rey de la Colina y muchos más.
+<br><br>¡Haz un personaje a tu medida!
+Hay cientos de armas, sombreros y más para coleccionar, fabricar, comprar e intercambiar. Personaliza tu clase favorita para ajustarla a tu forma de jugar y a tu gusto personal. No necesitas pagar para conseguirlos, prácticamente todos los objetos de la Tienda Mann Co. pueden obtenerse mientras juegas.</p>
 </div>
 
 
@@ -85,10 +90,10 @@
 <h3>REQUISITOS DEL JUEGO</h3>
 <br>
 <br>
-<p>MÍNIMO: procesador de 500 MHz, 96 MB de RAM, tarjeta de vídeo de 16 MB, Windows XP, ratón, teclado y conexión a Internet
+<p>MÍNIMO: SO: Windows® 7 (32/64-bit)/Vista/XP, Procesador: 1.7 GHz Processor or better, Memoria: 512 MB de RAM, DirectX: Versión 8.1, Red: Conexión de banda ancha a Internet, Almacenamiento: 15 GB de espacio disponible.
 <br>
 <br>
-RECOMENDADO: procesador de 800 MHz, 128 MB de RAM, tarjeta de video de 32 MB, Windows XP, ratón, teclado y conexión a Internet</p>
+RECOMENDADO: SO: Windows® 7 (32/64-bit), Procesador: Pentium 4 processor (3.0GHz, or better), Memoria: 1 GB de RAM, DirectX: Versión 9.0c, Red: Conexión de banda ancha a Internet, Almacenamiento: 15 GB de espacio disponible.</p>
 </div>
 
 

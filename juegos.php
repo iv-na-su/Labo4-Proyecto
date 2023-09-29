@@ -48,8 +48,8 @@
 <section class="generos" id="accion">
     <h2>ACCIÓN</h2>
     <div>
-        <img src="images/Vapor_Logo_White.png" alt="">
-        <h3>AAAAAA</h3>
+        <a href="PayDay_2.php"><img src="images/Capturas/Cuphead/Cuphead_Portada.jpg" alt="Portada de Cuphead"></a>
+        <h3>CUPHEAD</h3>
     </div>
     <div>
         <img src="images/Vapor_Logo_White.png" alt="">
@@ -97,7 +97,7 @@
     <h2>SHOOTER</h2>
 
     <div>
-        <img src="images/Capturas/PayDay_2/PayDay_Portada.jpg" alt="Portada de Pay Day 2">
+        <a href="PayDay_2.php"><img src="images/Capturas/PayDay_2/PayDay_Portada.jpg" alt="Portada de Pay Day 2"></a>
         <h3>PAY DAY 2</h3>
     </div>
 
@@ -107,7 +107,7 @@
     </div>
     
     <div>
-        <img src="images/Capturas/Team_Fortress_2/Team_Fortress_2_Portada.jpg" alt="">
+        <a href="Team_Fortress_2.php"><img src="images/Capturas/Team_Fortress_2/Team_Fortress_2_Portada.jpg" alt="Portada de Team Fortress 2"></a>
         <h3>TEAM FORTRESS 2</h3>
     </div>
 </section>

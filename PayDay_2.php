@@ -46,23 +46,23 @@
 </header>
 
 
-<h2 class = "titulos">COUNTER STRIKE 1.6</h2>
+<h2 class = "titulos">PAYDAY 2</h2>
 
 <article class="juegos">
     <div>
-        <iframe width="800" height="500" src="https://www.youtube.com/embed/j71GvZ26H6c" title="Counter-Strike 1.6 - Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe width="800" height="500" src="https://www.youtube.com/embed/h1M-J6tFaZk" title="Payday 2, Tráiler de Lanzamiento" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
 
     <div>
-        <img src="images/Capturas/Counter_Old/Counter_Old_Portada.jpg" alt="Portada de Counter Strike 1.6">
-        <p>Disfruta del juego de acción en línea n° 1 en el mundo. Sumérgete en el fragor de la guerra antiterrorista más realista con este archiconocido juego por equipos. Alíate con compañeros para superar misiones estratégicas, asalta bases enemigas, rescata rehenes, y recuerda que tu personaje contribuye al éxito del equipo y viceversa.</p>
+        <img src="images/Capturas/PayDay_2/PayDay_Portada.jpg" alt="Portada de Pay Day 2">
+        <p>PAYDAY 2 es un juego de acción cooperativo para cuatro jugadores que, una vez más, permite a los jugadores ponerse en la piel del equipo original de PAYDAY - Dallas, Hoxton, Wolf y Chains - mientras descienden por Washington DC en una épica ola de crímenes.</p>
         <br>
-        <h4>FECHA DE LANZAMIENTO: 1 NOV 2000
+        <h4>FECHA DE LANZAMIENTO: 13 AGO 2013
         <br>
         <br>
-        DESARROLLADOR: <a href="https://www.valvesoftware.com/es/" target="_blank">Valve</a> 
+        DESARROLLADOR: <a href="https://www.starbreeze.com/" target="_blank">Starbreeze Studio</a> 
         <br>
-        EDITOR: <a href="https://www.valvesoftware.com/es/" target="_blank">Valve</a> 
+        EDITOR: <a href="https://www.starbreeze.com/" target="_blank">Starbreeze Studio</a>  
         </h4>
     </div>
 
@@ -77,7 +77,9 @@
 <h3>ACERCA DE ESTE JUEGO</h3>
 <br>
 <br>
-<p>Disfruta del juego de acción en línea n° 1 en el mundo. Sumérgete en el fragor de la guerra antiterrorista más realista con este archiconocido juego por equipos. Alíate con compañeros para superar misiones estratégicas, asalta bases enemigas, rescata rehenes, y recuerda que tu personaje contribuye al éxito del equipo y viceversa.</p>
+<p>PAYDAY 2 es un juego de acción cooperativo para cuatro jugadores que, una vez más, permite a los jugadores ponerse en la piel del equipo original de PAYDAY - Dallas, Hoxton, Wolf y Chains - mientras descienden por Washington DC en una épica ola de crímenes.
+<br><br>La red CRIMENET ofrece una amplia gama de contratos dinámicos, y los jugadores son libres de elegir cualquier cosa, desde pequeños atracos a tiendas de conveniencia o secuestros, hasta grandes ciberdelitos o vaciar importantes cámaras acorazadas para ese épico PAYDAY. Y mientras estás en DC, ¿por qué no participas en la comunidad local y haces algunos encargos políticos?
+<br><br>Hasta cuatro amigos cooperan en los golpes y, a medida que el equipo avanza, los trabajos se hacen más grandes, mejores y más gratificantes. Además de ganar más dinero y convertirse en un criminal legendario, existe un sistema de personalización y creación de personajes que permite a los equipos construir y personalizar sus propias armas y equipamiento.</p>
 </div>
 
 
@@ -85,10 +87,10 @@
 <h3>REQUISITOS DEL JUEGO</h3>
 <br>
 <br>
-<p>MÍNIMO: procesador de 500 MHz, 96 MB de RAM, tarjeta de vídeo de 16 MB, Windows XP, ratón, teclado y conexión a Internet
+<p>MÍNIMO: SO: Windows 7, Procesador: 2 GHz Intel Dual Core Processor, Memoria: 4 GB de RAM, Gráficos: Nvidia & AMD (512MB VRAM), DirectX: Versión 9.0c, Almacenamiento: 83 GB de espacio disponible, Compatibilidad con RV: SteamVR. Standing or Room Scale
 <br>
 <br>
-RECOMENDADO: procesador de 800 MHz, 128 MB de RAM, tarjeta de video de 32 MB, Windows XP, ratón, teclado y conexión a Internet</p>
+RECOMENDADO: SO: Windows 10, Procesador: 2.3 GHz Intel Quad Core Processor, Memoria: 8 GB de RAM, Gráficos: Nvidia & AMD (1GB VRAM), DirectX: Versión 9.0c, Almacenamiento: 83 GB de espacio disponible, Compatibilidad con RV: SteamVR. Standing or Room Scale</p>
 </div>
 
 

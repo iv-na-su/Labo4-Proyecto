@@ -46,23 +46,23 @@
 </header>
 
 
-<h2 class = "titulos">COUNTER STRIKE 1.6</h2>
+<h2 class = "titulos">CUPHEAD</h2>
 
 <article class="juegos">
     <div>
-        <iframe width="800" height="500" src="https://www.youtube.com/embed/j71GvZ26H6c" title="Counter-Strike 1.6 - Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+       <iframe width="800" height="500" src="https://www.youtube.com/embed/81zM_vg96VY" title="Cuphead | Tráiler de lanzamiento" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
 
     <div>
-        <img src="images/Capturas/Counter_Old/Counter_Old_Portada.jpg" alt="Portada de Counter Strike 1.6">
-        <p>Disfruta del juego de acción en línea n° 1 en el mundo. Sumérgete en el fragor de la guerra antiterrorista más realista con este archiconocido juego por equipos. Alíate con compañeros para superar misiones estratégicas, asalta bases enemigas, rescata rehenes, y recuerda que tu personaje contribuye al éxito del equipo y viceversa.</p>
+        <img src="images/Capturas/Cuphead/Cuphead_Portada.jpg" alt="Portada de Cuphead">
+        <p>Cuphead es un juego de acción clásico estilo "dispara y corre" que se centra en combates contra el jefe. Inspirado en los dibujos animados de los años 30, los aspectos visual y sonoro están diseñados con esmero empleando las mismas técnicas de la época, es decir, animación tradicional.</p>
         <br>
-        <h4>FECHA DE LANZAMIENTO: 1 NOV 2000
+        <h4>FECHA DE LANZAMIENTO: 29 SEP 2017
         <br>
         <br>
-        DESARROLLADOR: <a href="https://www.valvesoftware.com/es/" target="_blank">Valve</a> 
+        DESARROLLADOR: <a href="http://studiomdhr.com/" target="_blank">Studio MDHR</a> 
         <br>
-        EDITOR: <a href="https://www.valvesoftware.com/es/" target="_blank">Valve</a> 
+        EDITOR: <a href="http://studiomdhr.com/" target="_blank">Studio MDHR</a>  
         </h4>
     </div>
 
@@ -77,7 +77,8 @@
 <h3>ACERCA DE ESTE JUEGO</h3>
 <br>
 <br>
-<p>Disfruta del juego de acción en línea n° 1 en el mundo. Sumérgete en el fragor de la guerra antiterrorista más realista con este archiconocido juego por equipos. Alíate con compañeros para superar misiones estratégicas, asalta bases enemigas, rescata rehenes, y recuerda que tu personaje contribuye al éxito del equipo y viceversa.</p>
+<p>Cuphead es un juego de acción clásico estilo "dispara y corre" que se centra en combates contra el jefe. Inspirado en los dibujos animados de los años 30, los aspectos visual y sonoro están diseñados con esmero empleando las mismas técnicas de la época, es decir, animación tradicional a mano, fondos de acuarela y grabaciones originales de jazz.
+<br><br>Juega como Cuphead o Mugman (en modo de un jugador o cooperativo) y cruza mundos extraños, adquiere nuevas armas, aprende poderosos supermovimientos y descubre secretos ocultos mientras procuras saldar tu deuda con el diablo.</p>
 </div>
 
 
@@ -85,10 +86,10 @@
 <h3>REQUISITOS DEL JUEGO</h3>
 <br>
 <br>
-<p>MÍNIMO: procesador de 500 MHz, 96 MB de RAM, tarjeta de vídeo de 16 MB, Windows XP, ratón, teclado y conexión a Internet
+<p>MÍNIMO: Requiere un procesador y un sistema operativo de 64 bits, SO: Windows 7, Procesador: Intel Core2 Duo, E8400, 3.0GHz or AMD Athlon 64 X2 6000+, 3.0GHz or higher, Memoria: 3 GB de RAM, Gráficos: Geforce 9600 GT or AMD HD 3870 512MB or higher, DirectX: Versión 11, Almacenamiento: 4 GB de espacio disponible.
 <br>
 <br>
-RECOMENDADO: procesador de 800 MHz, 128 MB de RAM, tarjeta de video de 32 MB, Windows XP, ratón, teclado y conexión a Internet</p>
+RECOMENDADO: Requiere un procesador y un sistema operativo de 64 bits.</p>
 </div>
 
 
