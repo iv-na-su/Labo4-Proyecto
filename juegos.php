@@ -52,11 +52,11 @@
         <h3>CUPHEAD</h3>
     </div>
     <div>
-        <img src="images/Vapor_Logo_White.png" alt="">
+        <img src="images/Vapor_Logo_White.png" alt="" class="zoom">
         <h3>AAAAAA</h3>
     </div>
     <div>
-        <img src="images/Vapor_Logo_White.png" alt="">
+        <img src="images/Vapor_Logo_White.png" alt="" class="zoom">
         <h3>AAAAAA</h3>
     </div>
 </section>
@@ -64,15 +64,15 @@
 <section class="generos" id="indie">
     <h2>CASUAL</h2>
     <div>
-        <a href="Stardew_Valley.php"><img src="images/Capturas/Stardew_Valley/Stardew_Valley_Portada.jpg" alt="Portada de Stardew Valley"></a>
+        <a href="Stardew_Valley.php"><img src="images/Capturas/Stardew_Valley/Stardew_Valley_Portada.jpg" alt="Portada de Stardew Valley" class="zoom"></a>
         <h3>STARDEW VALLEY</h3>
     </div>
     <div>
-        <img src="images/Vapor_Logo_White.png" alt="">
+        <img src="images/Vapor_Logo_White.png" alt="" class="zoom">
         <h3>AAAAAA</h3>
     </div>
     <div>
-        <img src="images/Vapor_Logo_White.png" alt="">
+        <img src="images/Vapor_Logo_White.png" alt="" class="zoom">
         <h3>AAAAAA</h3>
     </div>
 </section>
@@ -80,15 +80,15 @@
 <section class="generos" id="terror">
     <h2>TERROR</h2>
         <div>
-        <a href="FNAF1.php"><img src="images/Capturas/FNAF1/FNAF1_Portada.jpg" alt="Portada de Five Nights At Freddy's"></a>
+        <a href="FNAF1.php"><img src="images/Capturas/FNAF1/FNAF1_Portada.jpg" alt="Portada de Five Nights At Freddy's" class="zoom"></a>
         <h3>Five Nights At Freddy's</h3>
     </div>
     <div>
-        <img src="images/Vapor_Logo_White.png" alt="">
+        <img src="images/Vapor_Logo_White.png" alt="" class="zoom">
         <h3>AAAAAA</h3>
     </div>
     <div>
-        <img src="images/Vapor_Logo_White.png" alt="">
+        <img src="images/Vapor_Logo_White.png" alt="" class="zoom">
         <h3>AAAAAA</h3>
     </div>
 </section>
@@ -102,12 +102,12 @@
     </div>
 
     <div>
-        <a href="Counter_Old.php"><img src="images/Capturas/Counter_Old/Counter_Old_Portada.jpg" href="Counter_Old.php" alt="Portada de Counter Strike 1.6"></a>
+        <a href="Counter_Old.php"><img src="images/Capturas/Counter_Old/Counter_Old_Portada.jpg" href="Counter_Old.php" alt="Portada de Counter Strike 1.6" class="zoom"></a>
         <h3>COUNTER STRIKE 1.6</h3>
     </div>
     
     <div>
-        <a href="Team_Fortress_2.php"><img src="images/Capturas/Team_Fortress_2/Team_Fortress_2_Portada.jpg" alt="Portada de Team Fortress 2"></a>
+        <a href="Team_Fortress_2.php"><img src="images/Capturas/Team_Fortress_2/Team_Fortress_2_Portada.jpg" alt="Portada de Team Fortress 2" class="zoom"></a>
         <h3>TEAM FORTRESS 2</h3>
     </div>
 </section>
@@ -115,15 +115,15 @@
 <section class="generos" id="roguelike">
     <h2>ROGUELIKE</h2>
         <div>
-        <img src="images/Capturas/The_Binding_Of_Isaac/The_Binding_Of_Isaac_Portada.jpg" alt="">
+        <img src="images/Capturas/The_Binding_Of_Isaac/The_Binding_Of_Isaac_Portada.jpg" alt="" class="zoom">
         <h3>THE BINDING OF ISAAC: REBIRTH</h3>
     </div>
     <div>
-        <img src="images/Capturas/Voidigo/Voidigo_Portada.jpg" alt="">
+        <img src="images/Capturas/Voidigo/Voidigo_Portada.jpg" alt="" class="zoom">
         <h3>VOIDIGO</h3>
     </div>
     <div>
-        <img src="images/Capturas/Dead_Cells/Dead_Cells_Portada.jpg" alt="">
+        <img src="images/Capturas/Dead_Cells/Dead_Cells_Portada.jpg" alt="" class="zoom">
         <h3>DEAD CELLS</h3>
     </div>
 </section>
@@ -131,15 +131,15 @@
 <section class="generos" id="accion">
     <h2>AVENTURA</h2>
     <div>
-        <img src="images/Vapor_Logo_White.png" alt="">
+        <img src="images/Vapor_Logo_White.png" alt="" class="zoom">
         <h3>AAAAAA</h3>
     </div>
     <div>
-        <img src="images/Vapor_Logo_White.png" alt="">
+        <img src="images/Vapor_Logo_White.png" alt="" class="zoom">
         <h3>AAAAAA</h3>
     </div>
     <div>
-        <img src="images/Vapor_Logo_White.png" alt="">
+        <img src="images/Vapor_Logo_White.png" alt="" class="zoom">
         <h3>AAAAAA</h3>
     </div>
 </section>
@@ -147,15 +147,15 @@
 <section class="generos" id="accion">
     <h2>RPG</h2>
     <div>
-        <a href="Dota2.php"><img src="images/Capturas/Dota2/Dota2_Portada.jpg" alt="Portada de Dota 2"></a>
+        <a href="Dota2.php"><img src="images/Capturas/Dota2/Dota2_Portada.jpg" alt="Portada de Dota 2" class="zoom"></a>
         <h3>DOTA 2</h3>
     </div>
     <div>
-        <img src="images/Vapor_Logo_White.png" alt="">
+        <img src="images/Vapor_Logo_White.png" alt="" class="zoom">
         <h3>AAAAAA</h3>
     </div>
     <div>
-        <img src="images/Vapor_Logo_White.png" alt="">
+        <img src="images/Vapor_Logo_White.png" alt="" class="zoom">
         <h3>AAAAAA</h3>
     </div>
 </section>
