@@ -392,8 +392,104 @@ width: 32%;
 }
 
 
+/*-------------------SLIDER-------------------*/
+.slider{
+  width: 100%;
+	height: 30%;
+  display:flex;
+
+  
+}
+
+.slider li img{
+
+  max-height: 100%;
+  max-width: 100%;  
+}
+
+ul, li {
+
+  list-style: none inside;
+}
+ul.slider {
+  position:relative; /*Necesitamos que el ul sea relativo*/
+}
+ul.slider li {
+  opacity: 0; /*Ocultamos todos los <li>*/
+  transition: opacity .5s;
+  position: absolute; /*Posicionamos en absoluto los <li>*/
+
+ 
+
+}
+ul.slider li:first-child {
+  opacity: 1; /*Mostramos el primer <li>*/
+}
+ul.slider li:target {
+  opacity: 1; /*Mostramos el <li> al que apunta el enlace*/
+}
+.navsl {
+  width: 100%;
+  height: 100%;
+  margin-top: 55%;
+  
+}
 
 
+
+ul.slider li {
+
+ 
+  opacity: 0; 
+  transition: opacity .5s;
+ 
+
+  text-align: center;
+}
+
+
+
+.navsl ul {
+  display:inline;
+ 
+  
+
+}
+
+.navsl ul li {
+  display:contents;
+
+
+}
+
+.navsl a {
+  font-size:1.5rem;
+  text-decoration: none;
+  font-weight: bold;
+  color: #ffffff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+  text-align: center;
+
+
+
+}
+
+
+
+.navsl a:hover {
+  color: #21d1e1;
+
+}
+
+.navsl a:active {
+  border-top-color: #f90;
+  color: #00324b;
+}
+
+
+/*-------------------CIERRA SLIDER-------------------*/
 
 
 
@@ -408,21 +504,28 @@ width: 32%;
 }
 
 .juegos {
-
+  margin: auto;
+  width: 90%;
   display: flex;
-  margin-left: 10%;
-  margin-right: 5%;
-
+  background-color: #2a45675d;
+  align-items: center;
 }
+
 
 .juegos div {
-margin-left: 5%;
+height: 50%;
+width: 100%;
+padding: 1%;
+
 }
+
+
+
 
 .juegos div img{
 
   width: 70%;
-  height: 40%;
+  height: 50%;
   margin-bottom: 5%;
 
 }
@@ -445,11 +548,12 @@ margin-left: 5%;
     
     }
   
-  .juegos div iframe {
 
-  }
 
-.reseña{
+
+
+  .reseña{ 
+  margin-top: 10%;
 	width: 70%;
 	height: 30%;
 	font-size: 1rem;

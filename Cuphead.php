@@ -49,20 +49,57 @@
 <h2 class = "titulos">CUPHEAD</h2>
 
 <article class="juegos">
-    <div>
-       <iframe width="800" height="500" src="https://www.youtube.com/embed/81zM_vg96VY" title="Cuphead | Tráiler de lanzamiento" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    <div class="galeria">
+
+    
+    <ul class="slider">
+    <li id="slide1"><img src="images/Capturas/Cuphead/Cuphead_1.jpg" alt=""></li>
+    <li id="slide2"><img src="images/Capturas/Cuphead/Cuphead_2.jpg" alt=""></li>
+    <li id="slide3"><img src="images/Capturas/Cuphead/Cuphead_3.jpg" alt=""></li>
+    <li id="slide4"><img src="images/Capturas/Cuphead/Cuphead_4.jpg" alt=""></li>
+    <li id="slide5"><img src="images/Capturas/Cuphead/Cuphead_5.jpg" alt=""></li>
+    <li id="slide6"><img src="images/Capturas/Cuphead/Cuphead_6.jpg" alt=""></li>
+    <li id="slide7"><img src="images/Capturas/Cuphead/Cuphead_7.jpg" alt=""></li>
+    <li id="slide8"><img src="images/Capturas/Cuphead/Cuphead_8.jpg" alt=""></li>
+    <li id="slide9"><img src="images/Capturas/Cuphead/Cuphead_9.jpg" alt=""></li>
+    <li id="slide10"><img src="images/Capturas/Cuphead/Cuphead_10.jpg" alt=""></li>
+    <li id="slide11"><img src="images/Capturas/Cuphead/Cuphead_11.jpg" alt=""></li>
+    <li id="slide12"><img src="images/Capturas/Cuphead/Cuphead_12.jpg" alt=""></li>
+    <li id="slide13"><img src="images/Capturas/Cuphead/Cuphead_13.jpg" alt=""></li>
+ </ul>
+
+
+ <nav class = "navsl">
+    <ul class="galeriasl">
+        <li><a href="#slide1">○</a></li>  <!--ES UN SIMBOLO DE UN CIRCULO "○" -->
+        <li><a href="#slide2">○</a></li>
+        <li><a href="#slide3">○</a></li>
+        <li><a href="#slide4">○</a></li>
+        <li><a href="#slide5">○</a></li>
+        <li><a href="#slide6">○</a></li>
+        <li><a href="#slide7">○</a></li>
+        <li><a href="#slide8">○</a></li>
+        <li><a href="#slide9">○</a></li>
+        <li><a href="#slide10">○</a></li>
+        <li><a href="#slide11">○</a></li>
+        <li><a href="#slide12">○</a></li>
+        <li><a href="#slide13">○</a></li>
+</ul>
+</nav>
+      
     </div>
 
-    <div>
-        <img src="images/Capturas/Cuphead/Cuphead_Portada.jpg" alt="Portada de Cuphead">
-        <p>Cuphead es un juego de acción clásico estilo "dispara y corre" que se centra en combates contra el jefe. Inspirado en los dibujos animados de los años 30, los aspectos visual y sonoro están diseñados con esmero empleando las mismas técnicas de la época, es decir, animación tradicional.</p>
+    <div class="info">
+        <img src="images/Capturas/Counter_Old/Counter_Old_Portada.jpg" alt="Portada de Counter Strike 1.6">
+        <p>Disfruta del juego de acción en línea n° 1 en el mundo. Sumérgete en el fragor de la guerra antiterrorista más realista con este archiconocido juego por equipos. Alíate con compañeros para superar misiones estratégicas, asalta bases enemigas, rescata rehenes, y recuerda que tu personaje contribuye al éxito del equipo y viceversa.</p>
         <br>
-        <h4>FECHA DE LANZAMIENTO: 29 SEP 2017
+        <h4>FECHA DE LANZAMIENTO: 1 NOV 2000
         <br>
         <br>
-        DESARROLLADOR: <a href="http://studiomdhr.com/" target="_blank">Studio MDHR</a> 
+        DESARROLLADOR: <a href="https://www.valvesoftware.com/es/" target="_blank">Valve</a> 
         <br>
-        EDITOR: <a href="http://studiomdhr.com/" target="_blank">Studio MDHR</a>  
+        EDITOR: <a href="https://www.valvesoftware.com/es/" target="_blank">Valve</a> 
         </h4>
     </div>
 
