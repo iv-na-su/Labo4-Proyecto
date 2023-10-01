@@ -402,64 +402,51 @@ width: 32%;
 }
 
 .slider li img{
-
   max-height: 100%;
   max-width: 100%;  
 }
 
 ul, li {
-
   list-style: none inside;
 }
+
 ul.slider {
   position:relative; /*Necesitamos que el ul sea relativo*/
 }
+
 ul.slider li {
   opacity: 0; /*Ocultamos todos los <li>*/
   transition: opacity .5s;
   position: absolute; /*Posicionamos en absoluto los <li>*/
 
- 
-
 }
+
 ul.slider li:first-child {
   opacity: 1; /*Mostramos el primer <li>*/
 }
+
 ul.slider li:target {
   opacity: 1; /*Mostramos el <li> al que apunta el enlace*/
 }
+
 .navsl {
   width: 100%;
   height: 100%;
   margin-top: 55%;
-  
 }
 
-
-
 ul.slider li {
-
- 
   opacity: 0; 
   transition: opacity .5s;
- 
-
   text-align: center;
 }
 
-
-
 .navsl ul {
   display:inline;
- 
-  
-
 }
 
 .navsl ul li {
   display:contents;
-
-
 }
 
 .navsl a {
@@ -468,30 +455,18 @@ ul.slider li {
   font-weight: bold;
   color: #ffffff;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
-
   text-align: center;
-
-
-
 }
-
-
 
 .navsl a:hover {
   color: #21d1e1;
-
 }
 
 .navsl a:active {
   border-top-color: #f90;
   color: #00324b;
 }
-
-
 /*-------------------CIERRA SLIDER-------------------*/
-
-
 
 .titulos{
   font-size: 1.5rem;
@@ -519,15 +494,10 @@ padding: 1%;
 
 }
 
-
-
-
 .juegos div img{
-
-  width: 70%;
-  height: 50%;
+  width: 90%;
+  height: 900%;
   margin-bottom: 5%;
-
 }
 
 .juegos div p{
@@ -536,7 +506,6 @@ padding: 1%;
   font-size: 1.2rem;
   color: white;
   font-family: 'Roboto Condensed', sans-serif;
-  
   }
 
   .juegos div h4{
@@ -691,13 +660,6 @@ footer div a{
   article h3{
     padding-top: 5%;
     font-size: 1.1rem;
-  }
-  .info_per{
-  font-family: 'Roboto Condensed', sans-serif;
-  margin-left: 2.5%;
-  color: #000000;
-  font-size: 20px;
-  display: inline;
   }
   div h1{
     font-family: 'Roboto Condensed', sans-serif;

@@ -49,10 +49,41 @@
 <h2 class = "titulos">PAYDAY 2</h2>
 
 <article class="juegos">
-    <div>
-        <iframe width="800" height="500" src="https://www.youtube.com/embed/h1M-J6tFaZk" title="Payday 2, Tráiler de Lanzamiento" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-    </div>
+    <div class="galeria">
+    <ul class="slider">
+    <li id="slide1"><img src="images/Capturas/PayDay_2/PayDay_1.jpg" alt="Imágen número 1 de PayDay 2"></li>
+    <li id="slide2"><img src="images/Capturas/PayDay_2/PayDay_2.jpg" alt="Imágen número 2 de PayDay 2"></li>
+    <li id="slide3"><img src="images/Capturas/PayDay_2/PayDay_3.jpg" alt="Imágen número 3 de PayDay 2"></li>
+    <li id="slide4"><img src="images/Capturas/PayDay_2/PayDay_4.jpg" alt="Imágen número 4 de PayDay 2"></li>
+    <li id="slide5"><img src="images/Capturas/PayDay_2/PayDay_5.jpg" alt="Imágen número 5 de PayDay 2"></li>
+    <li id="slide6"><img src="images/Capturas/PayDay_2/PayDay_6.jpg" alt="Imágen número 6 de PayDay 2"></li>
+    <li id="slide7"><img src="images/Capturas/PayDay_2/PayDay_7.jpg" alt="Imágen número 7 de PayDay 2"></li>
+    <li id="slide8"><img src="images/Capturas/PayDay_2/PayDay_8.jpg" alt="Imágen número 8 de PayDay 2"></li>
+    <li id="slide9"><img src="images/Capturas/PayDay_2/PayDay_9.jpg" alt="Imágen número 9 de PayDay 2"></li>
+    <li id="slide10"><img src="images/Capturas/PayDay_2/PayDay_10.jpg" alt="Imágen número 10 de PayDay 2"></li>
+    <li id="slide11"><img src="images/Capturas/PayDay_2/PayDay_11.jpg" alt="Imágen número 11 de PayDay 2"></li>
+    <li id="slide12"><img src="images/Capturas/PayDay_2/PayDay_12.jpg" alt="Imágen número 12 de PayDay 2"></li>
+    <li id="slide13"><img src="images/Capturas/PayDay_2/PayDay_13.jpg" alt="Imágen número 13 de PayDay 2"></li>
+ </ul>
 
+ <nav class = "navsl">
+    <ul class="galeriasl">
+        <li><a href="#slide1">○</a></li>  <!--ES UN SIMBOLO DE UN CIRCULO "○" -->
+        <li><a href="#slide2">○</a></li>
+        <li><a href="#slide3">○</a></li>
+        <li><a href="#slide4">○</a></li>
+        <li><a href="#slide5">○</a></li>
+        <li><a href="#slide6">○</a></li>
+        <li><a href="#slide7">○</a></li>
+        <li><a href="#slide8">○</a></li>
+        <li><a href="#slide9">○</a></li>
+        <li><a href="#slide10">○</a></li>
+        <li><a href="#slide11">○</a></li>
+        <li><a href="#slide12">○</a></li>
+        <li><a href="#slide13">○</a></li>
+    </ul>
+</nav>
+</div>
     <div>
         <img src="images/Capturas/PayDay_2/PayDay_Portada.jpg" alt="Portada de Pay Day 2">
         <p>PAYDAY 2 es un juego de acción cooperativo para cuatro jugadores que, una vez más, permite a los jugadores ponerse en la piel del equipo original de PAYDAY - Dallas, Hoxton, Wolf y Chains - mientras descienden por Washington DC en una épica ola de crímenes.</p>

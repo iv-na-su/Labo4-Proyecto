@@ -49,9 +49,41 @@
 <h2 class = "titulos">STARDEW VALLEY</h2>
 
 <article class="juegos">
-    <div>
-       <iframe width="800" height="500" src="https://www.youtube.com/embed/ot7uXNQskhs" title="Stardew Valley Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-    </div>
+    <div class="galeria">
+    <ul class="slider">
+    <li id="slide1"><img src="images/Capturas/Stardew_Valley/Stardew_Valley_1.jpg" alt="Imágen número 1 de Stardew Valley"></li>
+    <li id="slide2"><img src="images/Capturas/Stardew_Valley/Stardew_Valley_2.jpg" alt="Imágen número 2 de Stardew Valley"></li>
+    <li id="slide3"><img src="images/Capturas/Stardew_Valley/Stardew_Valley_3.jpg" alt="Imágen número 3 de Stardew Valley"></li>
+    <li id="slide4"><img src="images/Capturas/Stardew_Valley/Stardew_Valley_4.jpg" alt="Imágen número 4 de Stardew Valley"></li>
+    <li id="slide5"><img src="images/Capturas/Stardew_Valley/Stardew_Valley_5.jpg" alt="Imágen número 5 de Stardew Valley"></li>
+    <li id="slide6"><img src="images/Capturas/Stardew_Valley/Stardew_Valley_6.jpg" alt="Imágen número 6 de Stardew Valley"></li>
+    <li id="slide7"><img src="images/Capturas/Stardew_Valley/Stardew_Valley_7.jpg" alt="Imágen número 7 de Stardew Valley"></li>
+    <li id="slide8"><img src="images/Capturas/Stardew_Valley/Stardew_Valley_8.jpg" alt="Imágen número 8 de Stardew Valley"></li>
+    <li id="slide9"><img src="images/Capturas/Stardew_Valley/Stardew_Valley_9.jpg" alt="Imágen número 9 de Stardew Valley"></li>
+    <li id="slide10"><img src="images/Capturas/Stardew_Valley/Stardew_Valley_10.jpg" alt="Imágen número 10 de Stardew Valley"></li>
+    <li id="slide11"><img src="images/Capturas/Stardew_Valley/Stardew_Valley_11.jpg" alt="Imágen número 11 de Stardew Valley"></li>
+    <li id="slide12"><img src="images/Capturas/Stardew_Valley/Stardew_Valley_12.jpg" alt="Imágen número 12 de Stardew Valley"></li>
+    <li id="slide13"><img src="images/Capturas/Stardew_Valley/Stardew_Valley_13.jpg" alt="Imágen número 13 de Stardew Valley"></li>
+ </ul>
+
+ <nav class = "navsl">
+    <ul class="galeriasl">
+        <li><a href="#slide1">○</a></li>  <!--ES UN SIMBOLO DE UN CIRCULO "○" -->
+        <li><a href="#slide2">○</a></li>
+        <li><a href="#slide3">○</a></li>
+        <li><a href="#slide4">○</a></li>
+        <li><a href="#slide5">○</a></li>
+        <li><a href="#slide6">○</a></li>
+        <li><a href="#slide7">○</a></li>
+        <li><a href="#slide8">○</a></li>
+        <li><a href="#slide9">○</a></li>
+        <li><a href="#slide10">○</a></li>
+        <li><a href="#slide11">○</a></li>
+        <li><a href="#slide12">○</a></li>
+        <li><a href="#slide13">○</a></li>
+    </ul>
+</nav>
+</div>
 
     <div>
         <img src="images/Capturas/Stardew_Valley/Stardew_Valley_Portada.jpg" alt="Portada de Stardew Valley">

@@ -49,10 +49,7 @@
 <h2 class = "titulos">CUPHEAD</h2>
 
 <article class="juegos">
-
     <div class="galeria">
-
-    
     <ul class="slider">
     <li id="slide1"><img src="images/Capturas/Cuphead/Cuphead_1.jpg" alt=""></li>
     <li id="slide2"><img src="images/Capturas/Cuphead/Cuphead_2.jpg" alt=""></li>
@@ -69,7 +66,6 @@
     <li id="slide13"><img src="images/Capturas/Cuphead/Cuphead_13.jpg" alt=""></li>
  </ul>
 
-
  <nav class = "navsl">
     <ul class="galeriasl">
         <li><a href="#slide1">○</a></li>  <!--ES UN SIMBOLO DE UN CIRCULO "○" -->
@@ -85,21 +81,20 @@
         <li><a href="#slide11">○</a></li>
         <li><a href="#slide12">○</a></li>
         <li><a href="#slide13">○</a></li>
-</ul>
+    </ul>
 </nav>
-      
-    </div>
+</div>
 
     <div class="info">
-        <img src="images/Capturas/Counter_Old/Counter_Old_Portada.jpg" alt="Portada de Counter Strike 1.6">
-        <p>Disfruta del juego de acción en línea n° 1 en el mundo. Sumérgete en el fragor de la guerra antiterrorista más realista con este archiconocido juego por equipos. Alíate con compañeros para superar misiones estratégicas, asalta bases enemigas, rescata rehenes, y recuerda que tu personaje contribuye al éxito del equipo y viceversa.</p>
+        <img src="images/Capturas/Cuphead/Cuphead_Portada.jpg" alt="Portada de Cuphead">
+        <p>Cuphead es un juego de acción clásico estilo "dispara y corre" que se centra en combates contra el jefe. Inspirado en los dibujos animados de los años 30, los aspectos visual y sonoro están diseñados con esmero empleando las mismas técnicas de la época, es decir, animación tradicional.</p>
         <br>
-        <h4>FECHA DE LANZAMIENTO: 1 NOV 2000
+        <h4>FECHA DE LANZAMIENTO: 29 SEP 2017
         <br>
         <br>
-        DESARROLLADOR: <a href="https://www.valvesoftware.com/es/" target="_blank">Valve</a> 
+        DESARROLLADOR: <a href="http://studiomdhr.com/" target="_blank">Studio MDHR Entertainment Inc.</a> 
         <br>
-        EDITOR: <a href="https://www.valvesoftware.com/es/" target="_blank">Valve</a> 
+        EDITOR: <a href="http://studiomdhr.com/" target="_blank">Studio MDHR Entertainment Inc.</a> 
         </h4>
     </div>
 
