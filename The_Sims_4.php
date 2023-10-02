@@ -46,24 +46,24 @@
 </header>
 
 
-<h2 class = "titulos">STARDEW VALLEY</h2>
+<h2 class = "titulos">THE SIMS 4</h2>
 
 <article class="juegos">
     <div class="galeria">
     <ul class="slider">
-    <li id="slide1"><img src="images/Capturas/Stardew_Valley/Stardew_Valley_1.jpg" alt="Imágen número 1 de Stardew Valley"></li>
-    <li id="slide2"><img src="images/Capturas/Stardew_Valley/Stardew_Valley_2.jpg" alt="Imágen número 2 de Stardew Valley"></li>
-    <li id="slide3"><img src="images/Capturas/Stardew_Valley/Stardew_Valley_3.jpg" alt="Imágen número 3 de Stardew Valley"></li>
-    <li id="slide4"><img src="images/Capturas/Stardew_Valley/Stardew_Valley_4.jpg" alt="Imágen número 4 de Stardew Valley"></li>
-    <li id="slide5"><img src="images/Capturas/Stardew_Valley/Stardew_Valley_5.jpg" alt="Imágen número 5 de Stardew Valley"></li>
-    <li id="slide6"><img src="images/Capturas/Stardew_Valley/Stardew_Valley_6.jpg" alt="Imágen número 6 de Stardew Valley"></li>
-    <li id="slide7"><img src="images/Capturas/Stardew_Valley/Stardew_Valley_7.jpg" alt="Imágen número 7 de Stardew Valley"></li>
-    <li id="slide8"><img src="images/Capturas/Stardew_Valley/Stardew_Valley_8.jpg" alt="Imágen número 8 de Stardew Valley"></li>
-    <li id="slide9"><img src="images/Capturas/Stardew_Valley/Stardew_Valley_9.jpg" alt="Imágen número 9 de Stardew Valley"></li>
-    <li id="slide10"><img src="images/Capturas/Stardew_Valley/Stardew_Valley_10.jpg" alt="Imágen número 10 de Stardew Valley"></li>
-    <li id="slide11"><img src="images/Capturas/Stardew_Valley/Stardew_Valley_11.jpg" alt="Imágen número 11 de Stardew Valley"></li>
-    <li id="slide12"><img src="images/Capturas/Stardew_Valley/Stardew_Valley_12.jpg" alt="Imágen número 12 de Stardew Valley"></li>
-    <li id="slide13"><img src="images/Capturas/Stardew_Valley/Stardew_Valley_13.jpg" alt="Imágen número 13 de Stardew Valley"></li>
+    <li id="slide1"><img src="images/Capturas/The_Sims_4/The_Sims_4_1.jpg" alt="Imágen número 1 de The Sims 4"></li>
+    <li id="slide2"><img src="images/Capturas/The_Sims_4/The_Sims_4_2.jpg" alt="Imágen número 2 de The Sims 4"></li>
+    <li id="slide3"><img src="images/Capturas/The_Sims_4/The_Sims_4_3.jpg" alt="Imágen número 3 de The Sims 4"></li>
+    <li id="slide4"><img src="images/Capturas/The_Sims_4/The_Sims_4_4.jpg" alt="Imágen número 4 de The Sims 4"></li>
+    <li id="slide5"><img src="images/Capturas/The_Sims_4/The_Sims_4_5.jpg" alt="Imágen número 5 de The Sims 4"></li>
+    <li id="slide6"><img src="images/Capturas/The_Sims_4/The_Sims_4_6.jpg" alt="Imágen número 6 de The Sims 4"></li>
+    <li id="slide7"><img src="images/Capturas/The_Sims_4/The_Sims_4_7.jpg" alt="Imágen número 7 de The Sims 4"></li>
+    <li id="slide8"><img src="images/Capturas/The_Sims_4/The_Sims_4_8.jpg" alt="Imágen número 8 de The Sims 4"></li>
+    <li id="slide9"><img src="images/Capturas/The_Sims_4/The_Sims_4_9.jpg" alt="Imágen número 9 de The Sims 4"></li>
+    <li id="slide10"><img src="images/Capturas/The_Sims_4/The_Sims_4_10.jpg" alt="Imágen número 10 de The Sims 4"></li>
+    <li id="slide11"><img src="images/Capturas/The_Sims_4/The_Sims_4_11.jpg" alt="Imágen número 11 de The Sims 4"></li>
+    <li id="slide12"><img src="images/Capturas/The_Sims_4/The_Sims_4_12.jpg" alt="Imágen número 12 de The Sims 4"></li>
+    <li id="slide13"><img src="images/Capturas/The_Sims_4/The_Sims_4_13.jpg" alt="Imágen número 13 de The Sims 4"></li>
  </ul>
 
  <nav class = "navsl">
@@ -86,15 +86,15 @@
 </div>
 
     <div>
-        <img src="images/Capturas/Stardew_Valley/Stardew_Valley_Portada.jpg" alt="Portada de Stardew Valley">
-        <p>Acabas de heredar la vieja parcela agrícola de tu abuelo de Stardew Valley. Decides partir hacia una nueva vida con unas herramientas usadas y algunas monedas. ¿Te ves capaz de vivir de la tierra y convertir estos campos descuidados en un hogar próspero?.</p>
+        <img src="images/Capturas/The_Sims_4/The_Sims_4_Portada.jpg" alt="Portada de The Sims 4">
+        <p>Disfruta del poder de crear y controlar a personas en un mundo virtual donde no hay reglas. ¡Ejerce tu poder con total libertad, diviértete y juega a la vida!.</p>
         <br>
-        <h4>FECHA DE LANZAMIENTO: 26 FEB 2016
+        <h4>FECHA DE LANZAMIENTO: 2 SEP 2014
         <br>
         <br>
-        DESARROLLADOR: <a href="https://www.stardewvalley.net/" target="_blank">ConcernedApe</a> 
+        DESARROLLADOR: <a href="https://www.ea.com/" target="_blank">Maxis</a> 
         <br>
-        EDITOR: <a href="https://www.stardewvalley.net/" target="_blank">ConcernedApe</a>  
+        EDITOR: <a href="https://www.ea.com/" target="_blank">Electronic Arts</a>  
         </h4>
     </div>
 
@@ -109,22 +109,22 @@
 <h3>ACERCA DE ESTE JUEGO</h3>
 <br>
 <br>
-<p>Te vas a vivir al valle...
-<br>Acabas de heredar la vieja parcela agrícola de tu abuelo de Stardew Valley. Decides partir hacia una nueva vida con unas herramientas usadas y algunas monedas. ¿Te ves capaz de vivir de la tierra y convertir estos campos descuidados en un hogar próspero?.
-<br><br><strong>¡Crea la granja de tus sueños!</strong> Constrúyela desde cero en una de las cinco configuraciones del mapa.
-<br><br><strong>¡Domina tu habilidad con la ganadería!</strong> Cría animales, siembra cultivos y fabrica maquinaria útil entre muchas más cosas.
-<br><br><strong>¡Únete a la comunidad local!</strong> Entabla amistad con más de 30 habitantes de Pelican Town.
-<br><br><strong>¡Personaliza a tu granjero!</strong> Podrás elegir entre cientos de opciones de personalización de personajes.
-<br><br><strong>¡Instálate y empieza a formar una familia!</strong> Comparte tu vida en la granja con uno de los doce personajes con los que podrás tener una relación.
-<br><br><strong>¡Explora grandes y misteriosas cuevas!</strong> Encuentra monstruos peligrosos y tesoros valiosos.</p>
+<p>Da rienda suelta a tu imaginación y crea un mundo único de Sims a tu imagen y semejanza. Descárgalo gratis y personaliza todos los detalles, desde tus Sims a sus hogares y mucho más. Elige el aspecto, la personalidad y la ropa de tus Sims y decide cómo van a vivir día a día. Diseña y construye casas increíbles para cada familia y luego decóralas con tus muebles y elementos decorativos favoritos.
+<br>Desplázate a distintos barrios donde podrás conocer diferentes Sims y enterarte de sus vidas. Descubre bellos lugares con entornos característicos y embárcate en aventuras espontáneas. Gestiona los altibajos de la vida cotidiana de tus Sims y observa qué pasa cuando recreas situaciones de tu vida real. Cuenta tus historias como quieras desarrollando relaciones, asignando profesiones y aspiraciones y sumergiéndote en este extraordinario juego en el que las posibilidades son infinitas.</p>
 </div>
-
 
 <div class= "acerca_de">
 <h3>REQUISITOS DEL JUEGO</h3>
 <br>
 <br>
-<p>MÍNIMO: SO: Windows Vista or greater, Procesador: 2 Ghz, Memoria: 2 GB de RAM, Gráficos: 256 mb video memory, shader model 3.0+, DirectX: Versión 10, Almacenamiento: 500 MB de espacio disponible.</p>
+<p>MÍNIMO: Requiere un procesador y un sistema operativo de 64 bits, SO: (64 bits) Windows 10, Procesador: Intel Core i3-3220 a 3,3 GHz (2 núcleos, 4 hilos), AMD Ryzen 3 1200 a 3,1 GHz (4 núcleos) o superior, Memoria: 4 GB de RAM
+Gráficos: 128 MB de memoria gráfica y compatibilidad con Pixel Shader 3.0 Tarjetas de vídeo compatibles: Tarjetas gráficas compatibles: NVIDIA GeForce 6600 o superior, ATI Radeon X1300 o superior, Intel GMA X4500 o superior
+DirectX: Versión 11, Red: Conexión de banda ancha a Internet, Almacenamiento: 26 GB de espacio disponible.
+<br>
+<br>
+RECOMENDADO: Requiere un procesador y un sistema operativo de 64 bits, SO: Windows 10 de 64 bits
+Procesador: Intel Core i5 (4 núcleos) o AMD Ryzen 5 o superior, Memoria: 8 GB de RAM, Gráficos: 1 GB de RAM de vídeo, NVIDIA GTX 650, AMD Radeon HD 7750 o superior, DirectX: Versión 11, Red: Conexión de banda ancha a Internet
+Almacenamiento: 51 GB de espacio disponible</p>
 </div>
 
 

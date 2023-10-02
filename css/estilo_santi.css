@@ -554,17 +554,19 @@ padding: 1%;
 
 
 footer{
-  margin-top: 1%;
+  margin-top: 3%;
   background-color: #171D25;
 }
 footer img{
+  width: 3.5%;
+  height: 3.5%;
   margin-top: 3%;
   margin-left: 16%;
   display: inline;
 }
 footer div{
   text-align: center;
-  margin-left: 12%;
+  margin-left: 17.4%;
   display: inline-grid;
 }
 footer div h7{

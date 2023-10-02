@@ -46,24 +46,24 @@
 </header>
 
 
-<h2 class = "titulos">STARDEW VALLEY</h2>
+<h2 class = "titulos">GRAND THEFT AUTO: SAN ANDREAS (2005)</h2>
 
 <article class="juegos">
     <div class="galeria">
     <ul class="slider">
-    <li id="slide1"><img src="images/Capturas/Stardew_Valley/Stardew_Valley_1.jpg" alt="Imágen número 1 de Stardew Valley"></li>
-    <li id="slide2"><img src="images/Capturas/Stardew_Valley/Stardew_Valley_2.jpg" alt="Imágen número 2 de Stardew Valley"></li>
-    <li id="slide3"><img src="images/Capturas/Stardew_Valley/Stardew_Valley_3.jpg" alt="Imágen número 3 de Stardew Valley"></li>
-    <li id="slide4"><img src="images/Capturas/Stardew_Valley/Stardew_Valley_4.jpg" alt="Imágen número 4 de Stardew Valley"></li>
-    <li id="slide5"><img src="images/Capturas/Stardew_Valley/Stardew_Valley_5.jpg" alt="Imágen número 5 de Stardew Valley"></li>
-    <li id="slide6"><img src="images/Capturas/Stardew_Valley/Stardew_Valley_6.jpg" alt="Imágen número 6 de Stardew Valley"></li>
-    <li id="slide7"><img src="images/Capturas/Stardew_Valley/Stardew_Valley_7.jpg" alt="Imágen número 7 de Stardew Valley"></li>
-    <li id="slide8"><img src="images/Capturas/Stardew_Valley/Stardew_Valley_8.jpg" alt="Imágen número 8 de Stardew Valley"></li>
-    <li id="slide9"><img src="images/Capturas/Stardew_Valley/Stardew_Valley_9.jpg" alt="Imágen número 9 de Stardew Valley"></li>
-    <li id="slide10"><img src="images/Capturas/Stardew_Valley/Stardew_Valley_10.jpg" alt="Imágen número 10 de Stardew Valley"></li>
-    <li id="slide11"><img src="images/Capturas/Stardew_Valley/Stardew_Valley_11.jpg" alt="Imágen número 11 de Stardew Valley"></li>
-    <li id="slide12"><img src="images/Capturas/Stardew_Valley/Stardew_Valley_12.jpg" alt="Imágen número 12 de Stardew Valley"></li>
-    <li id="slide13"><img src="images/Capturas/Stardew_Valley/Stardew_Valley_13.jpg" alt="Imágen número 13 de Stardew Valley"></li>
+    <li id="slide1"><img src="images/Capturas/GTA_Old/GTA_Old_1.jpg" alt="Imágen número 1 de Grand Theft Auto San Andreas 2005"></li>
+    <li id="slide2"><img src="images/Capturas/GTA_Old/GTA_Old_2.jpg" alt="Imágen número 2 de Grand Theft Auto San Andreas 2005"></li>
+    <li id="slide3"><img src="images/Capturas/GTA_Old/GTA_Old_3.jpg" alt="Imágen número 3 de Grand Theft Auto San Andreas 2005"></li>
+    <li id="slide4"><img src="images/Capturas/GTA_Old/GTA_Old_4.jpg" alt="Imágen número 4 de Grand Theft Auto San Andreas 2005"></li>
+    <li id="slide5"><img src="images/Capturas/GTA_Old/GTA_Old_5.jpg" alt="Imágen número 5 de Grand Theft Auto San Andreas 2005"></li>
+    <li id="slide6"><img src="images/Capturas/GTA_Old/GTA_Old_6.jpg" alt="Imágen número 6 de Grand Theft Auto San Andreas 2005"></li>
+    <li id="slide7"><img src="images/Capturas/GTA_Old/GTA_Old_7.jpg" alt="Imágen número 7 de Grand Theft Auto San Andreas 2005"></li>
+    <li id="slide8"><img src="images/Capturas/GTA_Old/GTA_Old_8.jpg" alt="Imágen número 8 de Grand Theft Auto San Andreas 2005"></li>
+    <li id="slide9"><img src="images/Capturas/GTA_Old/GTA_Old_9.jpg" alt="Imágen número 9 de Grand Theft Auto San Andreas 2005"></li>
+    <li id="slide10"><img src="images/Capturas/GTA_Old/GTA_Old_10.jpg" alt="Imágen número 10 de Grand Theft Auto San Andreas 2005"></li>
+    <li id="slide11"><img src="images/Capturas/GTA_Old/GTA_Old_11.jpg" alt="Imágen número 11 de Grand Theft Auto San Andreas 2005"></li>
+    <li id="slide12"><img src="images/Capturas/GTA_Old/GTA_Old_12.jpg" alt="Imágen número 12 de Grand Theft Auto San Andreas 2005"></li>
+    <li id="slide13"><img src="images/Capturas/GTA_Old/GTA_Old_13.jpg" alt="Imágen número 13 de Grand Theft Auto San Andreas 2005"></li>
  </ul>
 
  <nav class = "navsl">
@@ -86,15 +86,15 @@
 </div>
 
     <div>
-        <img src="images/Capturas/Stardew_Valley/Stardew_Valley_Portada.jpg" alt="Portada de Stardew Valley">
-        <p>Acabas de heredar la vieja parcela agrícola de tu abuelo de Stardew Valley. Decides partir hacia una nueva vida con unas herramientas usadas y algunas monedas. ¿Te ves capaz de vivir de la tierra y convertir estos campos descuidados en un hogar próspero?.</p>
+        <img src="images/Capturas/GTA_Old/GTA_Old_Portada.jpg" alt="Portada de Grand Theft Auto San Andreas 2005">
+        <p>Hace cinco años, Carl Johnson escapó de la presión de la vida en Los Santos, San Andreas, una ciudad desgarrada por los enfrentamientos entre bandas, las drogas y la corrupción. Donde las estrellas de cine y los millonarios hacen todo lo posible por evitar a los camellos y pandilleros armados.</p>
         <br>
-        <h4>FECHA DE LANZAMIENTO: 26 FEB 2016
+        <h4>FECHA DE LANZAMIENTO: 6 JUN 2005
         <br>
         <br>
-        DESARROLLADOR: <a href="https://www.stardewvalley.net/" target="_blank">ConcernedApe</a> 
+        DESARROLLADOR: <a href="https://www.rockstargames.com/es/games/sanandreas" target="_blank">Rockstar Games</a> 
         <br>
-        EDITOR: <a href="https://www.stardewvalley.net/" target="_blank">ConcernedApe</a>  
+        EDITOR: <a href="https://www.rockstargames.com/es/games/sanandreas" target="_blank">Rockstar Games</a> 
         </h4>
     </div>
 
@@ -109,14 +109,9 @@
 <h3>ACERCA DE ESTE JUEGO</h3>
 <br>
 <br>
-<p>Te vas a vivir al valle...
-<br>Acabas de heredar la vieja parcela agrícola de tu abuelo de Stardew Valley. Decides partir hacia una nueva vida con unas herramientas usadas y algunas monedas. ¿Te ves capaz de vivir de la tierra y convertir estos campos descuidados en un hogar próspero?.
-<br><br><strong>¡Crea la granja de tus sueños!</strong> Constrúyela desde cero en una de las cinco configuraciones del mapa.
-<br><br><strong>¡Domina tu habilidad con la ganadería!</strong> Cría animales, siembra cultivos y fabrica maquinaria útil entre muchas más cosas.
-<br><br><strong>¡Únete a la comunidad local!</strong> Entabla amistad con más de 30 habitantes de Pelican Town.
-<br><br><strong>¡Personaliza a tu granjero!</strong> Podrás elegir entre cientos de opciones de personalización de personajes.
-<br><br><strong>¡Instálate y empieza a formar una familia!</strong> Comparte tu vida en la granja con uno de los doce personajes con los que podrás tener una relación.
-<br><br><strong>¡Explora grandes y misteriosas cuevas!</strong> Encuentra monstruos peligrosos y tesoros valiosos.</p>
+<p>Hace cinco años, Carl Johnson escapó de la presión de la vida en Los Santos, San Andreas, una ciudad desgarrada por los enfrentamientos entre bandas, las drogas y la corrupción. Donde las estrellas de cine y los millonarios hacen todo lo posible por evitar a los camellos y pandilleros armados.
+Ahora estamos a comienzos de los 90. Carl ha vuelto a casa. Su madre ha sido asesinada, su familia se ha deshecho y sus amigos de la infancia se han visto arrastrados hacia el desastre.
+En su regreso a su antiguo vecindario, una pareja de polis corruptos lo incriminan en un homicidio. CJ se ve forzado a emprender un viaje que lo llevará a través de todo el estado de San Andreas, para así salvar a su familia y recuperar el control de las calles.</p>
 </div>
 
 
@@ -124,7 +119,12 @@
 <h3>REQUISITOS DEL JUEGO</h3>
 <br>
 <br>
-<p>MÍNIMO: SO: Windows Vista or greater, Procesador: 2 Ghz, Memoria: 2 GB de RAM, Gráficos: 256 mb video memory, shader model 3.0+, DirectX: Versión 10, Almacenamiento: 500 MB de espacio disponible.</p>
+<p>MÍNIMO: OS: Microsoft® Windows® 2000/XP, Processor: 1Ghz Pentium III or AMD Athlon Processor, Memory: 256MB of RAM
+Graphics: 64MB Video Card (Geforce 3 or better), Hard Drive: 3.6GB of free hard disk space (minimal install), Other Requirements: Software installations required including DirectX and Sony DADC SecuROM, Partner Requirements: Please check the terms of service of this site before purchasing this software.
+<br>
+<br>
+RECOMENDADO: Processor: Intel Pentium 4 or AMD Athlon XP Processor, Memory: 384MB of RAM (the more the better!)
+Graphics: 128MB (or greater) Video Card (Geforce 6 Series Recommended), Hard Drive: 4.7GB of free hard disk space (full install), Sound Card: DirectX 9 compatible Sound Card (Sound Blaster Auidgy 2 Recommended)</p>
 </div>
 
 

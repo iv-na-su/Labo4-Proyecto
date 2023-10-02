@@ -46,24 +46,24 @@
 </header>
 
 
-<h2 class = "titulos">STARDEW VALLEY</h2>
+<h2 class = "titulos">RESIDENT EVIL 4 (2005)</h2>
 
 <article class="juegos">
     <div class="galeria">
     <ul class="slider">
-    <li id="slide1"><img src="images/Capturas/Stardew_Valley/Stardew_Valley_1.jpg" alt="Imágen número 1 de Stardew Valley"></li>
-    <li id="slide2"><img src="images/Capturas/Stardew_Valley/Stardew_Valley_2.jpg" alt="Imágen número 2 de Stardew Valley"></li>
-    <li id="slide3"><img src="images/Capturas/Stardew_Valley/Stardew_Valley_3.jpg" alt="Imágen número 3 de Stardew Valley"></li>
-    <li id="slide4"><img src="images/Capturas/Stardew_Valley/Stardew_Valley_4.jpg" alt="Imágen número 4 de Stardew Valley"></li>
-    <li id="slide5"><img src="images/Capturas/Stardew_Valley/Stardew_Valley_5.jpg" alt="Imágen número 5 de Stardew Valley"></li>
-    <li id="slide6"><img src="images/Capturas/Stardew_Valley/Stardew_Valley_6.jpg" alt="Imágen número 6 de Stardew Valley"></li>
-    <li id="slide7"><img src="images/Capturas/Stardew_Valley/Stardew_Valley_7.jpg" alt="Imágen número 7 de Stardew Valley"></li>
-    <li id="slide8"><img src="images/Capturas/Stardew_Valley/Stardew_Valley_8.jpg" alt="Imágen número 8 de Stardew Valley"></li>
-    <li id="slide9"><img src="images/Capturas/Stardew_Valley/Stardew_Valley_9.jpg" alt="Imágen número 9 de Stardew Valley"></li>
-    <li id="slide10"><img src="images/Capturas/Stardew_Valley/Stardew_Valley_10.jpg" alt="Imágen número 10 de Stardew Valley"></li>
-    <li id="slide11"><img src="images/Capturas/Stardew_Valley/Stardew_Valley_11.jpg" alt="Imágen número 11 de Stardew Valley"></li>
-    <li id="slide12"><img src="images/Capturas/Stardew_Valley/Stardew_Valley_12.jpg" alt="Imágen número 12 de Stardew Valley"></li>
-    <li id="slide13"><img src="images/Capturas/Stardew_Valley/Stardew_Valley_13.jpg" alt="Imágen número 13 de Stardew Valley"></li>
+    <li id="slide1"><img src="images/Capturas/RE4_Old/RE4_Old_1.jpg" alt=""></li>
+    <li id="slide2"><img src="images/Capturas/RE4_Old/RE4_Old_2.jpg" alt=""></li>
+    <li id="slide3"><img src="images/Capturas/RE4_Old/RE4_Old_3.jpg" alt=""></li>
+    <li id="slide4"><img src="images/Capturas/RE4_Old/RE4_Old_4.jpg" alt=""></li>
+    <li id="slide5"><img src="images/Capturas/RE4_Old/RE4_Old_5.jpg" alt=""></li>
+    <li id="slide6"><img src="images/Capturas/RE4_Old/RE4_Old_6.jpg" alt=""></li>
+    <li id="slide7"><img src="images/Capturas/RE4_Old/RE4_Old_7.jpg" alt=""></li>
+    <li id="slide8"><img src="images/Capturas/RE4_Old/RE4_Old_8.jpg" alt=""></li>
+    <li id="slide9"><img src="images/Capturas/RE4_Old/RE4_Old_9.jpg" alt=""></li>
+    <li id="slide10"><img src="images/Capturas/RE4_Old/RE4_Old_10.jpg" alt=""></li>
+    <li id="slide11"><img src="images/Capturas/RE4_Old/RE4_Old_11.jpg" alt=""></li>
+    <li id="slide12"><img src="images/Capturas/RE4_Old/RE4_Old_12.jpg" alt=""></li>
+    <li id="slide13"><img src="images/Capturas/RE4_Old/RE4_Old_13.jpg" alt=""></li>
  </ul>
 
  <nav class = "navsl">
@@ -85,16 +85,16 @@
 </nav>
 </div>
 
-    <div>
-        <img src="images/Capturas/Stardew_Valley/Stardew_Valley_Portada.jpg" alt="Portada de Stardew Valley">
-        <p>Acabas de heredar la vieja parcela agrícola de tu abuelo de Stardew Valley. Decides partir hacia una nueva vida con unas herramientas usadas y algunas monedas. ¿Te ves capaz de vivir de la tierra y convertir estos campos descuidados en un hogar próspero?.</p>
+    <div class="info">
+        <img src="images/Capturas/RE4_Old/RE4_Old_Portada.jpg" alt="Portada de Resident Evil 4 2005">
+        <p>Al agente especial Leon S. Kennedy se le asigna la misión de rescatar a la hija del presidente de los EUA, que ha sido secuestrada.</p>
         <br>
-        <h4>FECHA DE LANZAMIENTO: 26 FEB 2016
+        <h4>FECHA DE LANZAMIENTO: 18 MAR 2005
         <br>
         <br>
-        DESARROLLADOR: <a href="https://www.stardewvalley.net/" target="_blank">ConcernedApe</a> 
+        DESARROLLADOR: <a href="https://www.residentevil.com/re4/es/" target="_blank">Capcom</a> 
         <br>
-        EDITOR: <a href="https://www.stardewvalley.net/" target="_blank">ConcernedApe</a>  
+        EDITOR: <a href="https://www.residentevil.com/re4/es/" target="_blank">Capcom</a> 
         </h4>
     </div>
 
@@ -109,14 +109,7 @@
 <h3>ACERCA DE ESTE JUEGO</h3>
 <br>
 <br>
-<p>Te vas a vivir al valle...
-<br>Acabas de heredar la vieja parcela agrícola de tu abuelo de Stardew Valley. Decides partir hacia una nueva vida con unas herramientas usadas y algunas monedas. ¿Te ves capaz de vivir de la tierra y convertir estos campos descuidados en un hogar próspero?.
-<br><br><strong>¡Crea la granja de tus sueños!</strong> Constrúyela desde cero en una de las cinco configuraciones del mapa.
-<br><br><strong>¡Domina tu habilidad con la ganadería!</strong> Cría animales, siembra cultivos y fabrica maquinaria útil entre muchas más cosas.
-<br><br><strong>¡Únete a la comunidad local!</strong> Entabla amistad con más de 30 habitantes de Pelican Town.
-<br><br><strong>¡Personaliza a tu granjero!</strong> Podrás elegir entre cientos de opciones de personalización de personajes.
-<br><br><strong>¡Instálate y empieza a formar una familia!</strong> Comparte tu vida en la granja con uno de los doce personajes con los que podrás tener una relación.
-<br><br><strong>¡Explora grandes y misteriosas cuevas!</strong> Encuentra monstruos peligrosos y tesoros valiosos.</p>
+<p>En resident evil 4, al agente especial Leon S. Kennedy se le asigna la misión de rescatar a la hija del presidente de los EUA, que ha sido secuestrada. Tras llegar a una aldea rural europea, se enfrenta a nuevas amenazas que suponen retos totalmente diferentes de los clásicos enemigos zombis de pesados movimientos de las primeras entregas de esta serie. Leon lucha contra terroríficas criaturas nuevas infestadas con una nueva amenaza denominada «Las Plagas» y se enfrenta a una agresiva horda de enemigos que incluye aldeanos bajo control mental conectados a Los Iluminados, la misteriosa secta detrás del rapto.</p>
 </div>
 
 
@@ -124,7 +117,11 @@
 <h3>REQUISITOS DEL JUEGO</h3>
 <br>
 <br>
-<p>MÍNIMO: SO: Windows Vista or greater, Procesador: 2 Ghz, Memoria: 2 GB de RAM, Gráficos: 256 mb video memory, shader model 3.0+, DirectX: Versión 10, Almacenamiento: 500 MB de espacio disponible.</p>
+<p>MÍNIMO: SO: Windows® 8 / Windows® 10, Procesador: Intel® CoreTM2 Duo 2,4 GHz o superior, AMD AthlonTM X2 2,8 GHz o superior, Memoria: 2 GB de RAM, Gráficos: NVIDIA® GeForce® 8800GTS o superior, ATI RadeonTM HD 4850 o superior
+DirectX: Versión 9.0c, Almacenamiento: 15 GB de espacio disponible, Tarjeta de sonido: Dispositivo de sonido estándar.
+<br>
+<br>
+RECOMENDADO: SO: Windows 8.1 / Windows® 10, Procesador: Intel® CoreTM 2 Quad 2,7 GHz o superior, AMD PhenomTM II X4 3 GHz o superior, Memoria: 4 GB de RAM, Gráficos: NVIDIA® GeForce® GTX 560 o superior, DirectX: Versión 9.0c, Almacenamiento: 15 GB de espacio disponible.</p>
 </div>
 
 
