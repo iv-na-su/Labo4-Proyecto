@@ -49,10 +49,40 @@
 <h2 class = "titulos">TEAM FORTRESS 2</h2>
 
 <article class="juegos">
-    <div>
-        <iframe width="800" height="500" src="https://www.youtube.com/embed/N7ZafWA2jd8" title="Team Fortress 2 Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-    </div>
+    <div class="galeria">
+    <ul class="slider">
+    <li id="slide1"><img src="images/Capturas/Team_Fortress_2/Team_Fortress_2_1.jpg" alt="Imágen número 1 de Team Fortress 2"></li>
+    <li id="slide2"><img src="images/Capturas/Team_Fortress_2/Team_Fortress_2_2.jpg" alt="Imágen número 2 de Team Fortress 2"></li>
+    <li id="slide3"><img src="images/Capturas/Team_Fortress_2/Team_Fortress_2_3.jpg" alt="Imágen número 3 de Team Fortress 2"></li>
+    <li id="slide4"><img src="images/Capturas/Team_Fortress_2/Team_Fortress_2_4.jpg" alt="Imágen número 4 de Team Fortress 2"></li>
+    <li id="slide5"><img src="images/Capturas/Team_Fortress_2/Team_Fortress_2_5.jpg" alt="Imágen número 5 de Team Fortress 2"></li>
+    <li id="slide6"><img src="images/Capturas/Team_Fortress_2/Team_Fortress_2_6.jpg" alt="Imágen número 6 de Team Fortress 2"></li>
+    <li id="slide7"><img src="images/Capturas/Team_Fortress_2/Team_Fortress_2_7.jpg" alt="Imágen número 7 de Team Fortress 2"></li>
+    <li id="slide8"><img src="images/Capturas/Team_Fortress_2/Team_Fortress_2_8.jpg" alt="Imágen número 8 de Team Fortress 2"></li>
+    <li id="slide9"><img src="images/Capturas/Team_Fortress_2/Team_Fortress_2_9.jpg" alt="Imágen número 9 de Team Fortress 2"></li>
+    <li id="slide10"><img src="images/Capturas/Team_Fortress_2/Team_Fortress_2_10.jpg" alt="Imágen número 10 de Team Fortress 2"></li>
+    <li id="slide11"><img src="images/Capturas/Team_Fortress_2/Team_Fortress_2_11.jpg" alt="Imágen número 11 de Team Fortress 2"></li>
+    <li id="slide12"><img src="images/Capturas/Team_Fortress_2/Team_Fortress_2_12.jpg" alt="Imágen número 12 de Team Fortress 2"></li>
+    <li id="slide13"><img src="images/Capturas/Team_Fortress_2/Team_Fortress_2_13.jpg" alt="Imágen número 13 de Team Fortress 2"></li>
+ </ul>
 
+ <nav class = "navsl">
+    <ul class="galeriasl">
+        <li><a href="#slide1">○</a></li>  <!--ES UN SIMBOLO DE UN CIRCULO "○" -->
+        <li><a href="#slide2">○</a></li>
+        <li><a href="#slide3">○</a></li>
+        <li><a href="#slide4">○</a></li>
+        <li><a href="#slide5">○</a></li>
+        <li><a href="#slide6">○</a></li>
+        <li><a href="#slide7">○</a></li>
+        <li><a href="#slide8">○</a></li>
+        <li><a href="#slide9">○</a></li>
+        <li><a href="#slide10">○</a></li>
+        <li><a href="#slide11">○</a></li>
+        <li><a href="#slide12">○</a></li>
+        <li><a href="#slide13">○</a></li>
+    </ul>
+</nav>
     <div>
         <img src="images/Capturas/Team_Fortress_2/Team_Fortress_2_Portada.jpg" alt="Portada de Team Fortress 2">
         <p>Nueve clases diferentes ofrecen una amplia variedad de habilidades tácticas y personalidades. Constantemente actualizado con nuevos modos de juego, mapas, equipamiento y, lo que es más importante, ¡sombreros!.</p>

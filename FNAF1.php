@@ -49,8 +49,44 @@
 <h2 class = "titulos">FIVE NIGHTS AT FREDDY'S</h2>
 
 <article class="juegos">
-    <div>
-       <iframe width="800" height="500" src="https://www.youtube.com/embed/Ws-yd9YPfdE" title="Five Nights at Freddy&#39;s - Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    <div class="galeria">
+
+    
+    <ul class="slider">
+    <li id="slide1"><img src="images/Capturas/FNAF1/FNAF1_1.jpg" alt="Imágen N°1 de Five Nights At Freddy's"></li>
+    <li id="slide2"><img src="images/Capturas/FNAF1/FNAF1_2.jpg" alt="Imágen N°2 de Five Nights At Freddy's"></li>
+    <li id="slide3"><img src="images/Capturas/FNAF1/FNAF1_3.jpg" alt="Imágen N°3 de Five Nights At Freddy's"></li>
+    <li id="slide4"><img src="images/Capturas/FNAF1/FNAF1_4.jpg" alt="Imágen N°4 de Five Nights At Freddy's"></li>
+    <li id="slide5"><img src="images/Capturas/FNAF1/FNAF1_5.jpg" alt="Imágen N°5 de Five Nights At Freddy's"></li>
+    <li id="slide6"><img src="images/Capturas/FNAF1/FNAF1_6.jpg" alt="Imágen N°6 de Five Nights At Freddy's"></li>
+    <li id="slide7"><img src="images/Capturas/FNAF1/FNAF1_7.jpg" alt="Imágen N°7 de Five Nights At Freddy's"></li>
+    <li id="slide8"><img src="images/Capturas/FNAF1/FNAF1_8.jpg" alt="Imágen N°8 de Five Nights At Freddy's"></li>
+    <li id="slide9"><img src="images/Capturas/FNAF1/FNAF1_9.jpg" alt="Imágen N°9 de Five Nights At Freddy's"></li>
+    <li id="slide10"><img src="images/Capturas/FNAF1/FNAF1_10.jpg" alt="Imágen N°10 de Five Nights At Freddy's"></li>
+    <li id="slide11"><img src="images/Capturas/FNAF1/FNAF1_11.jpg" alt="Imágen N°11 de Five Nights At Freddy's"></li>
+    <li id="slide12"><img src="images/Capturas/FNAF1/FNAF1_12.jpg" alt="Imágen N°12 de Five Nights At Freddy's"></li>
+    <li id="slide13"><img src="images/Capturas/FNAF1/FNAF1_13.jpg" alt="Imágen N°13 de Five Nights At Freddy's"></li>
+ </ul>
+
+
+ <nav class = "navsl">
+    <ul class="galeriasl">
+        <li><a href="#slide1">○</a></li>  <!--ES UN SIMBOLO DE UN CIRCULO "○" -->
+        <li><a href="#slide2">○</a></li>
+        <li><a href="#slide3">○</a></li>
+        <li><a href="#slide4">○</a></li>
+        <li><a href="#slide5">○</a></li>
+        <li><a href="#slide6">○</a></li>
+        <li><a href="#slide7">○</a></li>
+        <li><a href="#slide8">○</a></li>
+        <li><a href="#slide9">○</a></li>
+        <li><a href="#slide10">○</a></li>
+        <li><a href="#slide11">○</a></li>
+        <li><a href="#slide12">○</a></li>
+        <li><a href="#slide13">○</a></li>
+</ul>
+</nav>
     </div>
 
     <div>

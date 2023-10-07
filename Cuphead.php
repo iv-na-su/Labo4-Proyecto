@@ -51,19 +51,19 @@
 <article class="juegos">
     <div class="galeria">
     <ul class="slider">
-    <li id="slide1"><img src="images/Capturas/Cuphead/Cuphead_1.jpg" alt=""></li>
-    <li id="slide2"><img src="images/Capturas/Cuphead/Cuphead_2.jpg" alt=""></li>
-    <li id="slide3"><img src="images/Capturas/Cuphead/Cuphead_3.jpg" alt=""></li>
-    <li id="slide4"><img src="images/Capturas/Cuphead/Cuphead_4.jpg" alt=""></li>
-    <li id="slide5"><img src="images/Capturas/Cuphead/Cuphead_5.jpg" alt=""></li>
-    <li id="slide6"><img src="images/Capturas/Cuphead/Cuphead_6.jpg" alt=""></li>
-    <li id="slide7"><img src="images/Capturas/Cuphead/Cuphead_7.jpg" alt=""></li>
-    <li id="slide8"><img src="images/Capturas/Cuphead/Cuphead_8.jpg" alt=""></li>
-    <li id="slide9"><img src="images/Capturas/Cuphead/Cuphead_9.jpg" alt=""></li>
-    <li id="slide10"><img src="images/Capturas/Cuphead/Cuphead_10.jpg" alt=""></li>
-    <li id="slide11"><img src="images/Capturas/Cuphead/Cuphead_11.jpg" alt=""></li>
-    <li id="slide12"><img src="images/Capturas/Cuphead/Cuphead_12.jpg" alt=""></li>
-    <li id="slide13"><img src="images/Capturas/Cuphead/Cuphead_13.jpg" alt=""></li>
+    <li id="slide1"><img src="images/Capturas/Cuphead/Cuphead_1.jpg" alt="Imágen N°1 de Cuphead"></li>
+    <li id="slide2"><img src="images/Capturas/Cuphead/Cuphead_2.jpg" alt="Imágen N°2 de Cuphead"></li>
+    <li id="slide3"><img src="images/Capturas/Cuphead/Cuphead_3.jpg" alt="Imágen N°3 de Cuphead"></li>
+    <li id="slide4"><img src="images/Capturas/Cuphead/Cuphead_4.jpg" alt="Imágen N°4 de Cuphead"></li>
+    <li id="slide5"><img src="images/Capturas/Cuphead/Cuphead_5.jpg" alt="Imágen N°5 de Cuphead"></li>
+    <li id="slide6"><img src="images/Capturas/Cuphead/Cuphead_6.jpg" alt="Imágen N°6 de Cuphead"></li>
+    <li id="slide7"><img src="images/Capturas/Cuphead/Cuphead_7.jpg" alt="Imágen N°7 de Cuphead"></li>
+    <li id="slide8"><img src="images/Capturas/Cuphead/Cuphead_8.jpg" alt="Imágen N°8 de Cuphead"></li>
+    <li id="slide9"><img src="images/Capturas/Cuphead/Cuphead_9.jpg" alt="Imágen N°9 de Cuphead"></li>
+    <li id="slide10"><img src="images/Capturas/Cuphead/Cuphead_10.jpg" alt="Imágen N°10 de Cuphead"></li>
+    <li id="slide11"><img src="images/Capturas/Cuphead/Cuphead_11.jpg" alt="Imágen N°11 de Cuphead"></li>
+    <li id="slide12"><img src="images/Capturas/Cuphead/Cuphead_12.jpg" alt="Imágen N°12 de Cuphead"></li>
+    <li id="slide13"><img src="images/Capturas/Cuphead/Cuphead_13.jpg" alt="Imágen N°13 de Cuphead"></li>
  </ul>
 
  <nav class = "navsl">
