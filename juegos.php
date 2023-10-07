@@ -53,11 +53,11 @@
     </div>
     <div>
         <a href="GTA_Old.php"><img src="images/Capturas/GTA_Old/GTA_Old_Portada.jpg" alt="Portada de Grand Theft Auto San Andreas 2005" class="zoom"></a>
-        <h3>GRAND THEFT AUTO: SAN ANDREAS (2005)</h3>
+        <h3>GRAND THEFT AUTO: SAN ANDREAS</h3>
     </div>
     <div>
-        <img src="images/Vapor_Logo_White.png" alt="" class="zoom">
-        <h3>AAAAAA</h3>
+        <a href="PUBG.php"><img src="images/Capturas/PUBG/PUBG_Portada.jpg" alt="" class="zoom"></a>
+        <h3>PUBG: BATTLEGROUNDS</h3>
     </div>
 </section>
 
@@ -72,8 +72,8 @@
         <h3>THE SIMS 4</h3>
     </div>
     <div>
-        <img src="images/Vapor_Logo_White.png" alt="" class="zoom">
-        <h3>AAAAAA</h3>
+        <a href="Fall_Guys.php"><img src="images/Capturas/Fall_Guys/Fall_Guys_Portada.jpg" alt="" class="zoom"></a>
+        <h3>FALL GUYS</h3>
     </div>
 </section>
 
@@ -88,8 +88,8 @@
         <h3>RESIDENT EVIL 4 (2005)</h3>
     </div>
     <div>
-        <img src="images/Vapor_Logo_White.png" alt="" class="zoom">
-        <h3>AAAAAA</h3>
+        <a href="SOMA.php"><img src="images/Capturas/SOMA/SOMA_Portada.jpg" alt="" class="zoom"></a>
+        <h3>SOMA</h3>
     </div>
 </section>
 
@@ -131,12 +131,12 @@
 <section class="generos" id="aventura">
     <h2>AVENTURA</h2>
     <div>
-        <img src="images/Vapor_Logo_White.png" alt="" class="zoom">
-        <h3>AAAAAA</h3>
+        <a href="Core_Keeper.php"><img src="images/Capturas/Core_Keeper/Core_Keeper_Portada.jpg" alt="" class="zoom"></a>
+        <h3>CORE KEEPER</h3>
     </div>
     <div>
-        <img src="images/Vapor_Logo_White.png" alt="" class="zoom">
-        <h3>AAAAAA</h3>
+        <a href="Dont_Starve.php"><img src="images/Capturas/Dont_Starve/Dont_Starve_Portada.jpg" alt="" class="zoom"></a>
+        <h3>DON'T STARVE</h3>
     </div>
     <div>
         <img src="images/Vapor_Logo_White.png" alt="" class="zoom">
