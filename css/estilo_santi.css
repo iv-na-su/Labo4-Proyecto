@@ -495,8 +495,14 @@ padding: 1%;
 }
 
 .juegos div img{
+  width: 70%;
+  height: 100%;
+  margin-bottom: 5%;
+}
+
+.juegos .galeria img{
   width: 90%;
-  height: 900%;
+  height: 100%;
   margin-bottom: 5%;
 }
 

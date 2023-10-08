@@ -115,15 +115,15 @@
 <section class="generos" id="roguelike">
     <h2>ROGUELIKE</h2>
         <div>
-        <img src="images/Capturas/The_Binding_Of_Isaac/The_Binding_Of_Isaac_Portada.jpg" alt="" class="zoom">
+        <a href="The_Binding_Of_Isaac.php"><img src="images/Capturas/The_Binding_Of_Isaac/The_Binding_Of_Isaac_Portada.jpg" alt="" class="zoom">
         <h3>THE BINDING OF ISAAC: REBIRTH</h3>
     </div>
     <div>
-        <img src="images/Capturas/Voidigo/Voidigo_Portada.jpg" alt="" class="zoom">
+        <a href="Voidigo.php"><img src="images/Capturas/Voidigo/Voidigo_Portada.jpg" alt="" class="zoom">
         <h3>VOIDIGO</h3>
     </div>
     <div>
-        <img src="images/Capturas/Dead_Cells/Dead_Cells_Portada.jpg" alt="" class="zoom">
+        <a href="Dead_Cells.php"><img src="images/Capturas/Dead_Cells/Dead_Cells_Portada.jpg" alt="" class="zoom">
         <h3>DEAD CELLS</h3>
     </div>
 </section>
@@ -140,7 +140,7 @@
     </div>
     <div>
         <img src="images/Vapor_Logo_White.png" alt="" class="zoom">
-        <h3>Terraria</h3>
+        <h3>TERRARIA</h3>
     </div>
 </section>
 
@@ -151,12 +151,12 @@
         <h3>DOTA 2</h3>
     </div>
     <div>
-        <img src="images/Vapor_Logo_White.png" alt="" class="zoom">
-        <h3>AAAAAA</h3>
+        <a href="Darkest_Dungeon.php"><img src="images/Capturas/Darkest_Dungeon/Darkest_Dungeon_Portada.jpg" alt="" class="zoom"></a>
+        <h3>DARKEST DUNGEON®</h3>
     </div>
     <div>
-        <img src="images/Vapor_Logo_White.png" alt="" class="zoom">
-        <h3>AAAAAA</h3>
+        <a href="South_Park_TSOT.php"><img src="images/Capturas/South_Park_TSOT/South_Park_TSOT_Portada.jpg" alt="" class="zoom"></a>
+        <h3>SOUTH PARK: THE STICK OF TRUTH</h3>
     </div>
 </section>
 
