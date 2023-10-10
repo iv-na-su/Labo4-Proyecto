@@ -42,21 +42,28 @@
 
     </header>
 
-    <section>
-        <article class="inicio">
-            <h1>Vapor: La Página Web</h1>
-        </article>
-        <article class="inicio">
-            <h3>¿Que es <i>"Vapor: La Página Web"</i>?</h3>
-                <p><strong><i>Vapor</strong></i> es un sitio web <strong>no oficial</strong>, sin fines de lucro, inspirado en la famosa página de videojuegos <i>"Steam"</i>. Este sitio recopila información sobre múltiples juegos, y los enlista en distintos géneros.</p> 
-        </article>
+    <section class="formu">
+        <p>¿Quiere hacer algún comentario en cuanto a nuestra página web?<br>
+                  ¡Todos sus mensajes son bienvenidos!<br>
+            ¡Complete el formulario y envíelo!
+        </p>
+        <form action="contacto.php" method="post">
+            <br><label for="nom">Nombre:</label>
+            <input type="text" name="nombre" maxlength="10" id="identificador">
 
-        <article class="inicio">
-            <h3>¿Dónde puedo encontrar la página <i>"Steam"</i>?</h3>
-                <p>Puede acceder a la página verdadera mediante el link:
-                    <br><a href="https://store.steampowered.com/?l=spanish">Steam.</a>
-                </p> 
-        </article>  
+            <br><label for="contra">Contraseña:</label>
+            <input type="password" name="contraseña" maxlength="10" id="identificador">
+
+            <br><label for="email">Email:</label>
+            <input type="email" name="email" maxlength="40" id="identificador">
+
+            <br><label for="comentario">Haga su comentario <strong>aquí:</strong></label><br>
+            <textarea arows="90" cols="40" maxlength="300" name="comentario"> 
+            </textarea>
+
+            <br><input type="submit" value="Enviar" id="identificador">
+            <input type="reset" value="Resetear Información" id="identificador">
+        </form>
     </section>
 <footer>
     <div>

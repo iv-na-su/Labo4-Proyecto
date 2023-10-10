@@ -26,11 +26,6 @@
         <div class="dropdown">
             <ul>
                 <li><a href = "juegos.php">Juegos</a></li>
-                <div class="dropdown-content">
-                    <li><a href="protagonistas.php">AAAAA</a></li>
-                    <li><a href="secundarios.php">BBBBBBBBBBB</a></li>
-                    <li><a href="cameos.php">CCCCCCCCCCCCC</a></li>
-                </div>
             </ul>
         </div>
         <div class="dropdown">
@@ -53,10 +48,10 @@
     </div>
     <div>
         <a href="GTA_Old.php"><img src="images/Capturas/GTA_Old/GTA_Old_Portada.jpg" alt="Portada de Grand Theft Auto San Andreas 2005" class="zoom"></a>
-        <h3>GRAND THEFT AUTO: SAN ANDREAS</h3>
+        <h3>GRAND THEFT AUTO:<br>SAN ANDREAS</h3>
     </div>
     <div>
-        <a href="PUBG.php"><img src="images/Capturas/PUBG/PUBG_Portada.jpg" alt="" class="zoom"></a>
+        <a href="PUBG.php"><img src="images/Capturas/PUBG/PUBG_Portada.jpg" alt="Portada de Pubg: Battlegrounds" class="zoom"></a>
         <h3>PUBG: BATTLEGROUNDS</h3>
     </div>
 </section>
@@ -72,7 +67,7 @@
         <h3>THE SIMS 4</h3>
     </div>
     <div>
-        <a href="Fall_Guys.php"><img src="images/Capturas/Fall_Guys/Fall_Guys_Portada.jpg" alt="" class="zoom"></a>
+        <a href="Fall_Guys.php"><img src="images/Capturas/Fall_Guys/Fall_Guys_Portada.jpg" alt="Portada de Fall Guys" class="zoom"></a>
         <h3>FALL GUYS</h3>
     </div>
 </section>
@@ -88,7 +83,7 @@
         <h3>RESIDENT EVIL 4 (2005)</h3>
     </div>
     <div>
-        <a href="SOMA.php"><img src="images/Capturas/SOMA/SOMA_Portada.jpg" alt="" class="zoom"></a>
+        <a href="SOMA.php"><img src="images/Capturas/SOMA/SOMA_Portada.jpg" alt="Portada de Soma" class="zoom"></a>
         <h3>SOMA</h3>
     </div>
 </section>
@@ -119,11 +114,11 @@
         <h3>THE BINDING OF ISAAC: REBIRTH</h3>
     </div>
     <div>
-        <a href="Voidigo.php"><img src="images/Capturas/Voidigo/Voidigo_Portada.jpg" alt="" class="zoom">
+        <a href="Voidigo.php"><img src="images/Capturas/Voidigo/Voidigo_Portada.jpg" alt="Portada de Voidigo" class="zoom">
         <h3>VOIDIGO</h3>
     </div>
     <div>
-        <a href="Dead_Cells.php"><img src="images/Capturas/Dead_Cells/Dead_Cells_Portada.jpg" alt="" class="zoom">
+        <a href="Dead_Cells.php"><img src="images/Capturas/Dead_Cells/Dead_Cells_Portada.jpg" alt="Portada de Dead Cells" class="zoom">
         <h3>DEAD CELLS</h3>
     </div>
 </section>
@@ -131,15 +126,15 @@
 <section class="generos" id="aventura">
     <h2>AVENTURA</h2>
     <div>
-        <a href="Core_Keeper.php"><img src="images/Capturas/Core_Keeper/Core_Keeper_Portada.jpg" alt="" class="zoom"></a>
+        <a href="Core_Keeper.php"><img src="images/Capturas/Core_Keeper/Core_Keeper_Portada.jpg" alt="Portada de Core Keeper" class="zoom"></a>
         <h3>CORE KEEPER</h3>
     </div>
     <div>
-        <a href="Dont_Starve.php"><img src="images/Capturas/Dont_Starve/Dont_Starve_Portada.jpg" alt="" class="zoom"></a>
+        <a href="Dont_Starve.php"><img src="images/Capturas/Dont_Starve/Dont_Starve_Portada.jpg" alt="Portada de Don't Starve" class="zoom"></a>
         <h3>DON'T STARVE</h3>
     </div>
     <div>
-        <img src="images/Vapor_Logo_White.png" alt="" class="zoom">
+        <a href="Terraria.php"><img src="images/Capturas/Terraria/Terraria_Portada.jpg" alt="Portada de Terraria" class="zoom"></a>
         <h3>TERRARIA</h3>
     </div>
 </section>
@@ -151,11 +146,11 @@
         <h3>DOTA 2</h3>
     </div>
     <div>
-        <a href="Darkest_Dungeon.php"><img src="images/Capturas/Darkest_Dungeon/Darkest_Dungeon_Portada.jpg" alt="" class="zoom"></a>
+        <a href="Darkest_Dungeon.php"><img src="images/Capturas/Darkest_Dungeon/Darkest_Dungeon_Portada.jpg" alt="Portada de Darkest Dungeon®" class="zoom"></a>
         <h3>DARKEST DUNGEON®</h3>
     </div>
     <div>
-        <a href="South_Park_TSOT.php"><img src="images/Capturas/South_Park_TSOT/South_Park_TSOT_Portada.jpg" alt="" class="zoom"></a>
+        <a href="South_Park_TSOT.php"><img src="images/Capturas/South_Park_TSOT/South_Park_TSOT_Portada.jpg" alt="Portada de South Park The Stick Of Truth" class="zoom"></a>
         <h3>SOUTH PARK: THE STICK OF TRUTH</h3>
     </div>
 </section>
@@ -192,6 +187,7 @@
     <a href="https://www.instagram.com/" target="_blank"><img src="images/Icono_Instagram.png" alt="Instagram"></a>
     <a href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZXMifQ%3D%3D%22%7D" target="_blank"><img src="images/Icono_Twitter.png" alt="Twitter"></a>
     <a href="https://www.tiktok.com/es/" target="_blank"><img src="images/Icono_TikTok.png" alt="TikTok"></a>
+    <a href="https://web.snapchat.com/" target="_blank"><img src="images/Icono_Snapchat.png" alt="Snapchat"></a>
 </footer>
 
 <script type="text/javascript">

@@ -109,15 +109,12 @@ img.zoom {
 
 
 .formu{
-  margin-left: 8%;
+  margin-left: 35%;
   margin-top: 5%;
-  color: #000000;
+  color: #FFFFFF;
   font-family: 'Roboto Condensed', sans-serif;
+  font-size: 1.4rem;
   width: 34%;
-  display: inline-block;
-}
-.formu_side{
-  margin-left: 4%;
   display: inline-block;
 }
 .fondo{
@@ -129,8 +126,24 @@ img.zoom {
     display: flex;
     align-items: flex-end;
 }
-.fondo div{
-    padding: 2%;
+.inicio h1{
+  margin-left: 37%;
+  margin-top: 5%;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 2rem;
+  color: #FFFFFF;
+}
+.inicio h3{
+  margin-left: 3%;
+  margin-top: 2%;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #FFFFFF;
+}
+.inicio p{
+  margin-left: 3%;
+  margin-top: 1%;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #FFFFFF;
 }
 .fondo img{
 	max-width: 100%;
@@ -523,10 +536,6 @@ padding: 1%;
     
     }
   
-
-
-
-
   .reseña{ 
   margin-top: 10%;
 	width: 70%;
@@ -543,9 +552,6 @@ padding: 1%;
 	background-color: #171D25;
 }
 
-
-
-
 .acerca_de {
   margin-top: 5%;
   margin-right: 20%;
@@ -555,10 +561,6 @@ padding: 1%;
   margin-left: 14%;
 }
 
-
-
-
-
 footer{
   margin-top: 3%;
   background-color: #171D25;
@@ -567,7 +569,7 @@ footer img{
   width: 3.5%;
   height: 3.5%;
   margin-top: 3%;
-  margin-left: 16%;
+  margin-left: 13%;
   display: inline;
 }
 footer div{
@@ -659,9 +661,6 @@ footer div a{
     margin-bottom: 90%;
     margin-left: 20%;
   }
-  .fondo div h1{
-    margin-left: 25%;
-  }
   article.fondo{
     height: 260px;
   }
@@ -683,7 +682,7 @@ footer div a{
   }
   footer img{
   margin-top: 3%;
-  margin-left: 17%;
+  margin-left: 10%;
   display: inline-block;
   }
   footer div{

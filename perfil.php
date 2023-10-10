@@ -26,7 +26,7 @@
         <div class="dropdown">
             <ul>
                 <li><a href = "juegos.php">Juegos</a></li>
-            </ul> 
+            </ul>
         </div>
         <div class="dropdown">
             <ul>
@@ -40,83 +40,8 @@
         </div>
 </header>
 
-
-<h2 class = "titulos">NOMBRE DE JUEGO</h2>
-
-<article class="juegos">
-    <div class="galeria">
-    <ul class="slider">
-    <li id="slide1"><img src="images/Capturas" alt=""></li>
-    <li id="slide2"><img src="images/Capturas" alt=""></li>
-    <li id="slide3"><img src="images/Capturas" alt=""></li>
-    <li id="slide4"><img src="images/Capturas" alt=""></li>
-    <li id="slide5"><img src="images/Capturas" alt=""></li>
-    <li id="slide6"><img src="images/Capturas" alt=""></li>
-    <li id="slide7"><img src="images/Capturas" alt=""></li>
-    <li id="slide8"><img src="images/Capturas" alt=""></li>
-    <li id="slide9"><img src="images/Capturas" alt=""></li>
-    <li id="slide10"><img src="images/Capturas" alt=""></li>
-    <li id="slide11"><img src="images/Capturas" alt=""></li>
-    <li id="slide12"><img src="images/Capturas" alt=""></li>
-    <li id="slide13"><img src="images/Capturas" alt=""></li>
- </ul>
-
- <nav class = "navsl">
-    <ul class="galeriasl">
-        <li><a href="#slide1">○</a></li>  <!--ES UN SIMBOLO DE UN CIRCULO "○" -->
-        <li><a href="#slide2">○</a></li>
-        <li><a href="#slide3">○</a></li>
-        <li><a href="#slide4">○</a></li>
-        <li><a href="#slide5">○</a></li>
-        <li><a href="#slide6">○</a></li>
-        <li><a href="#slide7">○</a></li>
-        <li><a href="#slide8">○</a></li>
-        <li><a href="#slide9">○</a></li>
-        <li><a href="#slide10">○</a></li>
-        <li><a href="#slide11">○</a></li>
-        <li><a href="#slide12">○</a></li>
-        <li><a href="#slide13">○</a></li>
-    </ul>
-</nav>
-</div>
-
-    <div>
-        <img src="images/Capturas/" alt="">
-        <p>DESCRIPCION</p>
-        <br>
-        <h4>FECHA DE LANZAMIENTO:
-        <br>
-        <br>
-        DESARROLLADOR: <a href="" target="_blank">NOMBRE DESARROLLADOR</a> 
-        <br>
-        EDITOR: <a href="" target="_blank">NOMBRE EDITOR</a>  
-        </h4>
-    </div>
-
-</article>
-
-<div class = "reseña">
-<h3>DEJA TU RESEÑA</h3>
-<textarea name="" id="" cols="30" rows="10"></textarea>
-</div>
-
-<div class= "acerca_de">
-<h3>ACERCA DE ESTE JUEGO</h3>
-<br>
-<br>
-<p>ACERCA DE</p>
-</div>
-
-<div class= "acerca_de">
-<h3>REQUISITOS DEL JUEGO</h3>
-<br>
-<br>
-<p>MÍNIMO: 
-<br>
-<br>
-RECOMENDADO: </p>
-</div>
-
+<section>
+</section>
 
 <footer>
     <div>
@@ -163,6 +88,20 @@ RECOMENDADO: </p>
           x.className = "";
         }
     }
+</script>
+
+
+<!-- Script de efecto zoom -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
+<script>
+$(document).ready(function(){
+    $('.zoom').hover(function() {
+        $(this).addClass('transition');
+    }, function() {
+        $(this).removeClass('transition');
+    });
+});
 </script>
 </body>
 
