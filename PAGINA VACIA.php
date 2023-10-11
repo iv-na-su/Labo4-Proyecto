@@ -46,19 +46,19 @@
 <article class="juegos">
     <div class="galeria">
     <ul class="slider">
-    <li id="slide1"><img src="images/Capturas" alt=""></li>
-    <li id="slide2"><img src="images/Capturas" alt=""></li>
-    <li id="slide3"><img src="images/Capturas" alt=""></li>
-    <li id="slide4"><img src="images/Capturas" alt=""></li>
-    <li id="slide5"><img src="images/Capturas" alt=""></li>
-    <li id="slide6"><img src="images/Capturas" alt=""></li>
-    <li id="slide7"><img src="images/Capturas" alt=""></li>
-    <li id="slide8"><img src="images/Capturas" alt=""></li>
-    <li id="slide9"><img src="images/Capturas" alt=""></li>
-    <li id="slide10"><img src="images/Capturas" alt=""></li>
-    <li id="slide11"><img src="images/Capturas" alt=""></li>
-    <li id="slide12"><img src="images/Capturas" alt=""></li>
-    <li id="slide13"><img src="images/Capturas" alt=""></li>
+    <li id="slide1"><img src="images/Capturas" alt="Imágen N° de "></li>
+    <li id="slide2"><img src="images/Capturas" alt="Imágen N° de "></li>
+    <li id="slide3"><img src="images/Capturas" alt="Imágen N° de "></li>
+    <li id="slide4"><img src="images/Capturas" alt="Imágen N° de "></li>
+    <li id="slide5"><img src="images/Capturas" alt="Imágen N° de "></li>
+    <li id="slide6"><img src="images/Capturas" alt="Imágen N° de "></li>
+    <li id="slide7"><img src="images/Capturas" alt="Imágen N° de "></li>
+    <li id="slide8"><img src="images/Capturas" alt="Imágen N° de "></li>
+    <li id="slide9"><img src="images/Capturas" alt="Imágen N° de "></li>
+    <li id="slide10"><img src="images/Capturas" alt="Imágen N° de "></li>
+    <li id="slide11"><img src="images/Capturas" alt="Imágen N° de "></li>
+    <li id="slide12"><img src="images/Capturas" alt="Imágen N° de "></li>
+    <li id="slide13"><img src="images/Capturas" alt="Imágen N° de "></li>
  </ul>
 
  <nav class = "navsl">
