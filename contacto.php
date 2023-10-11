@@ -11,6 +11,7 @@
 </head>
 
 <body>
+    <img class="fondo" src="images/fondo_formu.jpg" alt="">
     <header>
         <div>
             <a class="logo" href="index.php"><img src="images/Vapor_Logo_Png.png" alt="Logo página">
@@ -42,7 +43,7 @@
 
     </header>
 
-<article class="fondo">
+<article >
     <section class="formu">
         <p>¿Quiere hacer algún comentario en cuanto a nuestra página web?<br>
                   ¡Todos sus mensajes son bienvenidos!<br>
