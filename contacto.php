@@ -42,6 +42,7 @@
 
     </header>
 
+<article class="fondo">
     <section class="formu">
         <p>¿Quiere hacer algún comentario en cuanto a nuestra página web?<br>
                   ¡Todos sus mensajes son bienvenidos!<br>
@@ -65,6 +66,7 @@
             <input type="reset" value="Resetear Información" id="identificador">
         </form>
     </section>
+</article>
 <footer>
     <div>
         <a href="index.php"><strong>Inicio</strong></a>
