@@ -137,6 +137,10 @@
         <a href="Terraria.php"><img src="images/Capturas/Terraria/Terraria_Portada.jpg" alt="Portada de Terraria" class="zoom"></a>
         <h3>TERRARIA</h3>
     </div>
+    <div>
+        <a href="SW_TFU1.php"><img src="images/Capturas/SW_TFU1/SW_TFU1_Portada.jpg" alt="Portada de Star Wars The Force Unleashed" class="zoom"></a>
+        <h3>STAR WARS<br>THE FORCE UNLEASHED</h3>
+    </div>
 </section>
 
 <section class="generos" id="rpg">
