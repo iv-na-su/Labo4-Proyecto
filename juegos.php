@@ -48,7 +48,7 @@
     </div>
     <div>
         <a href="GTA_Old.php"><img src="images/Capturas/GTA_Old/GTA_Old_Portada.jpg" alt="Portada de Grand Theft Auto San Andreas 2005" class="zoom"></a>
-        <h3>GRAND THEFT AUTO:<br>SAN ANDREAS</h3>
+        <h3>GTA SAN ANDREAS</h3>
     </div>
     <div>
         <a href="PUBG.php"><img src="images/Capturas/PUBG/PUBG_Portada.jpg" alt="Portada de Pubg: Battlegrounds" class="zoom"></a>
@@ -80,7 +80,7 @@
     </div>
     <div>
         <a href="RE4_Old.php"><img src="images/Capturas/RE4_Old/RE4_Old_Portada.jpg" alt="Portada de Resident Evil 4 2005" class="zoom">
-        <h3>RESIDENT EVIL 4 (2005)</h3>
+        <h3>RESIDENT EVIL 4</h3>
     </div>
     <div>
         <a href="SOMA.php"><img src="images/Capturas/SOMA/SOMA_Portada.jpg" alt="Portada de Soma" class="zoom"></a>
@@ -138,8 +138,8 @@
         <h3>TERRARIA</h3>
     </div>
     <div>
-        <a href="SW_TFU1.php"><img src="images/Capturas/SW_TFU1/SW_TFU1_Portada.jpg" alt="Portada de Star Wars The Force Unleashed" class="zoom"></a>
-        <h3>STAR WARS<br>THE FORCE UNLEASHED</h3>
+        <a href="SW_TFU1.php"><img src="images/Capturas/SW_TFU1/SW_TFU1_Portada.jpg" alt="Portada de Star Wars The Force Unleashed" class="zoom_2"></a>
+        <h3>THE FORCE UNLEASHED</h3>
     </div>
 </section>
 
@@ -213,6 +213,16 @@
 <script>
 $(document).ready(function(){
     $('.zoom').hover(function() {
+        $(this).addClass('transition');
+    }, function() {
+        $(this).removeClass('transition');
+    });
+});
+</script>
+
+<script>
+$(document).ready(function(){
+    $('.zoom_2').hover(function() {
         $(this).addClass('transition');
     }, function() {
         $(this).removeClass('transition');

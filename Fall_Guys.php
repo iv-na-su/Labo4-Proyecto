@@ -27,9 +27,6 @@
             <ul>
                 <li><a href = "juegos.php">Juegos</a></li>
                 <div class="dropdown-content">
-                    <li><a href="protagonistas.php">AAAAA</a></li>
-                    <li><a href="secundarios.php">BBBBBBBBBBB</a></li>
-                    <li><a href="cameos.php">CCCCCCCCCCCCC</a></li>
                 </div>
             </ul> 
         </div>
