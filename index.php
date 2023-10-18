@@ -64,13 +64,13 @@
     </div>
     <div>
         <a href="juegos.php"><strong>Juegos</strong></a>
-            <br><a href="juegos.php/#accion">Acción</a>
-            <br><a href="juegos.php/#casual">Casual</a>
-            <br><a href="juegos.php/#terror">Terror</a>
-            <br><a href="juegos.php/#shooter">Shooter</a>
-            <br><a href="juegos.php/#roguelike">Roguelike</a>
-            <br><a href="juegos.php/#aventura">Aventura</a>
-            <br><a href="juegos.php/#rpg">Rpg</a>
+            <br><a href="juegos.php#accion">Acción</a>
+            <br><a href="juegos.php#casual">Casual</a>
+            <br><a href="juegos.php#terror">Terror</a>
+            <br><a href="juegos.php#shooter">Shooter</a>
+            <br><a href="juegos.php#roguelike">Roguelike</a>
+            <br><a href="juegos.php#aventura">Aventura</a>
+            <br><a href="juegos.php#rpg">Rpg</a>
 
 
     </div>

@@ -49,26 +49,19 @@
     </div>
     <div>
         <a href="juegos.php"><strong>Juegos</strong></a>
-            <br><a href="#accion">Acción</a>
-            <br><a href="#casual">Casual</a>
-            <br><a href="#terror">Terror</a>
-            <br><a href="#shooter">Shooter</a>
-            <br><a href="#roguelike">Roguelike</a>
-            <br><a href="#aventura">Aventura</a>
-            <br><a href="#rpg">Rpg</a>
+            <br><a href="juegos.php#accion">Acción</a>
+            <br><a href="juegos.php#casual">Casual</a>
+            <br><a href="juegos.php#terror">Terror</a>
+            <br><a href="juegos.php#shooter">Shooter</a>
+            <br><a href="juegos.php#roguelike">Roguelike</a>
+            <br><a href="juegos.php#aventura">Aventura</a>
+            <br><a href="juegos.php#rpg">Rpg</a>
     </div>
     <div>
         <h7><strong>Perfil</strong></h7>
-        <!--<br><a href="resumen.html">Resumen</a>
-        <br><a href="origen.html">Origen</a>
-        <br><a href="derivados.html">Derivados</a> -->
     </div>
     <div>
         <h7><strong>Contacto</strong></h7>
-        <!--<br><a href="produccion.html">Producción</a>
-        <br><a href="impacto.html">Impacto Cultural</a>
-        <br><a href="temporadas.html">Temporadas</a>
-        <br><a href="prensa.html">Datos de Prensa</a> -->
     </div>
     <br>
     <a href="https://es-la.facebook.com/" target="_blank"><img src="images/Icono_Facebook.png" alt="Facebook"></a>

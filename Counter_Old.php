@@ -45,8 +45,12 @@
         </div>
 </header>
 
-
-<h2 class = "titulos">COUNTER STRIKE 1.6</h2>
+<?php
+   include("conexion.php");
+   $resultado = mysqli_query($conexion, "SELECT * FROM juegos WHERE ID = 1");
+   $variable = mysqli_fetch_assoc($resultado);
+ ?>
+ <h2 class = "titulos"><?php echo $variable["Nombre"]; ?></h2>
 
 <article class="juegos">
 
@@ -93,12 +97,12 @@
         <img src="images/Capturas/Counter_Old/Counter_Old_Portada.jpg" alt="Portada de Counter Strike 1.6">
         <p>Disfruta del juego de acción en línea n° 1 en el mundo. Sumérgete en el fragor de la guerra antiterrorista más realista con este archiconocido juego por equipos. Alíate con compañeros para superar misiones estratégicas, asalta bases enemigas, rescata rehenes, y recuerda que tu personaje contribuye al éxito del equipo y viceversa.</p>
         <br>
-        <h4>FECHA DE LANZAMIENTO: 1 NOV 2000
+        <h4>FECHA DE LANZAMIENTO: <?php echo $variable["Lanzamiento"]?>
         <br>
         <br>
-        DESARROLLADOR: <a href="https://www.valvesoftware.com/es/" target="_blank">Valve</a> 
+        DESARROLLADOR: <a href="https://www.valvesoftware.com/es/" target="_blank"><?php echo $variable["Desarrollador"]?></a> 
         <br>
-        EDITOR: <a href="https://www.valvesoftware.com/es/" target="_blank">Valve</a> 
+        EDITOR: <a href="https://www.valvesoftware.com/es/" target="_blank"><?php echo $variable["Desarrollador"]?> </a> 
         </h4>
     </div>
 
@@ -121,10 +125,10 @@
 <h3>REQUISITOS DEL JUEGO</h3>
 <br>
 <br>
-<p>MÍNIMO: procesador de 500 MHz, 96 MB de RAM, tarjeta de vídeo de 16 MB, Windows XP, ratón, teclado y conexión a Internet
+<p>MÍNIMO: <br><br>procesador de 500 MHz, <br>96 MB de RAM, <br>tarjeta de vídeo de 16 MB, <br>Windows XP, <br>ratón, teclado y conexión a Internet
 <br>
 <br>
-RECOMENDADO: procesador de 800 MHz, 128 MB de RAM, tarjeta de video de 32 MB, Windows XP, ratón, teclado y conexión a Internet</p>
+RECOMENDADO: <br><br>procesador de 800 MHz, <br>128 MB de RAM, <br>tarjeta de video de 32 MB, <br>Windows XP, <br>ratón, teclado y conexión a Internet</p>
 </div>
 
 
@@ -145,16 +149,9 @@ RECOMENDADO: procesador de 800 MHz, 128 MB de RAM, tarjeta de video de 32 MB, Wi
     </div>
     <div>
         <h7><strong>Perfil</strong></h7>
-        <!--<br><a href="resumen.html">Resumen</a>
-        <br><a href="origen.html">Origen</a>
-        <br><a href="derivados.html">Derivados</a> -->
     </div>
     <div>
         <h7><strong>Contacto</strong></h7>
-        <!--<br><a href="produccion.html">Producción</a>
-        <br><a href="impacto.html">Impacto Cultural</a>
-        <br><a href="temporadas.html">Temporadas</a>
-        <br><a href="prensa.html">Datos de Prensa</a> -->
     </div>
     <br>
     <a href="https://es-la.facebook.com/" target="_blank"><img src="images/Icono_Facebook.png" alt="Facebook"></a>

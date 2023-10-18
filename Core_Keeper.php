@@ -166,16 +166,9 @@ Gráficos: GeForce GTX 1050 Ti / Radeon R9 280X</p>
     </div>
     <div>
         <h7><strong>Perfil</strong></h7>
-        <!--<br><a href="resumen.html">Resumen</a>
-        <br><a href="origen.html">Origen</a>
-        <br><a href="derivados.html">Derivados</a> -->
     </div>
     <div>
         <h7><strong>Contacto</strong></h7>
-        <!--<br><a href="produccion.html">Producción</a>
-        <br><a href="impacto.html">Impacto Cultural</a>
-        <br><a href="temporadas.html">Temporadas</a>
-        <br><a href="prensa.html">Datos de Prensa</a> -->
     </div>
     <br>
     <a href="https://es-la.facebook.com/" target="_blank"><img src="images/Icono_Facebook.png" alt="Facebook"></a>

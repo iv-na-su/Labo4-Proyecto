@@ -42,8 +42,12 @@
         </div>
 </header>
 
-
-<h2 class = "titulos">PAYDAY 2</h2>
+<?php
+   include("conexion.php");
+   $resultado = mysqli_query($conexion, "SELECT * FROM juegos WHERE ID = 2");
+   $variable = mysqli_fetch_assoc($resultado);
+ ?>
+ <h2 class = "titulos"><?php echo $variable["Nombre"]; ?></h2>
 
 <article class="juegos">
     <div class="galeria">
@@ -85,12 +89,12 @@
         <img src="images/Capturas/PayDay_2/PayDay_Portada.jpg" alt="Portada de Pay Day 2">
         <p>PAYDAY 2 es un juego de acción cooperativo para cuatro jugadores que, una vez más, permite a los jugadores ponerse en la piel del equipo original de PAYDAY - Dallas, Hoxton, Wolf y Chains - mientras descienden por Washington DC en una épica ola de crímenes.</p>
         <br>
-        <h4>FECHA DE LANZAMIENTO: 13 AGO 2013
+        <h4>FECHA DE LANZAMIENTO: <?php echo $variable["Lanzamiento"]; ?>
         <br>
         <br>
-        DESARROLLADOR: <a href="https://www.starbreeze.com/" target="_blank">Starbreeze Studio</a> 
+        DESARROLLADOR: <a href="https://www.starbreeze.com/" target="_blank"><?php echo $variable["Desarrollador"]; ?></a> 
         <br>
-        EDITOR: <a href="https://www.starbreeze.com/" target="_blank">Starbreeze Studio</a>  
+        EDITOR: <a href="https://www.starbreeze.com/" target="_blank"><?php echo $variable["Desarrollador"]; ?></a>  
         </h4>
     </div>
 
@@ -138,16 +142,9 @@ RECOMENDADO: SO: Windows 10, Procesador: 2.3 GHz Intel Quad Core Processor, Memo
     </div>
     <div>
         <h7><strong>Perfil</strong></h7>
-        <!--<br><a href="resumen.html">Resumen</a>
-        <br><a href="origen.html">Origen</a>
-        <br><a href="derivados.html">Derivados</a> -->
     </div>
     <div>
         <h7><strong>Contacto</strong></h7>
-        <!--<br><a href="produccion.html">Producción</a>
-        <br><a href="impacto.html">Impacto Cultural</a>
-        <br><a href="temporadas.html">Temporadas</a>
-        <br><a href="prensa.html">Datos de Prensa</a> -->
     </div>
     <br>
     <a href="https://es-la.facebook.com/" target="_blank"><img src="images/Icono_Facebook.png" alt="Facebook"></a>
