@@ -41,7 +41,12 @@
 </header>
 
 
-<h2 class = "titulos">STAR WARS THE FORCE UNLEASHED</h2>
+<?php
+   include("conexion.php");
+   $resultado = mysqli_query($conexion, "SELECT * FROM juegos WHERE ID = 19");
+   $variable = mysqli_fetch_assoc($resultado);
+ ?>
+ <h2 class = "titulos"><?php echo $variable["Nombre"]; ?></h2>
 
 <article class="juegos">
     <div class="galeria">

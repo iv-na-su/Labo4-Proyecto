@@ -43,7 +43,12 @@
 </header>
 
 
-<h2 class = "titulos">FIVE NIGHTS AT FREDDY'S</h2>
+<?php
+   include("conexion.php");
+   $resultado = mysqli_query($conexion, "SELECT * FROM juegos WHERE ID = 9");
+   $variable = mysqli_fetch_assoc($resultado);
+ ?>
+ <h2 class = "titulos"><?php echo $variable["Nombre"]; ?></h2>
 
 <article class="juegos">
 

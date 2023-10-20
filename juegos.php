@@ -40,6 +40,13 @@
         </div>
 </header>
 
+ 
+
+
+ 
+
+ 
+
 <section class="generos" id="accion">
     <h2>ACCIÓN</h2>
     <div>
