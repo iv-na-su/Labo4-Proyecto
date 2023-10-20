@@ -119,10 +119,24 @@
 <h3>REQUISITOS DEL JUEGO</h3>
 <br>
 <br>
-<p>MÍNIMO: SO: Windows 7, Procesador: 2 GHz Intel Dual Core Processor, Memoria: 4 GB de RAM, Gráficos: Nvidia & AMD (512MB VRAM), DirectX: Versión 9.0c, Almacenamiento: 83 GB de espacio disponible, Compatibilidad con RV: SteamVR. Standing or Room Scale
-<br>
-<br>
-RECOMENDADO: SO: Windows 10, Procesador: 2.3 GHz Intel Quad Core Processor, Memoria: 8 GB de RAM, Gráficos: Nvidia & AMD (1GB VRAM), DirectX: Versión 9.0c, Almacenamiento: 83 GB de espacio disponible, Compatibilidad con RV: SteamVR. Standing or Room Scale</p>
+<p>MÍNIMO:<br><br>
+SO: Windows 7<br>
+Procesador: 2 GHz Intel Dual Core Processor<br>
+Memoria: 4 GB de RAM<br>
+Gráficos: Nvidia & AMD (512MB VRAM)<br>
+DirectX: Versión 9.0c<br>
+Almacenamiento: 83 GB de espacio disponible<br>
+Compatibilidad con RV: SteamVR. Standing or Room Scale<br>
+<br><br>
+<br><br>
+RECOMENDADO:<br><br>
+SO: Windows 10<br>
+Procesador: 2.3 GHz Intel Quad Core Processor<br>
+Memoria: 8 GB de RAM<br>
+Gráficos: Nvidia & AMD (1GB VRAM)<br>
+DirectX: Versión 9.0c<br>
+Almacenamiento: 83 GB de espacio disponible<br>
+Compatibilidad con RV: SteamVR. Standing or Room Scale</p>
 </div>
 
 

@@ -126,7 +126,23 @@
 <h3>REQUISITOS DEL JUEGO</h3>
 <br>
 <br>
-<p>MÍNIMO: SO: Windows Vista or greater, Procesador: 2 Ghz, Memoria: 2 GB de RAM, Gráficos: 256 mb video memory, shader model 3.0+, DirectX: Versión 10, Almacenamiento: 500 MB de espacio disponible.</p>
+<p>MÍNIMO:<br><br>
+SO: Windows Vista or greater<br>
+Procesador: 2 Ghz<br>
+Memoria: 2 GB de RAM<br>
+Gráficos: 256 mb video memory, shader model 3.0+<br>
+DirectX: Versión 10<br>
+Almacenamiento: 500 MB de espacio disponible
+<br><br>
+<br><br>
+RECOMENDADO:<br><br>
+SO: Windows Vista or greater<br>
+Procesador: 2 Ghz<br>
+Memoria: 2 GB de RAM<br>
+Gráficos: 256 mb video memory, shader model 3.0+<br>
+DirectX: Versión 10<br>
+Almacenamiento: 500 MB de espacio disponible
+</p>
 </div>
 
 

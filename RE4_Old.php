@@ -119,11 +119,24 @@
 <h3>REQUISITOS DEL JUEGO</h3>
 <br>
 <br>
-<p>MÍNIMO: SO: Windows® 8 / Windows® 10, Procesador: Intel® CoreTM2 Duo 2,4 GHz o superior, AMD AthlonTM X2 2,8 GHz o superior, Memoria: 2 GB de RAM, Gráficos: NVIDIA® GeForce® 8800GTS o superior, ATI RadeonTM HD 4850 o superior
-DirectX: Versión 9.0c, Almacenamiento: 15 GB de espacio disponible, Tarjeta de sonido: Dispositivo de sonido estándar.
-<br>
-<br>
-RECOMENDADO: SO: Windows 8.1 / Windows® 10, Procesador: Intel® CoreTM 2 Quad 2,7 GHz o superior, AMD PhenomTM II X4 3 GHz o superior, Memoria: 4 GB de RAM, Gráficos: NVIDIA® GeForce® GTX 560 o superior, DirectX: Versión 9.0c, Almacenamiento: 15 GB de espacio disponible.</p>
+<p>MÍNIMO:<br><br>
+SO: Windows® 8 / Windows® 10<br>
+Procesador: Intel® CoreTM2 Duo 2,4 GHz o superior, AMD AthlonTM X2 2,8 GHz o superior<br>
+Memoria: 2 GB de RAM<br>
+Gráficos: NVIDIA® GeForce® 8800GTS o superior, ATI RadeonTM HD 4850 o superior<br>
+DirectX: Versión 9.0c<br>
+Almacenamiento: 15 GB de espacio disponible<br>
+Tarjeta de sonido: Dispositivo de sonido estándar
+<br><br>
+<br><br>
+RECOMENDADO:<br><br>
+SO: Windows 8.1 / Windows® 10<br>
+Procesador: Intel® CoreTM 2 Quad 2,7 GHz o superior, AMD PhenomTM II X4 3 GHz o superior<br>
+Memoria: 4 GB de RAM<br>
+Gráficos: NVIDIA® GeForce® GTX 560 o superior<br>
+DirectX: Versión 9.0c<br>
+Almacenamiento: 15 GB de espacio disponible
+</p>
 </div>
 
 

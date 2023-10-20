@@ -123,15 +123,23 @@ entornos que son diferentes cada vez que juegues.</p>
 <h3>REQUISITOS DEL JUEGO</h3>
 <br>
 <br>
-<p>MÍNIMO: SO: Win XP SP3, Windows Vista SP2 o Windows 7, Procesador: Intel Core 2 Duo 2.4 GHz o AMD Athlon X2 5200+,
-Memoria: 2 GB de RAM, Gráficos: Tarjeta Aceleradora 3D Requerida - Compatible 100% con DirectX 9.0c con 256 MB de memoria de video con soporte para Shader 2.0 (Radeon HD 2900 o Geforce 8600), DirectX®: Compatible con Directx 9.0c,
-Disco Duro: 30GB, Sonido: Compatible con Directx 9.0c, Controlador Soportado: XBox 360 Controller para Windows,
-Chipsets ATI compatibles: ATI, Radeon HD 2600, 2900, 3650, 3690, 3850, 3870, 4550, 4650, 4770, 4850, 4870, 5890,
-Chipsets NVIDIA compatibles: NVIDIA GeForce 8600, 8800, 9400, 9500, 9600, 9800, 250, 260, 275, 280, 285, 295.
-<br>
-<br>
-RECOMENDADO: Procesador: Intel Core 2 Duo 2.8 GHz o AMD Athlon X2 Dual-Core 6000+, Gráficos: Tarjeta Aceleradora
-3D con 512 MB (GeForce 9800 GT)</p>
+<p>MÍNIMO:<br><br>
+SO: Win XP SP3, Windows Vista SP2 o Windows 7<br>
+Procesador: Intel Core 2 Duo 2.4 GHz o AMD Athlon X2 5200+<br>
+Memoria: 2 GB de RAM<br>
+Gráficos: Tarjeta Aceleradora 3D Requerida - Compatible 100% con DirectX 9.0c con 256 MB de memoria de video con soporte para Shader 2.0 (Radeon HD 2900 o Geforce 8600)<br>
+DirectX®: Compatible con Directx 9.0c<br>
+Disco Duro: 30GB<br>
+Sonido: Compatible con Directx 9.0c<br>
+Controlador Soportado: XBox 360 Controller para Windows<br>
+Chipsets ATI compatibles: ATI Radeon HD 2600, 2900, 3650, 3690, 3850, 3870, 4550, 4650, 4770, 4850, 4870, 5890<br>
+Chipsets NVIDIA compatibles: NVIDIA GeForce 8600, 8800, 9400, 9500, 9600, 9800, 250, 260, 275, 280, 285, 295<br>
+<br><br>
+<br><br>
+RECOMENDADO:<br><br>
+Procesador: Intel Core 2 Duo 2.8 GHz o AMD Athlon X2 Dual-Core 6000+<br>
+Gráficos: Tarjeta Aceleradora 3D con 512 MB (GeForce 9800 GT)<br>
+</p>
 </div>
 
 

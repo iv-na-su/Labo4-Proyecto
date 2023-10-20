@@ -122,10 +122,22 @@ Hay cientos de armas, sombreros y más para coleccionar, fabricar, comprar e int
 <h3>REQUISITOS DEL JUEGO</h3>
 <br>
 <br>
-<p>MÍNIMO: SO: Windows® 7 (32/64-bit)/Vista/XP, Procesador: 1.7 GHz Processor or better, Memoria: 512 MB de RAM, DirectX: Versión 8.1, Red: Conexión de banda ancha a Internet, Almacenamiento: 15 GB de espacio disponible.
-<br>
-<br>
-RECOMENDADO: SO: Windows® 7 (32/64-bit), Procesador: Pentium 4 processor (3.0GHz, or better), Memoria: 1 GB de RAM, DirectX: Versión 9.0c, Red: Conexión de banda ancha a Internet, Almacenamiento: 15 GB de espacio disponible.</p>
+<p>MÍNIMO:<br><br>
+SO: Windows® 7 (32/64-bit)/Vista/XP<br>
+Procesador: 1.7 GHz Processor or better<br>
+Memoria: 512 MB de RAM<br>
+DirectX: Versión 8.1<br>
+Red: Conexión de banda ancha a Internet<br>
+Almacenamiento: 15 GB de espacio disponible
+<br><br>
+<br><br>
+RECOMENDADO:<br><br>
+SO: Windows® 7 (32/64-bit)<br>
+Procesador: Pentium 4 processor (3.0GHz, or better)<br>
+Memoria: 1 GB de RAM<br>
+DirectX: Versión 9.0c<br>
+Red: Conexión de banda ancha a Internet<br>
+Almacenamiento: 15 GB de espacio disponible</p>
 </div>
 
 

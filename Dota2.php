@@ -130,8 +130,28 @@ Aprende los conceptos básicos jugando en modo cooperativo contra bots. Mejora t
 <h3>REQUISITOS DEL JUEGO</h3>
 <br>
 <br>
-<p>MÍNIMO: SO: Windows 7 o posterior, Procesador: Intel o AMD de doble núcleo a 2,8 GHz, Memoria: 4 GB de RAM
-Gráficos: NVIDIA GeForce 8600/9600GT, ATI/AMD Radeon HD2600/3600, DirectX: Versión 11, Red: Conexión de banda ancha a Internet, Almacenamiento: 60 GB de espacio disponible, Tarjeta de sonido: Compatible con DirectX.</p>
+<p>MÍNIMO:<br><br>
+SO: Windows 7 o posterior<br>
+Procesador: Intel o AMD de doble núcleo a 2,8 GHz<br>
+Memoria: 4 GB de RAM<br>
+Gráficos: NVIDIA GeForce 8600/9600GT, ATI/AMD Radeon HD2600/3600<br>
+DirectX: Versión 11<br>
+Red: Conexión de banda ancha a Internet<br>
+Almacenamiento: 60 GB de espacio disponible<br>
+Tarjeta de sonido: Compatible con DirectX
+<br><br>
+<br><br>
+RECOMENDADO:<br><br>
+SO: Windows 7 o posterior<br>
+Procesador: Intel o AMD de doble núcleo a 2,8 GHz<br>
+Memoria: 4 GB de RAM<br>
+Gráficos: NVIDIA GeForce 8600/9600GT, ATI/AMD Radeon HD2600/3600<br>
+DirectX: Versión 11<br>
+Red: Conexión de banda ancha a Internet<br>
+Almacenamiento: 60 GB de espacio disponible<br>
+Tarjeta de sonido: Compatible con DirectX
+
+</p>
 </div>
 
 

@@ -126,8 +126,22 @@
 <h3>REQUISITOS DEL JUEGO</h3>
 <br>
 <br>
-<p>MÍNIMO: SO: XP,Vista,Windows7, Procesador: 2 GHz Intel Pentium 4 or AMD Athlon or equivalent, Memoria: 1 GB de RAM
-Gráficos: 1 GB, DirectX: Versión 9.0, Almacenamiento: 250 MB de espacio disponible.</p>
+<p>MÍNIMO: <br><br>
+SO: XP,Vista,Windows7<br>
+Procesador: 2 GHz Intel Pentium 4 or AMD Athlon or equivalent<br>
+Memoria: 1 GB de RAM<br>
+Gráficos: 1 GB<br>
+DirectX: Versión 9.0<br>
+Almacenamiento: 250 MB de espacio disponible.
+<br><br>
+<br><br>
+RECOMENDADO: <br><br>
+SO: XP,Vista,Windows7<br>
+Procesador: 2 GHz Intel Pentium 4 or AMD Athlon or equivalent<br>
+Memoria: 1 GB de RAM<br>
+Gráficos: 1 GB<br>
+DirectX: Versión 9.0<br>
+Almacenamiento: 250 MB de espacio disponible.</p>
 </div>
 
 

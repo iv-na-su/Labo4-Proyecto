@@ -119,14 +119,27 @@
 <h3>REQUISITOS DEL JUEGO</h3>
 <br>
 <br>
-<p>MÍNIMO: Requiere un procesador y un sistema operativo de 64 bits, SO: (64 bits) Windows 10, Procesador: Intel Core i3-3220 a 3,3 GHz (2 núcleos, 4 hilos), AMD Ryzen 3 1200 a 3,1 GHz (4 núcleos) o superior, Memoria: 4 GB de RAM
-Gráficos: 128 MB de memoria gráfica y compatibilidad con Pixel Shader 3.0 Tarjetas de vídeo compatibles: Tarjetas gráficas compatibles: NVIDIA GeForce 6600 o superior, ATI Radeon X1300 o superior, Intel GMA X4500 o superior
-DirectX: Versión 11, Red: Conexión de banda ancha a Internet, Almacenamiento: 26 GB de espacio disponible.
-<br>
-<br>
-RECOMENDADO: Requiere un procesador y un sistema operativo de 64 bits, SO: Windows 10 de 64 bits
-Procesador: Intel Core i5 (4 núcleos) o AMD Ryzen 5 o superior, Memoria: 8 GB de RAM, Gráficos: 1 GB de RAM de vídeo, NVIDIA GTX 650, AMD Radeon HD 7750 o superior, DirectX: Versión 11, Red: Conexión de banda ancha a Internet
-Almacenamiento: 51 GB de espacio disponible</p>
+<p>MÍNIMO:<br><br>
+Requiere un procesador y un sistema operativo de 64 bits<br>
+SO: (64 bits) Windows 10<br>
+Procesador: Intel Core i3-3220 a 3,3 GHz (2 núcleos, 4 hilos), AMD Ryzen 3 1200 a 3,1 GHz (4 núcleos) o superior<br>
+Memoria: 4 GB de RAM<br>
+Gráficos: 128 MB de memoria gráfica y compatibilidad con Pixel Shader 3.0 Tarjetas de vídeo compatibles: Tarjetas gráficas compatibles: NVIDIA GeForce 6600 o superior, ATI Radeon X1300 o superior, Intel GMA X4500 o superior<br>
+DirectX: Versión 11<br>
+Red: Conexión de banda ancha a Internet<br>
+Almacenamiento: 26 GB de espacio disponible</p>
+<br><br>
+<br><br>
+RECOMENDADO:<br><br>
+Requiere un procesador y un sistema operativo de 64 bits<br>
+SO: Windows 10 de 64 bits<br>
+Procesador: Intel Core i5 (4 núcleos) o AMD Ryzen 5 o superior<br>
+Memoria: 8 GB de RAM<br>
+Gráficos: 1 GB de RAM de vídeo, NVIDIA GTX 650, AMD Radeon HD 7750 o superior<br>
+DirectX: Versión 11<br>
+Red: Conexión de banda ancha a Internet<br>
+Almacenamiento: 51 GB de espacio disponible
+
 </div>
 
 

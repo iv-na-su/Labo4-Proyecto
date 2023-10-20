@@ -126,8 +126,8 @@
 <br>
 <br>
 <p>MÍNIMO: <br><br>procesador de 500 MHz, <br>96 MB de RAM, <br>tarjeta de vídeo de 16 MB, <br>Windows XP, <br>ratón, teclado y conexión a Internet
-<br>
-<br>
+<br><br>
+<br><br>
 RECOMENDADO: <br><br>procesador de 800 MHz, <br>128 MB de RAM, <br>tarjeta de video de 32 MB, <br>Windows XP, <br>ratón, teclado y conexión a Internet</p>
 </div>
 

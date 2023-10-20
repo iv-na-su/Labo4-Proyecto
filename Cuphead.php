@@ -120,10 +120,18 @@
 <h3>REQUISITOS DEL JUEGO</h3>
 <br>
 <br>
-<p>MÍNIMO: Requiere un procesador y un sistema operativo de 64 bits, SO: Windows 7, Procesador: Intel Core2 Duo, E8400, 3.0GHz or AMD Athlon 64 X2 6000+, 3.0GHz or higher, Memoria: 3 GB de RAM, Gráficos: Geforce 9600 GT or AMD HD 3870 512MB or higher, DirectX: Versión 11, Almacenamiento: 4 GB de espacio disponible.
-<br>
-<br>
-RECOMENDADO: Requiere un procesador y un sistema operativo de 64 bits.</p>
+<p>MÍNIMO:<br><br>
+Requiere un procesador y un sistema operativo de 64 bits<br>
+SO: Windows 7<br>
+Procesador: Intel Core2 Duo E8400, 3.0GHz or AMD Athlon 64 X2 6000+, 3.0GHz or higher<br>
+Memoria: 3 GB de RAM<br>
+Gráficos: Geforce 9600 GT or AMD HD 3870 512MB or higher<br>
+DirectX: Versión 11<br>
+Almacenamiento: 4 GB de espacio disponible
+<br><br>
+<br><br>
+RECOMENDADO:<br><br>
+Requiere un procesador y un sistema operativo de 64 bits</p>
 </div>
 
 

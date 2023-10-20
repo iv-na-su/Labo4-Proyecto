@@ -120,12 +120,22 @@ En su regreso a su antiguo vecindario, una pareja de polis corruptos lo incrimin
 <h3>REQUISITOS DEL JUEGO</h3>
 <br>
 <br>
-<p>MÍNIMO: OS: Microsoft® Windows® 2000/XP, Processor: 1Ghz Pentium III or AMD Athlon Processor, Memory: 256MB of RAM
-Graphics: 64MB Video Card (Geforce 3 or better), Hard Drive: 3.6GB of free hard disk space (minimal install), Other Requirements: Software installations required including DirectX and Sony DADC SecuROM, Partner Requirements: Please check the terms of service of this site before purchasing this software.
-<br>
-<br>
-RECOMENDADO: Processor: Intel Pentium 4 or AMD Athlon XP Processor, Memory: 384MB of RAM (the more the better!)
-Graphics: 128MB (or greater) Video Card (Geforce 6 Series Recommended), Hard Drive: 4.7GB of free hard disk space (full install), Sound Card: DirectX 9 compatible Sound Card (Sound Blaster Auidgy 2 Recommended)</p>
+<p>MÍNIMO:<br><br>
+OS: Microsoft® Windows® 2000/XP<br>
+Processor: 1Ghz Pentium III or AMD Athlon Processor<br>
+Memory: 256MB of RAM<br>
+Graphics: 64MB Video Card (Geforce 3 or better)<br>
+Hard Drive: 3.6GB of free hard disk space (minimal install)<br>
+Other Requirements: Software installations required including DirectX and Sony DADC SecuROM<br>
+Partner Requirements: Please check the terms of service of this site before purchasing this software.
+<br><br>
+<br><br>
+RECOMENDADO:<br><br>
+Processor: Intel Pentium 4 or AMD Athlon XP Processor<br>
+Memory: 384MB of RAM (the more the better!)<br>
+Graphics: 128MB (or greater) Video Card (Geforce 6 Series Recommended)<br>
+Hard Drive: 4.7GB of free hard disk space (full install)<br>
+Sound Card: DirectX 9 compatible Sound Card (Sound Blaster Auidgy 2 Recommended)</p>
 </div>
 
 
