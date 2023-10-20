@@ -2,7 +2,7 @@
 <html lang="es">
 
 <head>
-    <link rel="icon" href="Imagenes/Marco_PC.png" type="Images/png">
+    <link rel="icon" href="images/Vapor_Logo_Png.png" type="Images/png">
     <title>Vapor: The Proyect</title>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -26,7 +26,6 @@
         <div class="dropdown">
             <ul>
                 <li><a href = "juegos.php">Juegos</a></li>
-                <div class="dropdown-content">
                 </div>
             </ul> 
         </div>
@@ -45,10 +44,13 @@
 
 <?php
    include("conexion.php");
-   $resultado = mysqli_query($conexion, "SELECT * FROM juegos WHERE ID = 9");
-   $variable = mysqli_fetch_assoc($resultado);
+   $resultado_1 = mysqli_query($conexion, "SELECT * FROM juegos WHERE ID = 9");
+   $variable_1 = mysqli_fetch_assoc($resultado_1);
+
+   $resultado_3 = mysqli_query($conexion, "SELECT * FROM desarrollador WHERE ID = 9");
+   $variable_3 = mysqli_fetch_assoc($resultado_3);
  ?>
- <h2 class = "titulos"><?php echo $variable["Nombre"]; ?></h2>
+ <h2 class = "titulos"><?php echo $variable_1["Nombre"]; ?></h2>
 
 <article class="juegos">
 
@@ -95,12 +97,12 @@
         <img src="images/Capturas/FNAF1/FNAF1_Portada.jpg" alt="Portada de Five Nights At Freddy's">
         <p>¡Bienvenido a tu nuevo trabajo de verano en Freddy Fazbear's Pizza, donde tanto niños como padres vienen en busca de entretenimiento y comida! La atracción principal es Freddy Fazbear, por supuesto; y sus dos amigos. ¡Son robots animatrónicos, programados para complacer a las multitudes!.</p>
         <br>
-        <h4>FECHA DE LANZAMIENTO: 18 AGO 2014
+        <h4>FECHA DE LANZAMIENTO: <?php echo $variable_1["Lanzamiento"]; ?>
         <br>
         <br>
-        DESARROLLADOR: <a href="http://www.scottgames.com/" target="_blank">Scott Cawthon</a> 
+        DESARROLLADOR: <a href="http://www.scottgames.com/" target="_blank"><?php echo $variable_3["Desarrollador"]; ?></a> 
         <br>
-        EDITOR: <a href="http://www.scottgames.com/" target="_blank">Scott Cawthon</a>  
+        EDITOR: <a href="http://www.scottgames.com/" target="_blank"><?php echo $variable_3["Editor"]; ?></a>  
         </h4>
     </div>
 

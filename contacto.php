@@ -2,7 +2,7 @@
 <html lang="es">
 
 <head>
-    <link rel="icon" href="Imagenes/Marco_PC.png" type="Images/png">
+    <link rel="icon" href="images/Vapor_Logo_Png.png" type="Images/png">
     <title>Vapor: The Proyect</title>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">

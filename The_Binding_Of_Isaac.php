@@ -2,7 +2,7 @@
 <html lang="es">
 
 <head>
-    <link rel="icon" href="Imagenes/Marco_PC.png" type="Images/png">
+    <link rel="icon" href="images/Vapor_Logo_Png.png" type="Images/png">
     <title>Vapor: The Proyect</title>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -26,7 +26,6 @@
         <div class="dropdown">
             <ul>
                 <li><a href = "juegos.php">Juegos</a></li>
-                <div class="dropdown-content">
                 </div>
             </ul> 
         </div>
@@ -45,10 +44,13 @@
 
 <?php
    include("conexion.php");
-   $resultado = mysqli_query($conexion, "SELECT * FROM juegos WHERE ID = 13");
-   $variable = mysqli_fetch_assoc($resultado);
+   $resultado_1 = mysqli_query($conexion, "SELECT * FROM juegos WHERE ID = 13");
+   $variable_1 = mysqli_fetch_assoc($resultado_1);
+
+   $resultado_3 = mysqli_query($conexion, "SELECT * FROM desarrollador WHERE ID = 13");
+   $variable_3 = mysqli_fetch_assoc($resultado_3);
  ?>
- <h2 class = "titulos"><?php echo $variable["Nombre"]; ?></h2>
+ <h2 class = "titulos"><?php echo $variable_1["Nombre"]; ?></h2>
 
 <article class="juegos">
     <div class="galeria">
@@ -91,12 +93,12 @@
         <img src="images/Capturas/The_Binding_Of_Isaac/The_Binding_Of_Isaac_Portada.jpg" alt="">
         <p>The Binding of Isaac: Rebirth is a randomly generated action RPG shooter with heavy Rogue-like elements. Following Isaac on his journey players will find bizarre treasures that change Isaac’s form giving him super human abilities and enabling him to fight off droves of mysterious creatures, discover secrets</p>
         <br>
-        <h4>FECHA DE LANZAMIENTO: 4 NOV 2014
+        <h4>FECHA DE LANZAMIENTO: <?php echo $variable_1["Lanzamiento"]; ?>
         <br>
         <br>
-        DESARROLLADOR: <a href="https://www.nicalis.com/" target="_blank">Nicalis, Inc.</a>, <a href="https://es.wikipedia.org/wiki/Edmund_McMillen" target="_blank">Edmund McMillen</a> 
+        DESARROLLADOR: <a href="https://www.nicalis.com/" target="_blank"><?php echo $variable_3["Desarrollador"]; ?></a>, <a href="https://es.wikipedia.org/wiki/Edmund_McMillen" target="_blank">Edmund McMillen</a> 
         <br>
-        EDITOR: <a href="https://www.nicalis.com/" target="_blank">Nicalis, Inc.</a>  
+        EDITOR: <a href="https://www.nicalis.com/" target="_blank"><?php echo $variable_3["Editor"]; ?>.</a>  
         </h4>
     </div>
 

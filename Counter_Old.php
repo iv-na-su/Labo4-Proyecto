@@ -29,7 +29,6 @@
         <div class="dropdown">
             <ul>
                 <li><a href = "juegos.php">Juegos</a></li>
-                <div class="dropdown-content">
                 </div>
             </ul> 
         </div>
@@ -47,10 +46,13 @@
 
 <?php
    include("conexion.php");
-   $resultado = mysqli_query($conexion, "SELECT * FROM juegos WHERE ID = 1");
-   $variable = mysqli_fetch_assoc($resultado);
+   $resultado_1 = mysqli_query($conexion, "SELECT * FROM juegos WHERE ID = 1");
+   $variable_1 = mysqli_fetch_assoc($resultado_1);
+
+   $resultado_3 = mysqli_query($conexion, "SELECT * FROM desarrollador WHERE ID = 1");
+   $variable_3 = mysqli_fetch_assoc($resultado_3);
  ?>
- <h2 class = "titulos"><?php echo $variable["Nombre"]; ?></h2>
+ <h2 class = "titulos"><?php echo $variable_1["Nombre"]; ?></h2>
 
 <article class="juegos">
 
@@ -97,12 +99,12 @@
         <img src="images/Capturas/Counter_Old/Counter_Old_Portada.jpg" alt="Portada de Counter Strike 1.6">
         <p>Disfruta del juego de acción en línea n° 1 en el mundo. Sumérgete en el fragor de la guerra antiterrorista más realista con este archiconocido juego por equipos. Alíate con compañeros para superar misiones estratégicas, asalta bases enemigas, rescata rehenes, y recuerda que tu personaje contribuye al éxito del equipo y viceversa.</p>
         <br>
-        <h4>FECHA DE LANZAMIENTO: <?php echo $variable["Lanzamiento"]?>
+        <h4>FECHA DE LANZAMIENTO: <?php echo $variable_1["Lanzamiento"]?>
         <br>
         <br>
-        DESARROLLADOR: <a href="https://www.valvesoftware.com/es/" target="_blank"><?php echo $variable["Desarrollador"]?></a> 
+        DESARROLLADOR: <a href="https://www.valvesoftware.com/es/" target="_blank"><?php echo $variable_3["Desarrollador"]?></a> 
         <br>
-        EDITOR: <a href="https://www.valvesoftware.com/es/" target="_blank"><?php echo $variable["Desarrollador"]?> </a> 
+        EDITOR: <a href="https://www.valvesoftware.com/es/" target="_blank"><?php echo $variable_3["Editor"]?> </a> 
         </h4>
     </div>
 

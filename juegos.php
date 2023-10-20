@@ -2,7 +2,7 @@
 <html lang="es">
 
 <head>
-    <link rel="icon" href="Imagenes/Marco_PC.png" type="Images/png">
+    <link rel="icon" href="images/Vapor_Logo_Png.png" type="Images/png">
     <title>Vapor: The Proyect</title>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -40,12 +40,20 @@
         </div>
 </header>
 
- 
 
+<?php
+   include("conexion.php");
+   $resultado_1 = mysqli_query($conexion, "SELECT * FROM juegos WHERE ID = 4");
+   $variable_1 = mysqli_fetch_assoc($resultado_1);
 
- 
-
- 
+   $cont = 1;
+   $variable_2 = [];
+while ($cont <= 7) {
+   $resultado_2 = mysqli_query($conexion, "SELECT * FROM generos WHERE ID = $cont");
+   $variable_2 = mysqli_fetch_row($resultado_2);
+   $cont++;
+}
+ ?>
 
 <section class="generos" id="accion">
     <h2>ACCIÓN</h2>

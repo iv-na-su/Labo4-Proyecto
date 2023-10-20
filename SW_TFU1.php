@@ -2,7 +2,7 @@
 <html lang="es">
 
 <head>
-    <link rel="icon" href="Imagenes/Marco_PC.png" type="Images/png">
+    <link rel="icon" href="images/Vapor_Logo_Png.png" type="Images/png">
     <title>Vapor: The Proyect</title>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -43,10 +43,13 @@
 
 <?php
    include("conexion.php");
-   $resultado = mysqli_query($conexion, "SELECT * FROM juegos WHERE ID = 19");
-   $variable = mysqli_fetch_assoc($resultado);
+   $resultado_1 = mysqli_query($conexion, "SELECT * FROM juegos WHERE ID = 19");
+   $variable_1 = mysqli_fetch_assoc($resultado_1);
+
+   $resultado_3 = mysqli_query($conexion, "SELECT * FROM desarrollador WHERE ID = 19");
+   $variable_3 = mysqli_fetch_assoc($resultado_3);
  ?>
- <h2 class = "titulos"><?php echo $variable["Nombre"]; ?></h2>
+ <h2 class = "titulos"><?php echo $variable_1["Nombre"]; ?></h2>
 
 <article class="juegos">
     <div class="galeria">
@@ -90,12 +93,12 @@
         <p>Star Wars: The Force Unleashed recrea de una nueva forma el alcance y la escala de la Fuerza y los jugadores se ponen en el papel del "Aprendiz Secreto" de Darth Vader, desvelando nuevas revelaciones sobre la galaxia Star Wars vistas a través de los ojos de un nuevo personaje misterioso armado con poderes
         sin precedentes.</p>
         <br>
-        <h4>FECHA DE LANZAMIENTO: 16 SEP 2008
+        <h4>FECHA DE LANZAMIENTO: <?php echo $variable_1["Lanzamiento"]; ?>
         <br>
         <br>
-        DESARROLLADOR: <a href="https://www.lucasfilm.com/what-we-do/games/" target="_blank">LucasArts</a> 
+        DESARROLLADOR: <a href="https://www.lucasfilm.com/what-we-do/games/" target="_blank"><?php echo $variable_3["Desarrollador"]; ?></a> 
         <br>
-        EDITOR: <a href="https://www.lucasfilm.com/what-we-do/games/" target="_blank">LucasArts, Lucasfilm, Disney</a>  
+        EDITOR: <a href="https://www.lucasfilm.com/what-we-do/games/" target="_blank"><?php echo $variable_3["Editor"]; ?>, </a><a href="https://www.lucasfilm.com/">Lucasfilm, </a><a href="https://www.disneylatino.com/">Disney</a>  
         </h4>
     </div>
 

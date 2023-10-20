@@ -2,7 +2,7 @@
 <html lang="es">
 
 <head>
-    <link rel="icon" href="Imagenes/Marco_PC.png" type="Images/png">
+    <link rel="icon" href="images/Vapor_Logo_Png.png" type="Images/png">
     <title>Vapor: The Proyect</title>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -26,7 +26,6 @@
         <div class="dropdown">
             <ul>
                 <li><a href = "juegos.php">Juegos</a></li>
-                <div class="dropdown-content">
                 </div>
             </ul> 
         </div>
@@ -45,10 +44,13 @@
 
 <?php
    include("conexion.php");
-   $resultado = mysqli_query($conexion, "SELECT * FROM juegos WHERE ID = 15");
-   $variable = mysqli_fetch_assoc($resultado);
+   $resultado_1 = mysqli_query($conexion, "SELECT * FROM juegos WHERE ID = 15");
+   $variable_1 = mysqli_fetch_assoc($resultado_1);
+
+   $resultado_3 = mysqli_query($conexion, "SELECT * FROM desarrollador WHERE ID = 15");
+   $variable_3 = mysqli_fetch_assoc($resultado_3);
  ?>
- <h2 class = "titulos"><?php echo $variable["Nombre"]; ?></h2>
+ <h2 class = "titulos"><?php echo $variable_1["Nombre"]; ?></h2>
 
 <article class="juegos">
     <div class="galeria">
@@ -91,12 +93,12 @@
         <img src="images/Capturas/Dead_Cells/Dead_Cells_Portada.jpg" alt="">
         <p>Dead Cells es un juego de acción de plataformas de estilo roguelite e inspirado en juegos tipo metroidvania. Explorarás un castillo en constante cambio y expansión, si es que logras abrirte paso contra los guardianes en los combates 2D de estilo Dark Souls. No hay puntos de control: la cosa consiste en matar, morir, aprender y repetir.</p>
         <br>
-        <h4>FECHA DE LANZAMIENTO: 6 AGO 2018
+        <h4>FECHA DE LANZAMIENTO: <?php echo $variable_1["Lanzamiento"]; ?>
         <br>
         <br>
-        DESARROLLADOR: <a href="https://motion-twin.com/en/" target="_blank">Motion Twin</a> 
+        DESARROLLADOR: <a href="https://motion-twin.com/en/" target="_blank"><?php echo $variable_3["Desarrollador"]; ?></a> 
         <br>
-        EDITOR: <a href="https://motion-twin.com/en/" target="_blank">Motion Twin</a>  
+        EDITOR: <a href="https://motion-twin.com/en/" target="_blank"><?php echo $variable_3["Editor"]; ?></a>  
         </h4>
     </div>
 
