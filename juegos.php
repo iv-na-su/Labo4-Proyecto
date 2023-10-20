@@ -153,7 +153,7 @@ while ($cont <= 7) {
         <h3>TERRARIA</h3>
     </div>
     <div>
-        <a href="SW_TFU1.php"><img src="images/Capturas/SW_TFU1/SW_TFU1_Portada.jpg" alt="Portada de Star Wars The Force Unleashed" class="zoom_2"></a>
+        <a href="SW_TFU1.php"><img src="images/Capturas/SW_TFU1/SW_TFU1_Portada.jpg" alt="Portada de Star Wars The Force Unleashed" class="zoom"></a>
         <h3>THE FORCE UNLEASHED</h3>
     </div>
 </section>
@@ -228,16 +228,6 @@ while ($cont <= 7) {
 <script>
 $(document).ready(function(){
     $('.zoom').hover(function() {
-        $(this).addClass('transition');
-    }, function() {
-        $(this).removeClass('transition');
-    });
-});
-</script>
-
-<script>
-$(document).ready(function(){
-    $('.zoom_2').hover(function() {
         $(this).addClass('transition');
     }, function() {
         $(this).removeClass('transition');

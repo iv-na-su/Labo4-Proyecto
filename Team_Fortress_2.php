@@ -87,7 +87,8 @@
         <li><a href="#slide13">○</a></li>
     </ul>
 </nav>
-    <div>
+</div>
+    <div class="info">
         <img src="images/Capturas/Team_Fortress_2/Team_Fortress_2_Portada.jpg" alt="Portada de Team Fortress 2">
         <p>Nueve clases diferentes ofrecen una amplia variedad de habilidades tácticas y personalidades. Constantemente actualizado con nuevos modos de juego, mapas, equipamiento y, lo que es más importante, ¡sombreros!.</p>
         <br>
