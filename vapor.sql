@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 20-10-2023 a las 06:18:13
+-- Tiempo de generación: 25-10-2023 a las 13:50:24
 -- Versión del servidor: 10.4.28-MariaDB
 -- Versión de PHP: 8.2.4
 
@@ -125,6 +125,22 @@ INSERT INTO `juegos` (`ID`, `Nombre`, `Lanzamiento`) VALUES
 (21, 'DARKEST DUNGEON', '2016-01-19'),
 (22, 'SOUTH PARK: THE STICK OF TRUTH', '2014-03-04');
 
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `usuarios`
+--
+
+CREATE TABLE `usuarios` (
+  `id` int(4) NOT NULL,
+  `nombre` varchar(15) NOT NULL,
+  `apellido` varchar(15) NOT NULL,
+  `clave` varchar(6) NOT NULL,
+  `mail` varchar(50) NOT NULL,
+  `nivel` int(1) NOT NULL,
+  `usuario` varchar(10) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
 --
 -- Índices para tablas volcadas
 --
@@ -148,6 +164,12 @@ ALTER TABLE `juegos`
   ADD PRIMARY KEY (`ID`);
 
 --
+-- Indices de la tabla `usuarios`
+--
+ALTER TABLE `usuarios`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- AUTO_INCREMENT de las tablas volcadas
 --
 
@@ -168,6 +190,12 @@ ALTER TABLE `generos`
 --
 ALTER TABLE `juegos`
   MODIFY `ID` int(3) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=23;
+
+--
+-- AUTO_INCREMENT de la tabla `usuarios`
+--
+ALTER TABLE `usuarios`
+  MODIFY `id` int(4) NOT NULL AUTO_INCREMENT;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
