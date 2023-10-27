@@ -24,7 +24,7 @@
 
 
 <?php
-    $_SESSION ["PEPE"] = session_id();
+    $_SESSION['VARIABLE'] = session_id();
    include("conexion.php");
    $resultado_1 = mysqli_query($conexion, "SELECT * FROM juegos WHERE ID = 3");
    $variable_1 = mysqli_fetch_assoc($resultado_1);
@@ -87,7 +87,7 @@
 </article>
 
 <?php 
-    if ($_SESSION["PEPE"] == session_id()){
+    if ($_SESSION["VARIABLE"] == session_id()){
         echo ('<div class = "reseña">
         <h3>DEJA TU RESEÑA</h3>
         <textarea name="" id="" cols="30" rows="10"></textarea>

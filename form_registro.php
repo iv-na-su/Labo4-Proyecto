@@ -19,17 +19,27 @@
 
 <article >
     <section class="formu">
-        <h2>Logueate</h2>
-	<form action="login.php" method="post">
-    	<label>Nombre de usuario
+        <p>REGISTRARSE
+        </p>
+        <form action="registro.php" method="post" >
+    	<label>Nombre
+        	<input type="text" name="nombre" required />
+        </label><br />
+		<label>Apellido
+        	<input type="text" name="apellido" required />
+        </label><br />
+        <label>Email
+        	<input type="email" name="email" required />
+        </label><br />
+        <label>Nombre de usuario
         	<input name="usuario" type="text" maxlength="12" />
         </label><br />
         <label>Contraseña
-        	<input type="clave" name="password" maxlength="12" />
+        	<input type="password" name="password" maxlength="12" />
         </label><br />
-        	<input type="submit" value="Login"/>	
+        <input type="submit" value="Registrarse"/>	
+
     </form>
-    <a href="form_registro.php">Registrate</a> si no sos usuario.
     </section>
 </article>
 
