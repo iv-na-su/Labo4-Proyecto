@@ -8,16 +8,23 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/estilo_santi.css">
+    <?php session_start (); ?>
 </head>
 
 <body>
+
+
+
 <header>
     <?php
     include("NAV.php");
     ?>
 </header>
 
+
+
 <?php
+    $_SESSION ["PEPE"] = session_id();
    include("conexion.php");
    $resultado_1 = mysqli_query($conexion, "SELECT * FROM juegos WHERE ID = 3");
    $variable_1 = mysqli_fetch_assoc($resultado_1);
@@ -79,10 +86,16 @@
 
 </article>
 
-<div class = "reseña">
-<h3>DEJA TU RESEÑA</h3>
-<textarea name="" id="" cols="30" rows="10"></textarea>
-</div>
+<?php 
+    if ($_SESSION["PEPE"] == session_id()){
+        echo ('<div class = "reseña">
+        <h3>DEJA TU RESEÑA</h3>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+        </div>');
+    }
+
+?>
+
 
 <div class= "acerca_de">
 <h3>ACERCA DE ESTE JUEGO</h3>
