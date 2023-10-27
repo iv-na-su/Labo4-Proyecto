@@ -17,8 +17,33 @@
     ?>
 </header>
 
-<section>
-</section>
+<article >
+    <section class="formu">
+        <p>¿Quiere hacer algún comentario en cuanto a nuestra página web?<br>
+                  ¡Todos sus mensajes son bienvenidos!<br>
+            ¡Complete el formulario y envíelo!
+        </p>
+        <form action="perfil.php" method="post">
+            <br><label for="nom">Nombre:</label>
+            <input type="text" name="nombre" maxlength="10" id="identificador">
+
+            <br><label for="ape">Apellido:</label>
+            <input type="text" name="apellido" maxlength="10" id="identificador">
+
+            <br><label for="email">Email:</label>
+            <input type="email" name="email" maxlength="40" id="identificador">
+
+            <br><label for="contra">Contraseña:</label>
+            <input type="password" name="contraseña" maxlength="10" id="identificador">
+
+            <br><label for="username">Nombre de usuario:</label>
+            <input type="text" name="username" maxlength="20" id="identificador">
+
+            <br><input type="submit" value="Enviar" id="identificador">
+            <input type="reset" value="Resetear Información" id="identificador">
+        </form>
+    </section>
+</article>
 
 <footer>
 <?php
