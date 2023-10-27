@@ -1,6 +1,6 @@
 <html>
     <div>
-        <a class="logo" href="index.php"><img src="images/Vapor_Logo_Png.png" alt="Logo página">
+        <a class="logo" href="index.php"><img src="images/Vapor_Logo_Png_2.png" alt="Logo página">
     </div>
     
     <nav id="menu_hamburguesa">
