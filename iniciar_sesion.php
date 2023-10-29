@@ -25,7 +25,7 @@
         	<input name="usuario" type="text" maxlength="12" />
         </label><br />
         <label>Contraseña
-        	<input type="clave" name="password" maxlength="12" />
+        	<input type="password" name="clave" maxlength="12" />
         </label><br />
         	<input type="submit" value="Login"/>	
     </form>

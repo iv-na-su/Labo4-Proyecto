@@ -24,7 +24,7 @@
 
 
 <?php
-    $_SESSION['VARIABLE'] = session_id();
+    
    include("conexion.php");
    $resultado_1 = mysqli_query($conexion, "SELECT * FROM juegos WHERE ID = 3");
    $variable_1 = mysqli_fetch_assoc($resultado_1);

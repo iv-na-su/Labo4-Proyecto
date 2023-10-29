@@ -1,4 +1,5 @@
 <?php  
 session_start ();
- session_destroy($VARIABLE);
+ session_destroy();
+ include("iniciar_sesion.php");
 ?>

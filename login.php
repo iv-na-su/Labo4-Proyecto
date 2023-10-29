@@ -1,4 +1,3 @@
-<?php session_start();?>
 <!doctype html>
 <html>
 <head>
@@ -14,19 +13,15 @@ $clave=$_POST['clave'];
 
 include("conexion.php");
 
-$consulta=mysqli_query($conexion, "SELECT nombre, clave FROM usuarios WHERE usuario='$usuario' AND clave='$clave'");
+$consulta=mysqli_query($conexion, "SELECT usuario, clave FROM usuarios WHERE usuario='$usuario' AND clave='$clave'");
 
 $resultado=mysqli_num_rows($consulta);
 
 if($resultado!=0){
 	$respuesta=mysqli_fetch_array($consulta);
 	
-	$_SESSION['nombre']=$respuesta['nombre'];
-	$_SESSION['apellido']=$respuesta['apellido'];
-		
-		echo "Hola ".$_SESSION['nombre']." ".$_SESSION['apellido']."<br />";
-		echo "Acceso al panel de usuarios.<br/>";
-		echo "<a href='panel.php'>Panel</a>";	
+	include("perfil.php");
+	$_SESSION['VARIABLE'] = session_id();
 
 }else{
 	echo "No es un usuario registrado";
