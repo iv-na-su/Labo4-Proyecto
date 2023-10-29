@@ -18,12 +18,19 @@
 </header>
 
 <article >
-   <?php if (condition) {
-       echo""
-   } else {
-       // code...
-   }
-    ?>
+    <section class="formu">
+        <h2>Logueate</h2>
+	<form action="login.php" method="post">
+    	<label>Nombre de usuario
+        	<input name="usuario" type="text" maxlength="12" />
+        </label><br />
+        <label>Contraseña
+        	<input type="clave" name="password" maxlength="12" />
+        </label><br />
+        	<input type="submit" value="Login"/>	
+    </form>
+    <a href="form_registro.php">Registrate</a> si no sos usuario.
+    </section>
 </article>
 
 <footer>
