@@ -23,7 +23,10 @@
    $resultado_1 = mysqli_query($conexion, "SELECT * FROM juegos WHERE ID = 17");
    $variable_1 = mysqli_fetch_assoc($resultado_1);
 
-   $resultado_3 = mysqli_query($conexion, "SELECT * FROM desarrollador WHERE ID = 17");
+   $resultado_2 = mysqli_query($conexion, "SELECT * FROM desarrollador WHERE ID = 17");
+   $variable_2 = mysqli_fetch_assoc($resultado_2);
+
+   $resultado_3 = mysqli_query($conexion, "SELECT * FROM editor WHERE ID = 16");
    $variable_3 = mysqli_fetch_assoc($resultado_3);
  ?>
  <h2 class = "titulos"><?php echo $variable_1["Nombre"]; ?></h2>
@@ -72,7 +75,7 @@
         <h4>FECHA DE LANZAMIENTO: <?php echo $variable_1["Lanzamiento"]; ?>
         <br>
         <br>
-        DESARROLLADOR: <a href="https://www.klei.com/" target="_blank"><?php echo $variable_3["Desarrollador"]; ?></a> 
+        DESARROLLADOR: <a href="https://www.klei.com/" target="_blank"><?php echo $variable_2["Desarrollador"]; ?></a> 
         <br>
         EDITOR: <a href="https://www.klei.com/" target="_blank"><?php echo $variable_3["Editor"]; ?></a>  
         </h4>

@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 29-10-2023 a las 22:31:54
+-- Tiempo de generación: 29-10-2023 a las 22:38:24
 -- Versión del servidor: 10.4.28-MariaDB
 -- Versión de PHP: 8.2.4
 
@@ -65,15 +65,15 @@ INSERT INTO `desarrollador` (`ID`, `Desarrollador`) VALUES
 --
 
 CREATE TABLE `editor` (
-  `id` int(8) NOT NULL,
-  `nombre` varchar(255) NOT NULL
+  `ID` int(8) NOT NULL,
+  `Editor` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Volcado de datos para la tabla `editor`
 --
 
-INSERT INTO `editor` (`id`, `nombre`) VALUES
+INSERT INTO `editor` (`ID`, `Editor`) VALUES
 (1, 'Valve'),
 (2, 'Starbeeze Entertainment'),
 (3, 'Studio MDHR Entertainment Inc.'),
@@ -201,7 +201,7 @@ ALTER TABLE `desarrollador`
 -- Indices de la tabla `editor`
 --
 ALTER TABLE `editor`
-  ADD PRIMARY KEY (`id`);
+  ADD PRIMARY KEY (`ID`);
 
 --
 -- Indices de la tabla `generos`
@@ -235,7 +235,7 @@ ALTER TABLE `desarrollador`
 -- AUTO_INCREMENT de la tabla `editor`
 --
 ALTER TABLE `editor`
-  MODIFY `id` int(8) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=21;
+  MODIFY `ID` int(8) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=21;
 
 --
 -- AUTO_INCREMENT de la tabla `generos`
