@@ -20,6 +20,7 @@
         </div>
         <div class="dropdown">
         <?php 
+        //error_reporting(0);
         if ($_SESSION["VARIABLE"] != NULL){
             echo ('            <ul>
                 <li><a href = "perfil.php">Perfil</a></li>
@@ -28,12 +29,13 @@
         }
         
         else{
-        echo '     
+            
+        echo ('     
             <ul>
                 <li><a href = "iniciar_sesion.php">Iniciar Sesión</a></li>
             </ul>
         </div>
-        ';
+        ');
         }
         ?>
         <div class="dropdown">
