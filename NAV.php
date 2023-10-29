@@ -1,5 +1,5 @@
 <html>
-<?php session_start (); ?> 
+
     <div>
         <a class="logo" href="index.php"><img src="images/Vapor_Logo_Png_2.png" alt="Logo página">
     </div>
@@ -19,14 +19,14 @@
             </ul> 
         </div>
         <div class="dropdown">
-        <?php if(session_id() != NULL){
-        echo '      
-            <ul>
-                <li><a href = "perfil.php">Perfil</a></li>
+        <?php 
+        if ($_SESSION["VARIABLE"] != NULL){
+            echo ('            <ul>
+                <li><a href = "iniciar_sesion.php">Iniciar Sesión</a></li>
             </ul>
-        </div> ';
+        </div>');
+        }
         
-    }
         else{
         echo '     
             <ul>
