@@ -19,13 +19,13 @@ $resultado=mysqli_num_rows($consulta);
 
 if($resultado!=0){
 	$respuesta=mysqli_fetch_array($consulta);
-	
 	include("perfil.php");
 	$_SESSION['VARIABLE'] = session_id();
+	header("Location:perfil.php");
 
 }else{
-	echo "No es un usuario registrado";
-	include ("form_registro.php");
+	echo"NO ES UN USUARIO REGISTRADO ";
+	echo("<a href='form_registro.php'>REGISTRATE</a>");
 }
 
 
