@@ -18,12 +18,7 @@
 </header>
 
 <article >
-   <?php if (condition) {
-       echo""
-   } else {
-       // code...
-   }
-    ?>
+
 </article>
 
 <footer>
