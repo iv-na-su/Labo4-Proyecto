@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 27-10-2023 a las 20:55:32
+-- Tiempo de generación: 29-10-2023 a las 22:24:41
 -- Versión del servidor: 10.4.28-MariaDB
 -- Versión de PHP: 8.2.4
 
@@ -172,11 +172,20 @@ CREATE TABLE `usuarios` (
   `id` int(4) NOT NULL,
   `nombre` varchar(15) NOT NULL,
   `apellido` varchar(15) NOT NULL,
-  `clave` varchar(6) NOT NULL,
+  `clave` varchar(255) NOT NULL,
   `mail` varchar(50) NOT NULL,
   `nivel` int(1) NOT NULL,
   `usuario` varchar(10) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Volcado de datos para la tabla `usuarios`
+--
+
+INSERT INTO `usuarios` (`id`, `nombre`, `apellido`, `clave`, `mail`, `nivel`, `usuario`) VALUES
+(12, 'NAHUEL', 'SUAREZ', 'f42c336beeb8762ce4b8fe64440c9037', 'naahuel.suarez.2000@gmail.com', 1, 'nahuwu'),
+(13, 'SANTIAGO', 'DIVIRGILIO', 'e10adc3949ba59abbe56e057f20f883e', 'santiagodivirgilio073@gmail.com', 2, 'graff0'),
+(14, 'USUARIO', 'COMUN', '0485f41602de717ecb8039122d51eea2', 'noadmin@gmail.com', 0, 'noadmin');
 
 --
 -- Índices para tablas volcadas
@@ -244,7 +253,7 @@ ALTER TABLE `juegos`
 -- AUTO_INCREMENT de la tabla `usuarios`
 --
 ALTER TABLE `usuarios`
-  MODIFY `id` int(4) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(4) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

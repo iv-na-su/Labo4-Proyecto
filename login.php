@@ -9,7 +9,7 @@
 
 <?php
 $usuario=$_POST['usuario'];
-$clave=$_POST['clave'];
+$clave=md5($_POST['clave']);
 
 include("conexion.php");
 
