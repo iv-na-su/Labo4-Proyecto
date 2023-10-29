@@ -29,8 +29,8 @@
    $resultado_1 = mysqli_query($conexion, "SELECT * FROM juegos WHERE ID = 3");
    $variable_1 = mysqli_fetch_assoc($resultado_1);
 
-   $resultado_3 = mysqli_query($conexion, "SELECT * FROM desarrollador WHERE ID = 3");
-   $variable_3 = mysqli_fetch_assoc($resultado_2);
+   $resultado_2 = mysqli_query($conexion, "SELECT * FROM desarrollador WHERE ID = 3");
+   $variable_2 = mysqli_fetch_assoc($resultado_2);
 
    $resultado_3 = mysqli_query($conexion, "SELECT * FROM editor WHERE ID = 3");
    $variable_3 = mysqli_fetch_assoc($resultado_3);
