@@ -1,5 +1,5 @@
 <html>
-
+    <?php session_start (); ?>
     <div>
         <a class="logo" href="index.php"><img src="images/Vapor_Logo_Png_2.png" alt="Logo página">
     </div>
@@ -22,7 +22,7 @@
         <?php 
         if ($_SESSION["VARIABLE"] != NULL){
             echo ('            <ul>
-                <li><a href = "iniciar_sesion.php">Perfil</a></li>
+                <li><a href = "perfil.php">Perfil</a></li>
             </ul>
         </div>');
         }
