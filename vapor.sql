@@ -184,7 +184,7 @@ CREATE TABLE `usuarios` (
 
 INSERT INTO `usuarios` (`id`, `nombre`, `apellido`, `clave`, `mail`, `nivel`, `usuario`) VALUES
 (12, 'NAHUEL', 'SUAREZ', 'f42c336beeb8762ce4b8fe64440c9037', 'naahuel.suarez.2000@gmail.com', 1, 'nahuwu'),
-(13, 'SANTIAGO', 'DIVIRGILIO', 'e10adc3949ba59abbe56e057f20f883e', 'santiagodivirgilio073@gmail.com', 2, 'graff0'),
+(13, 'SANTIAGO', 'DIVIRGILIO', 'e10adc3949ba59abbe56e057f20f883e', 'santiagodivirgilio073@gmail.com', 1, 'graff0'),
 (14, 'USUARIO', 'COMUN', '0485f41602de717ecb8039122d51eea2', 'noadmin@gmail.com', 0, 'noadmin');
 
 --
