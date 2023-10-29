@@ -223,6 +223,22 @@ width: 32%;
 	width: 100%;
 	height: 100%;
 }
+
+.boton_cerrar{
+  margin-top: -7%;
+  display: flex;
+  border: 1px solid #2e518b;
+  padding: 10px; 
+  background-color: #7c0ea7;
+  color: rgb(222, 173, 226);
+  text-decoration: none; 
+  text-transform: uppercase; 
+  font-family: 'Roboto Condensed', sans-serif, blue;
+  border-radius: 50px; 
+  width: 5%;
+  margin-left: auto;
+  margin-right: auto;
+}
 /*--------------------------------------------SLIDER-------------------*/
 .slider{
   width: 100%;

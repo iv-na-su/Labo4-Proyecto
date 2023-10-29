@@ -18,7 +18,7 @@
 </header>
 
 <article >
-
+    <a id="boton_cerrar" href="cerrar_sesion.php">Cerrar Sesión</a>
 </article>
 
 <footer>
