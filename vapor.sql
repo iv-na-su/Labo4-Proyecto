@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 29-10-2023 a las 22:38:24
+-- Tiempo de generación: 30-10-2023 a las 21:52:19
 -- Versión del servidor: 10.4.28-MariaDB
 -- Versión de PHP: 8.2.4
 
@@ -129,6 +129,7 @@ CREATE TABLE `juegos` (
   `ID` int(3) NOT NULL,
   `Nombre` varchar(100) NOT NULL,
   `Lanzamiento` date NOT NULL,
+  `Archivo` varchar(40) NOT NULL,
   `codigo_genero` int(8) DEFAULT NULL,
   `codigo_desarrollador` int(8) DEFAULT NULL,
   `codigo_editor` int(8) DEFAULT NULL
@@ -138,29 +139,29 @@ CREATE TABLE `juegos` (
 -- Volcado de datos para la tabla `juegos`
 --
 
-INSERT INTO `juegos` (`ID`, `Nombre`, `Lanzamiento`, `codigo_genero`, `codigo_desarrollador`, `codigo_editor`) VALUES
-(1, 'COUNTER STRIKE 1.6', '2000-11-01', 4, 1, 1),
-(2, 'PAYDAY 2', '2013-08-13', 4, 2, 2),
-(3, 'CUPHEAD', '2017-09-29', 1, 3, 3),
-(4, 'GRAND THEFT AUTO: SAN ANDREAS', '2005-06-06', 1, 4, 4),
-(5, 'PUBG: BATTLEGROUNDS', '2017-12-21', 1, 5, 5),
-(6, 'STARDEW VALLEY', '2016-02-26', 2, 6, 6),
-(7, 'THE SIMS 4', '2014-09-02', 2, 7, 7),
-(8, 'FALL GUYS', '2020-08-03', 2, 8, 8),
-(9, 'FIVE NIGHTS AT FREDDY\'S', '2014-08-18', 3, 9, 9),
-(10, 'RESIDENT EVIL 4 (2005)', '2005-03-18', 3, 10, 10),
-(11, 'SOMA', '2015-09-22', 3, 11, 11),
-(12, 'TEAM FORTRESS 2', '2007-10-10', 4, 1, 1),
-(13, 'THE BINDING OF ISAAC: REBIRTH', '2014-11-04', 5, 13, 12),
-(14, 'VOIDIGO', '2023-06-08', 5, 14, 13),
-(15, 'DEAD CELLS', '2018-08-06', 5, 15, 14),
-(16, 'CORE KEEPER', '2022-03-08', 6, 16, 15),
-(17, 'DON\'T STARVE', '2013-04-23', 6, 17, 16),
-(18, 'TERRARIA', '2011-05-16', 6, 18, 17),
-(19, 'STAR WARS: THE FORCE UNLEASHED', '2008-09-16', 6, 19, 18),
-(20, 'DOTA 2', '2013-07-09', 7, 1, 1),
-(21, 'DARKEST DUNGEON', '2016-01-19', 7, 21, 19),
-(22, 'SOUTH PARK: THE STICK OF TRUTH', '2014-03-04', 7, 22, 20);
+INSERT INTO `juegos` (`ID`, `Nombre`, `Lanzamiento`, `Archivo`, `codigo_genero`, `codigo_desarrollador`, `codigo_editor`) VALUES
+(1, 'COUNTER STRIKE 1.6', '2000-11-01', 'Counter_Old', 4, 1, 1),
+(2, 'PAYDAY 2', '2013-08-13', 'PayDay_2', 4, 2, 2),
+(3, 'CUPHEAD', '2017-09-29', 'Cuphead', 1, 3, 3),
+(4, 'GRAND THEFT AUTO: SAN ANDREAS', '2005-06-06', 'GTA_Old', 1, 4, 4),
+(5, 'PUBG: BATTLEGROUNDS', '2017-12-21', 'PUBG', 1, 5, 5),
+(6, 'STARDEW VALLEY', '2016-02-26', 'Stardew_Valley', 2, 6, 6),
+(7, 'THE SIMS 4', '2014-09-02', 'The_Sims_4', 2, 7, 7),
+(8, 'FALL GUYS', '2020-08-03', 'Fall_Guys', 2, 8, 8),
+(9, 'FIVE NIGHTS AT FREDDY\'S', '2014-08-18', 'FNAF1', 3, 9, 9),
+(10, 'RESIDENT EVIL 4 (2005)', '2005-03-18', 'RE4_Old', 3, 10, 10),
+(11, 'SOMA', '2015-09-22', 'SOMA', 3, 11, 11),
+(12, 'TEAM FORTRESS 2', '2007-10-10', 'Team_Fortress_2', 4, 1, 1),
+(13, 'THE BINDING OF ISAAC: REBIRTH', '2014-11-04', 'The_Binding_Of_Isaac', 5, 13, 12),
+(14, 'VOIDIGO', '2023-06-08', 'Voidigo', 5, 14, 13),
+(15, 'DEAD CELLS', '2018-08-06', 'Dead_Cells', 5, 15, 14),
+(16, 'CORE KEEPER', '2022-03-08', 'Core_Keeper', 6, 16, 15),
+(17, 'DON\'T STARVE', '2013-04-23', 'Dont_Starve', 6, 17, 16),
+(18, 'TERRARIA', '2011-05-16', 'Terraria', 6, 18, 17),
+(19, 'STAR WARS: THE FORCE UNLEASHED', '2008-09-16', 'SW_TFU1', 6, 19, 18),
+(20, 'DOTA 2', '2013-07-09', 'Dota2', 7, 1, 1),
+(21, 'DARKEST DUNGEON', '2016-01-19', 'Darkest_Dungeon', 7, 21, 19),
+(22, 'SOUTH PARK: THE STICK OF TRUTH', '2014-03-04', 'South_Park_TSOT', 7, 22, 20);
 
 -- --------------------------------------------------------
 
