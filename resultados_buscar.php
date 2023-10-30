@@ -10,7 +10,7 @@
 <?php
 	include('conexion.php');
 
-	$buscar = $_POST['buscar'];
+	$buscar = $_GET['buscar'];
 	echo "Su consulta: <em>".$buscar."</em><br>";
 
 	$consulta = mysqli_query($conexion, "SELECT * FROM juegos WHERE Nombre LIKE '%$buscar%' ");

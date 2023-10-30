@@ -44,17 +44,15 @@ while ($cont <= 7) {
  ?>
 
 
-<div class= "busc">
-<form class="buscar" action="resultados_buscar.php" method="post">
-      <input type="search" name="buscar" placeholder="Buscar" required />
-        <div class="btn">
-      <input type="submit" value="Enviar" placeholder="." >
-        <i class="fas fa-search icon"></i>
-        
-    </input>
-    </div>
-    </form>
-    </div>
+<div class="cajabuscar"><form method="get" id="buscarform" action="resultados_buscar.php">
+    <fieldset>
+        <input type="search" id="s" name="buscar" placeholder="Buscar..." required />
+        <input class="button" type="submit" value="" >
+        <i class="search"></i>
+    </fieldset>
+    </form></div>
+
+
 
 
 <section class="generos" id="accion">
