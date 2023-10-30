@@ -8,6 +8,17 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/estilo_santi.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 </head>
 
 <body>
@@ -33,12 +44,18 @@ while ($cont <= 7) {
  ?>
 
 
-<form action="resultados_buscar.php" method="post">
-    <label>BUSCAR JUEGOS
-    <input type="search" name="buscar" placeholder="Buscar..." />
-    <input type="submit" value="Enviar">
-    </label>
+<div class= "busc">
+<form class="buscar" action="resultados_buscar.php" method="post">
+      <input type="search" name="buscar" placeholder="Buscar" required />
+        <div class="btn">
+      <input type="submit" value="Enviar" placeholder="." >
+        <i class="fas fa-search icon"></i>
+        
+    </input>
+    </div>
     </form>
+    </div>
+
 
 <section class="generos" id="accion">
     <h2>ACCIÓN</h2>
@@ -92,7 +109,7 @@ while ($cont <= 7) {
     <h2>SHOOTER</h2>
 
     <div>
-        <a href="PayDay_2.php"><img src="images/Capturas/PayDay_2/PayDay_Portada.jpg" alt="Portada de Pay Day 2" class="zoom"></a>
+        <a href="PayDay_2.php"><img src="images/Capturas/PayDay_2/PayDay_2_Portada.jpg" alt="Portada de Pay Day 2" class="zoom"></a>
         <h3>PAY DAY 2</h3>
     </div>
 

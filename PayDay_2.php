@@ -68,7 +68,7 @@
 </nav>
 </div>
     <div>
-        <img src="images/Capturas/PayDay_2/PayDay_Portada.jpg" alt="Portada de Pay Day 2">
+        <img src="images/Capturas/PayDay_2/PayDay_2_Portada.jpg" alt="Portada de Pay Day 2">
         <p>PAYDAY 2 es un juego de acción cooperativo para cuatro jugadores que, una vez más, permite a los jugadores ponerse en la piel del equipo original de PAYDAY - Dallas, Hoxton, Wolf y Chains - mientras descienden por Washington DC en una épica ola de crímenes.</p>
         <br>
         <h4>FECHA DE LANZAMIENTO: <?php echo $variable_1["Lanzamiento"]; ?>

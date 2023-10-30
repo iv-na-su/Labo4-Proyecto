@@ -28,7 +28,7 @@
 	?>
     <p>
     <?php	
-			echo "<img src='images/Capturas/".$resultados['Archivo']."".$resultados['Archivo']."_Portada.jpg'>"."</img>";
+			echo "<img src='images/Capturas/".$resultados['Archivo']."/".$resultados['Archivo']."_Portada.jpg'>"."</img>";
 			echo "<a href='".$resultados['Archivo'].".php'>".$resultados['Nombre']."</a>";
 			$genero = $resultados['codigo_genero'];
 			echo "<br>";
