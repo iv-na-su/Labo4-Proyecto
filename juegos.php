@@ -32,6 +32,14 @@ while ($cont <= 7) {
 }
  ?>
 
+
+<form action="resultados_buscar.php" method="post">
+    <label>BUSCAR JUEGOS
+    <input type="search" name="buscar" placeholder="Buscar..." />
+    <input type="submit" value="Enviar">
+    </label>
+    </form>
+
 <section class="generos" id="accion">
     <h2>ACCIÓN</h2>
     <div>
