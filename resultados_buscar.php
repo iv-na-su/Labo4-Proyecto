@@ -28,11 +28,20 @@
 	?>
     <p>
     <?php	
-			echo $resultados['Nombre'];
+			echo "<img src='images/Capturas/".$resultados['Archivo']."".$resultados['Archivo']."_Portada.jpg'>"."</img>";
+			echo "<a href='".$resultados['Archivo'].".php'>".$resultados['Nombre']."</a>";
+			$genero = $resultados['codigo_genero'];
 			echo "<br>";
 			echo "FECHA DE LANZAMIENTO: ".$resultados['Lanzamiento'];
+			echo "<br>";
+			$consulta_genero = mysqli_query($conexion, "SELECT * FROM generos WHERE id LIKE '%$genero%'");
 
+			while($resultado_genero=mysqli_fetch_array($consulta_genero)){
+				echo "GENERO: ".$resultado_genero['genero'];
+			}
 			
+
+
 			
 	?>
     </p>
