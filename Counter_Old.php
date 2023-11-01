@@ -74,8 +74,8 @@
 
     <div class="info">
         <img src="images/Capturas/Counter_Old/Counter_Old_Portada.jpg" alt="Portada de Counter Strike 1.6">
-        <p>Disfruta del juego de acción en línea n° 1 en el mundo. Sumérgete en el fragor de la guerra antiterrorista más realista con este archiconocido juego por equipos. Alíate con compañeros para superar misiones estratégicas, asalta bases enemigas, rescata rehenes, y recuerda que tu personaje contribuye al éxito del equipo y viceversa.</p>
-        <br>
+        <p><?php echo $variable_1["Descripcion_Chica"]?></p>
+         <br>
         <h4>FECHA DE LANZAMIENTO: <?php echo $variable_1["Lanzamiento"]?>
         <br>
         <br>
@@ -96,7 +96,7 @@
 <h3>ACERCA DE ESTE JUEGO</h3>
 <br>
 <br>
-<p>Disfruta del juego de acción en línea n° 1 en el mundo. Sumérgete en el fragor de la guerra antiterrorista más realista con este archiconocido juego por equipos. Alíate con compañeros para superar misiones estratégicas, asalta bases enemigas, rescata rehenes, y recuerda que tu personaje contribuye al éxito del equipo y viceversa.</p>
+<p><?php echo $variable_1["Descripcion_Grande"]?></p>
 </div>
 
 
@@ -104,10 +104,7 @@
 <h3>REQUISITOS DEL JUEGO</h3>
 <br>
 <br>
-<p>MÍNIMO: <br><br>procesador de 500 MHz, <br>96 MB de RAM, <br>tarjeta de vídeo de 16 MB, <br>Windows XP, <br>ratón, teclado y conexión a Internet
-<br><br>
-<br><br>
-RECOMENDADO: <br><br>procesador de 800 MHz, <br>128 MB de RAM, <br>tarjeta de video de 32 MB, <br>Windows XP, <br>ratón, teclado y conexión a Internet</p>
+<p><?php echo $variable_1["Requisitos"]?></p>
 </div>
 
 

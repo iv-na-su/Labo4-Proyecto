@@ -24,6 +24,12 @@
    include("conexion.php");
    $resultado = mysqli_query($conexion, "SELECT * FROM juegos WHERE ID = ");
    $variable = mysqli_fetch_assoc($resultado);
+
+   $resultado_2 = mysqli_query($conexion, "SELECT * FROM desarrollador WHERE ID = ");
+   $variable_2 = mysqli_fetch_assoc($resultado_2);
+
+   $resultado_3 = mysqli_query($conexion, "SELECT * FROM editor WHERE ID = ");
+   $variable_3 = mysqli_fetch_assoc($resultado_3);
  ?>
  <h2 class = "titulos"><?php echo $variable["Nombre"]; ?></h2>
 
@@ -66,14 +72,14 @@
 
     <div>
         <img src="images/Capturas/" alt="">
-        <p>DESCRIPCION</p>
+        <p><?php echo $variable_1["Descripcion_Chica"]?></p>
         <br>
         <h4>FECHA DE LANZAMIENTO: <?php echo $variable["Lanzamiento"]; ?>
         <br>
         <br>
-        DESARROLLADOR: <a href="" target="_blank">NOMBRE DESARROLLADOR</a> 
+        DESARROLLADOR: <a href="" target="_blank"><?php echo $variable_2["Desarrollador"]; ?></a> 
         <br>
-        EDITOR: <a href="" target="_blank">NOMBRE EDITOR</a>  
+        EDITOR: <a href="" target="_blank"><?php echo $variable_3["Editor"]; ?></a>  
         </h4>
     </div>
 
@@ -88,17 +94,14 @@
 <h3>ACERCA DE ESTE JUEGO</h3>
 <br>
 <br>
-<p>ACERCA DE</p>
+<p><?php echo $variable_1["Descripcion_Grande"]?></p>
 </div>
 
 <div class= "acerca_de">
 <h3>REQUISITOS DEL JUEGO</h3>
 <br>
 <br>
-<p>MÍNIMO: 
-<br>
-<br>
-RECOMENDADO: </p>
+<p><?php echo $variable_1["Requisitos"]?></p>
 </div>
 
 

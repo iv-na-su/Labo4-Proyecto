@@ -106,10 +106,10 @@ Pero ten cuidado, aún te aguardan más desafíos... ¿Estás preparado para la 
 <h3>REQUISITOS DEL JUEGO</h3>
 <br>
 <br>
-<p>MÍNIMO: SO: Windows XP / Vista / 7, Procesador: 1.6 GHz, Memoria: 512 MB de RAM, Disco Duro: 200 MB de espacio, libre, Gráficos: Shader Model 1.1 con 128 MB de VRAM, DirectX®: 9.0c o posterior 
-<br>
-<br>
-RECOMENDADO: SO: Windows 7, 8/8.1, 10, Processor: Dual Core 3.0 Ghz, Memory: 4GB, Hard Disk Space: 200 MB, Video, Card: 256mb Video Memory, capable of Shader Model 2.0+, DirectX®: 9.0c or Greater </p>
+<p>MÍNIMO:<br><br> SO: Windows XP / Vista / 7<br>Procesador: 1.6 GHz<br>Memoria: 512 MB de RAM<br> Disco Duro: 200 MB de espaciolibre<br> Gráficos: Shader Model 1.1 con 128 MB de VRAM<br> DirectX®: 9.0c o posterior 
+<br><br>
+<br><br>
+RECOMENDADO:<br><br> SO: Windows 7, 8/8.1, 10<br> Processor: Dual Core 3.0 Ghz<br>Memory: 4GB<br> Hard Disk Space: 200 MB<br> Video Card: 256mb Video Memory, capable of Shader Model 2.0+<br> DirectX®: 9.0c or Greater </p>
 </div>
 
 
