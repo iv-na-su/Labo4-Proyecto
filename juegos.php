@@ -43,7 +43,10 @@ while ($cont <= 7) {
 }
  ?>
 
-
+<?php 
+    if ($_SESSION["VARIABLE"] == session_id()){
+        //Empieza el echo de juegos y buscador
+        echo (' 
 <div class="cajabuscar"><form method="get" id="buscarform" action="resultados_buscar.php">
     <fieldset>
         <input type="search" id="s" name="buscar" placeholder="Buscar..." required />
@@ -51,9 +54,6 @@ while ($cont <= 7) {
         <i class="search"></i>
     </fieldset>
     </form></div>
-
-
-
 
 <section class="generos" id="accion">
     <h2>ACCIÓN</h2>
@@ -90,8 +90,8 @@ while ($cont <= 7) {
 <section class="generos" id="terror">
     <h2>TERROR</h2>
         <div>
-        <a href="FNAF1.php"><img src="images/Capturas/FNAF1/FNAF1_Portada.jpg" alt="Portada de Five Nights At Freddy's" class="zoom"></a>
-        <h3>FIVE NIGHT AT FREDDY'S</h3>
+        <a href="FNAF1.php"><img src="images/Capturas/FNAF1/FNAF1_Portada.jpg" alt="Portada de Five Nights At Freddy´s" class="zoom"></a>
+        <h3>FIVE NIGHT AT FREDDY´S</h3>
     </div>
     <div>
         <a href="RE4_Old.php"><img src="images/Capturas/RE4_Old/RE4_Old_Portada.jpg" alt="Portada de Resident Evil 4 2005" class="zoom">
@@ -145,8 +145,8 @@ while ($cont <= 7) {
         <h3>CORE KEEPER</h3>
     </div>
     <div>
-        <a href="Dont_Starve.php"><img src="images/Capturas/Dont_Starve/Dont_Starve_Portada.jpg" alt="Portada de Don't Starve" class="zoom"></a>
-        <h3>DON'T STARVE</h3>
+        <a href="Dont_Starve.php"><img src="images/Capturas/Dont_Starve/Dont_Starve_Portada.jpg" alt="Portada de Don´t Starve" class="zoom"></a>
+        <h3>DON´T STARVE</h3>
     </div>
     <div>
         <a href="Terraria.php"><img src="images/Capturas/Terraria/Terraria_Portada.jpg" alt="Portada de Terraria" class="zoom"></a>
@@ -173,6 +173,13 @@ while ($cont <= 7) {
         <h3>SOUTH PARK: THE STICK OF TRUTH</h3>
     </div>
 </section>
+'); //Termina el echo de juegos
+    }
+else {
+    echo('¡Inicia sesión para disfrutar del contenido de nuestro sitio web!');
+}
+
+?>
 
 <footer>
 <?php
@@ -180,7 +187,7 @@ while ($cont <= 7) {
     ?>
 </footer>
 
-<script type="text/javascript">
+<script type="text/javascript"> <!-- Funcion menu hamburguesa -->
     function myFunction() {
       var x = document.getElementById("menu_hamburguesa");
       if (x.className === "") {

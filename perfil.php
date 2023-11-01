@@ -26,10 +26,6 @@
 
     $resultado=mysqli_num_rows($consulta);
 
-if($resultado!=0){
-    $nombre=mysqli_fetch_assoc($resultado);
-}
-    echo $nombre;
     ?>
 </article>
 

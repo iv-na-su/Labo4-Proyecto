@@ -20,7 +20,7 @@
 <article >
     <section class="formu">
         <h2>Logueate</h2>
-	<form action="login.php, perfil.php" method="post">
+	<form action="login.php" method="post">
     	<label>Nombre de usuario
         	<input name="usuario" type="text" maxlength="12" />
         </label><br />

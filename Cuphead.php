@@ -90,16 +90,10 @@
 
 </article>
 
-<?php 
-    if ($_SESSION["VARIABLE"] == session_id()){
-        echo ('<div class = "reseña">
-        <h3>DEJA TU RESEÑA</h3>
-        <textarea name="" id="" cols="30" rows="10"></textarea>
-        </div>');
-    }
-
-?>
-
+<div class = "reseña">
+    <h3>DEJA TU RESEÑA</h3>
+    <textarea name="" id="" cols="30" rows="10"></textarea>
+</div>
 
 <div class= "acerca_de">
 <h3>ACERCA DE ESTE JUEGO</h3>
