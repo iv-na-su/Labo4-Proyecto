@@ -228,21 +228,24 @@ width: 32%;
 /*--------------------------------------------SLIDER-------------------*/
 
 .boton_cerrar{
-  margin-top: -7%;
+  margin-top: 21%;
   display: flex;
-  border: 1px solid #2e518b;
+  border: 1px solid #171D25;
   padding: 10px; 
-  background-color: #7c0ea7;
+  background-color: #171D25;
   color: rgb(222, 173, 226);
   text-decoration: none; 
   text-transform: uppercase; 
   font-family: 'Roboto Condensed', sans-serif, blue;
   border-radius: 50px; 
-  width: 5%;
-  margin-left: auto;
-  margin-right: auto;
+  width: 10%;
+  margin-left: 42%;
+  margin-bottom: 2%;
 }
 
+.boton_cerrar:hover{ 
+  background-color: #426b9e;
+}
 .slider{
   width: 100%;
 	height: 30%;

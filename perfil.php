@@ -17,6 +17,22 @@
     ?>
 </header>
 
+<article>
+    <?php
+   include("conexion.php");
+   $usuario=$_POST['usuario'];
+
+    $consulta=mysqli_query($conexion, "SELECT usuario FROM usuarios WHERE usuario='$usuario'");
+
+    $resultado=mysqli_num_rows($consulta);
+
+if($resultado!=0){
+    $nombre=mysqli_fetch_assoc($resultado);
+}
+    echo $nombre;
+    ?>
+</article>
+
 <article >
     <a class="boton_cerrar" href="cerrar_sesion.php">Cerrar Sesión</a>
 </article>
