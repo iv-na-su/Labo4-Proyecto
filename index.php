@@ -18,17 +18,17 @@
     ?>
 </header>
 
-    <section>
-        <article class="inicio">
+    <section  class="inicio">
+        <article>
             <h1>Vapor</h1>
             <h2>El sitio web más elegido por los jugadores</h2>
         </article>
 
-        <article class="inicio">
+        <article>
             <p>¡Bienvenido a la sección de inicio de <i>Vapor</i> !. Inicia sesión o crea una cuenta totalmente <i>gratis</i> para disfrutar de todo el contenido que tenemos para ofrecer en nuestro sitio web. Accede a las distintas secciones de juegos, mediante el menú superior, o mediante nuestro árbol de sitio al final de la página.</p> 
         </article>
 
-        <article class="inicio">
+        <article >
             <h3><u><i>Preguntas Frecuentes:</h3></u></i><br><br>
             <h4>○ ¿Que es <i>"Vapor"</i>?</h4>
                 <p><strong><i>Vapor</strong></i> es un sitio web <strong>no oficial</strong>, sin fines de lucro, inspirado en la famosa página de videojuegos <i>"Steam"</i>. Este sitio recopila información sobre múltiples juegos, y los enlista en base a su género. Su única función es la de informar, por lo que no se podrán comprar juegos, ni ningún tipo de artículo relacionado a los mismos.</p> 

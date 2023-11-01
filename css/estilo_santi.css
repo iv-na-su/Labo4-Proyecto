@@ -166,6 +166,12 @@ article{
   font-size: 4rem;
   color: #FFFFFF;
 }
+
+.inicio{
+  background-color: #1a2a3eaf;
+  background-size: cover;
+}
+
 .inicio h2{
   margin-left: 26%;
   font-family: 'Roboto Condensed', sans-serif;
