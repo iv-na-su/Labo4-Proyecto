@@ -1,0 +1,25 @@
+Faltantes:
+
+Foro: Tabla nueva donde se lineka al usuario
+
+Juegos sin sesion: que redirgja a Inicio de sesion
+
+Arregla menú Inicio de sesion
+
+Contenedor con un alto fijo (o un alto mínimo)
+
+Arreglar fondos faltantes (Más imagenes en formularios y fondo borroso como inicio)
+
+Validar mensajes del foro vía Admin
+
+si llegamos...
+hacer los juegos completamente dinamicos para no tener un .php por cada juego
+
+
+----------------------------------------------------------- USUARIOS ------------------------------------------------------------
+
+Nombre: 	Contraseña: 		Nivel:
+
+graff0		123456			Admin
+
+noadmin		noadmin			Normal
