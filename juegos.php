@@ -176,7 +176,7 @@ while ($cont <= 7) {
 '); //Termina el echo de juegos
     }
 else {
-    echo('¡Inicia sesión para disfrutar del contenido de nuestro sitio web!');
+    header("Location:iniciar_sesion.php");
 }
 
 ?>

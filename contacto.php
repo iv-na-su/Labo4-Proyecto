@@ -28,10 +28,7 @@
         <form action="contacto.php" method="post">
             <br><label for="nom">Nombre:</label>
             <input type="text" name="nombre" maxlength="10" id="identificador">
-
-            <br><label for="contra">Contraseña:</label>
-            <input type="password" name="contraseña" maxlength="10" id="identificador">
-
+            
             <br><label for="email">Email:</label>
             <input type="email" name="email" maxlength="40" id="identificador">
 

@@ -143,6 +143,8 @@ section div h3{
   background-color: #1A2A3E;
   border-style: dashed;
   width: 34%;
+  height: 34%;
+  margin-bottom: 8%;
 }
 .fondo{
   position: fixed;
@@ -192,6 +194,36 @@ article{
   font-family: 'Roboto Condensed', sans-serif;
   color: #FFFFFF;
   font-size: 1.4rem;
+}
+.busqueda h2{
+  margin-left: 38%;
+  margin-top: 2%;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 2rem;
+  color: #FFFFFF;
+}
+.busqueda h3{
+  margin-left: 4%;
+  margin-top: 2%;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 1.3rem;
+  color: #FFFFFF;
+}
+.busqueda img{
+  margin-top: 2%;
+  width: 35%;
+  display: inline-flex;
+  height: 35%;
+}
+.busqueda p{
+  margin-left: 3%;
+  margin-top: 2%;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 1.5rem;
+  color: #FFFFFF;
+}
+.busqueda p a{
+  color: #42f5d1;
 }
 .title_logo{
   margin-top: 4%;
@@ -304,13 +336,6 @@ ul.slider li {
   color: #00324b;
 }
 /*-------------------CIERRA SLIDER-------------------*/
-
-
-
-
-
-
-
 
 /*-------------------BUSCADOR-------------------*/
 

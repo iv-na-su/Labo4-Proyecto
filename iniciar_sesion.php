@@ -11,6 +11,7 @@
 </head>
 
 <body>
+    <img class="fondo" src="images/fondo_formu.jpg" alt="">
 <header>
     <?php
     include("NAV.php");
