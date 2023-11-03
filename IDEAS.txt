@@ -2,8 +2,6 @@ Faltantes:
 
 Foro: Tabla nueva donde se lineka al usuario
 
-Juegos sin sesion: que redirgja a Inicio de sesion
-
 Arregla menú Inicio de sesion
 
 Contenedor con un alto fijo (o un alto mínimo)

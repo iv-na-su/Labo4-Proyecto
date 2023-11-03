@@ -1,15 +1,33 @@
 <html>
 <div>
-        <a href="index.php"><strong>Inicio</strong></a>
+        <a href="index.php">Inicio</a>
     </div>
     <div>
-        <a href="juegos.php"><strong>Juegos</strong></a>
+        <a href="juegos.php">Juegos</a>
     </div>
     <div>
-        <h7><strong>Perfil</strong></h7>
+    <?php 
+    error_reporting(0);
+    if ($_SESSION["VARIABLE"] != NULL){
+        echo ('            <ul>
+            <li><a href = "perfil.php">Perfil</a></li>
+        </ul>
+        </div>');
+        }
+        
+        else{
+            
+        echo ('     
+            <ul>
+                <li><a href = "iniciar_sesion.php">Iniciar Sesión</a></li>
+            </ul>
+        </div>
+        ');
+        }
+        ?>
     </div>
     <div>
-        <h7><strong>Contacto</strong></h7>
+        <a href="contacto.php">Contacto</a>
     </div>
     <a href="https://es-la.facebook.com/" target="_blank"><img src="images/Icono_Facebook.png" alt="Facebook" class="redes"></a>
     <a href="https://www.instagram.com/" target="_blank"><img src="images/Icono_Instagram.png" alt="Instagram" class="redes"></a>
