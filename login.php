@@ -21,7 +21,9 @@ if($resultado!=0){
 	$respuesta=mysqli_fetch_array($consulta);
 	include("perfil.php");
 	$_SESSION['VARIABLE'] = session_id();
-	header("Location:perfil.php");
+	$variable_sesion = session_id();
+
+	$consulta_2 = mysqli_query($conexion, "UPDATE usuarios SET id_sesion='$variable_sesion' WHERE usuario='$usuario' AND clave='$clave'");
 
 }else{
 	echo"NO ES UN USUARIO REGISTRADO ";

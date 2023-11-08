@@ -17,16 +17,25 @@
     ?>
 </header>
 
-<article>
+<article class="perfil">
+
     <?php
    include("conexion.php");
    $usuario=$_POST['usuario'];
 
-    $consulta=mysqli_query($conexion, "SELECT usuario FROM usuarios WHERE usuario='$usuario'");
+   $variable_sesion = session_id();
 
-    $resultado=mysqli_num_rows($consulta);
+    $consulta=mysqli_query($conexion, "SELECT usuario, mail FROM usuarios WHERE id_sesion='$variable_sesion'");
 
+    $resultado=mysqli_fetch_assoc($consulta);
+
+    echo ('USUARIO: ');
+    echo $resultado["usuario"];
+    echo('<br>');
+    echo('MAIL: ');
+    echo $resultado["mail"];
     ?>
+
 </article>
 
 <article >
