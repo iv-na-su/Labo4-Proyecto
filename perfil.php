@@ -29,11 +29,11 @@
 
     $resultado=mysqli_fetch_assoc($consulta);
 
-    echo ('USUARIO: ');
-    echo $resultado["usuario"];
+    echo ('Nombre de Usuario:: ');
+    echo $_SESSION['NOMBRE'];
     echo('<br>');
-    echo('MAIL: ');
-    echo $resultado["mail"];
+    echo('Mail: ');
+    echo $_SESSION['MAIL'];
     ?>
 
 </article>

@@ -21,6 +21,9 @@ if($resultado!=0){
 	$respuesta=mysqli_fetch_array($consulta);
 	include("perfil.php");
 	$_SESSION['VARIABLE'] = session_id();
+	$_SESSION['NOMBRE'] = $respuesta['nombre'];
+	$_SESSION['MAIL'] = $respuesta['mail'];
+	$_SESSION['ID'] = $respuesta['id'];
 	$variable_sesion = session_id();
 
 	$consulta_2 = mysqli_query($conexion, "UPDATE usuarios SET id_sesion='$variable_sesion' WHERE usuario='$usuario' AND clave='$clave'");
