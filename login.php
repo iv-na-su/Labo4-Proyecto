@@ -13,7 +13,7 @@ $clave=md5($_POST['clave']);
 
 include("conexion.php");
 
-$consulta=mysqli_query($conexion, "SELECT usuario, clave FROM usuarios WHERE usuario='$usuario' AND clave='$clave'");
+$consulta=mysqli_query($conexion, "SELECT usuario, clave, nombre FROM usuarios WHERE usuario='$usuario' AND clave='$clave'");
 
 $resultado=mysqli_num_rows($consulta);
 
@@ -22,11 +22,7 @@ if($resultado!=0){
 	include("perfil.php");
 	$_SESSION['VARIABLE'] = session_id();
 	$_SESSION['NOMBRE'] = $respuesta['nombre'];
-	$_SESSION['MAIL'] = $respuesta['mail'];
-	$_SESSION['ID'] = $respuesta['id'];
-	$variable_sesion = session_id();
-
-	$consulta_2 = mysqli_query($conexion, "UPDATE usuarios SET id_sesion='$variable_sesion' WHERE usuario='$usuario' AND clave='$clave'");
+	header("Location:perfil.php");
 
 }else{
 	echo"NO ES UN USUARIO REGISTRADO ";

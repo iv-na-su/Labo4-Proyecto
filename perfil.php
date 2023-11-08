@@ -17,28 +17,20 @@
     ?>
 </header>
 
-<article class="perfil">
-
+<article>
     <?php
    include("conexion.php");
    $usuario=$_POST['usuario'];
 
-   $variable_sesion = session_id();
+    $consulta=mysqli_query($conexion, "SELECT usuario FROM usuarios WHERE usuario='$usuario'");
 
-    $consulta=mysqli_query($conexion, "SELECT usuario, mail FROM usuarios WHERE id_sesion='$variable_sesion'");
+    $resultado=mysqli_num_rows($consulta);
 
-    $resultado=mysqli_fetch_assoc($consulta);
-
-    echo ('Nombre de Usuario:: ');
-    echo $_SESSION['NOMBRE'];
-    echo('<br>');
-    echo('Mail: ');
-    echo $_SESSION['MAIL'];
     ?>
-
 </article>
 
 <article >
+    <h2> <?php echo $_SESSION['NOMBRE']; ?> </h2>
     <a class="boton_cerrar" href="cerrar_sesion.php">Cerrar Sesión</a>
 </article>
 
