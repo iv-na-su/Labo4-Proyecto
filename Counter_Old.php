@@ -71,9 +71,8 @@
 </ul>
 </nav>
     </div>
-
     <div class="info">
-        <img src="images/Capturas/Counter_Old/Counter_Old_Portada.jpg" alt="Portada de Counter Strike 1.6">
+        <?php echo $variable_1["Portada"]?>
         <p><?php echo $variable_1["Descripcion_Chica"]?></p>
          <br>
         <h4>FECHA DE LANZAMIENTO: <?php echo $variable_1["Lanzamiento"]?>

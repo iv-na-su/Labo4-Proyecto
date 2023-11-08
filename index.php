@@ -40,7 +40,7 @@
             <br>
             <br>
             <h4>○ ¿Dónde puedo encontrar la página <i>"Steam"</i>?</h4>
-                <p>Puede acceder a Steam buscándolo en su navegador predeterminado, o clikeando sobre el logo oficial de la página debajo: <br><a href="https://store.steampowered.com/?l=spanish"><img src="images/Steam_icon.png" alt="Logo página Steam" class="steam" target="_blank"></a>
+                <p>Puede acceder a Steam buscándolo en su navegador predeterminado, o clikeando sobre el logo oficial de la página debajo: <br><a href="https://store.steampowered.com/?l=spanish" target="_blank"><img src="images/Steam_icon.png" alt="Logo página Steam" class="steam" target="_blank"></a>
                 </p> 
         </article>  
     </section>
