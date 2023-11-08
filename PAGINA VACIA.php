@@ -22,13 +22,13 @@
 
 <?php
    include("conexion.php");
-   $resultado = mysqli_query($conexion, "SELECT * FROM juegos WHERE ID = ");
-   $variable = mysqli_fetch_assoc($resultado);
+   $resultado = mysqli_query($conexion, "SELECT * FROM juegos WHERE ID = 1");
+   $variable_1 = mysqli_fetch_assoc($resultado);
 
-   $resultado_2 = mysqli_query($conexion, "SELECT * FROM desarrollador WHERE ID = ");
+   $resultado_2 = mysqli_query($conexion, "SELECT * FROM desarrollador WHERE ID = 1");
    $variable_2 = mysqli_fetch_assoc($resultado_2);
 
-   $resultado_3 = mysqli_query($conexion, "SELECT * FROM editor WHERE ID = ");
+   $resultado_3 = mysqli_query($conexion, "SELECT * FROM editor WHERE ID = 1");
    $variable_3 = mysqli_fetch_assoc($resultado_3);
  ?>
  <h2 class = "titulos"><?php echo $variable["Nombre"]; ?></h2>
@@ -71,10 +71,10 @@
 </div>
 
     <div>
-        <img src="images/Capturas/" alt="">
+        <?php echo $variable_1["Portada"]?> <!--SANTI, ESTA ES LA LINEA QUE PROVOCA EL ERROR-->
         <p><?php echo $variable_1["Descripcion_Chica"]?></p>
         <br>
-        <h4>FECHA DE LANZAMIENTO: <?php echo $variable["Lanzamiento"]; ?>
+        <h4>FECHA DE LANZAMIENTO: <?php echo $variable_1["Lanzamiento"]; ?>
         <br>
         <br>
         DESARROLLADOR: <a href="" target="_blank"><?php echo $variable_2["Desarrollador"]; ?></a> 
