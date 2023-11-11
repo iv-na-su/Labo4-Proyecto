@@ -21,7 +21,10 @@
 
 	$_SESSION['VARIABLE'] = session_id();
 
-	$consulta = mysqli_query($conexion, "UPDATE juegos SET Nombre = '$nombre' WHERE ID = '$id'");
+	$consulta = mysqli_query($conexion, "UPDATE juegos
+							 SET Nombre = '$nombre', Lanzamiento = '$lanzamiento', Descripcion_Chica = '$descripcion_chica',
+							Descripcion_Grande = '$descripcion_grande', Requisitos = '$requisitos', Portada = '$portada' 
+							 WHERE ID = '$id'");
 
 	header("Location:perfil.php");
 

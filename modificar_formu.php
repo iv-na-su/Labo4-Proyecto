@@ -24,7 +24,7 @@ $variable_1 = mysqli_fetch_array($resultado_1);
 	</p>
 	<form action="modificar.php" method="post" >
 	<label>ID
-		<input type="text" name="id" value="<?php echo $variable_1["ID"]?>" />
+		<input type="text" name="id" readonly="readonly" value="<?php echo $variable_1["ID"]?>" />
 	</label><br />
 	<label>Nombre
 		<input type="text" name="nombre" value="<?php echo $variable_1["Nombre"]?>" />
