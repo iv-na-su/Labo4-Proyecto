@@ -28,6 +28,9 @@
 
     $resultado_1 = mysqli_query($conexion, "SELECT * FROM juegos");
 
+    
+    
+
 
     ?>
 </article>
@@ -42,7 +45,11 @@
 
 <table>
     <thead>
+        <th>ID</th>
         <th>Nombre</th>
+        <th>Genero</th>
+        <th>Desarrollador</th>
+        <th>Editor</th>
         <th>Lanzamiento</th>
         <th>Descripcion_Chica</th>
         <th>Descripcion_Grande</th>
@@ -52,7 +59,32 @@
     </thead>
     <?php while($variable_1 = mysqli_fetch_assoc($resultado_1)){?>
     <tr>
+        <td><?php echo $variable_1["ID"];?></td>
         <td><?php echo $variable_1["Nombre"];?></td>
+
+        <?php $resultado_2 = mysqli_query($conexion, "SELECT * FROM generos");?>
+        <?php while($variable_2 = mysqli_fetch_assoc($resultado_2)){?>
+            <?php if($variable_1["codigo_genero"] == $variable_2["id"]){?>
+                <td><?php echo $variable_2["genero"];?></td>
+                <?php }?>
+         <?php }?>
+
+
+         <?php $resultado_3 = mysqli_query($conexion, "SELECT * FROM desarrollador");?>
+        <?php while($variable_3 = mysqli_fetch_assoc($resultado_3)){?>
+            <?php if($variable_1["codigo_desarrollador"] == $variable_3["ID"]){?>
+                <td><?php echo $variable_3["Desarrollador"];?></td>
+                <?php }?>
+         <?php }?>
+
+
+         <?php $resultado_4 = mysqli_query($conexion, "SELECT * FROM editor");?>
+        <?php while($variable_4 = mysqli_fetch_assoc($resultado_4)){?>
+            <?php if($variable_1["codigo_editor"] == $variable_4["ID"]){?>
+                <td><?php echo $variable_4["Editor"];?></td>
+                <?php }?>
+         <?php }?>
+
         <td><?php echo $variable_1["Lanzamiento"];?></td>
         <td><?php echo $variable_1["Descripcion_Chica"];?></td>
         <td><?php echo $variable_1["Descripcion_Grande"];?></td>

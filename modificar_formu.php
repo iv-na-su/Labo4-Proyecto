@@ -16,7 +16,14 @@ $variable_1 = mysqli_fetch_array($resultado_1);
 </head>
 
 <body>
+<?php 
 
+$resultado_2 = mysqli_query($conexion, "SELECT * FROM generos");
+
+$resultado_3 = mysqli_query($conexion, "SELECT * FROM desarrollador");
+
+$resultado_4 = mysqli_query($conexion, "SELECT * FROM editor");
+?>
 
 <article >
 <section class="abm">
@@ -29,6 +36,44 @@ $variable_1 = mysqli_fetch_array($resultado_1);
 	<label>Nombre
 		<input type="text" name="nombre" value="<?php echo $variable_1["Nombre"]?>" />
 	</label><br />
+
+	<label>Genero
+	<select name="genero">
+	<?php while($variable_2 = mysqli_fetch_assoc($resultado_2)){?>
+	<?php if($variable_1["codigo_genero"] == $variable_2["id"]){?>
+  	<option selected = 'selected' value="<?php echo $variable_2["id"]?>"><?php echo $variable_2["genero"]?></option>
+	  <?php }else {?>
+		<option value="<?php echo $variable_2["id"]?>"><?php echo $variable_2["genero"]?></option>
+	  <?php } ?>
+	  <?php }?>
+	</select>
+	</label><br />
+
+	<label>Desarrollador
+	<select name="desarrollador">
+	<?php while($variable_3 = mysqli_fetch_assoc($resultado_3)){?>
+	<?php if($variable_1["codigo_desarrollador"] == $variable_3["ID"]){?>
+  	<option selected = 'selected' value="<?php echo $variable_3["ID"]?>"><?php echo $variable_3["Desarrollador"]?></option>
+	  <?php }else {?>
+		<option value="<?php echo $variable_3["ID"]?>"><?php echo $variable_3["Desarrollador"]?></option>
+	  <?php } ?>
+	  <?php }?>
+	</select>
+	</label><br />
+
+
+	<label>Editor
+	<select name="editor">
+	<?php while($variable_4 = mysqli_fetch_assoc($resultado_4)){?>
+	<?php if($variable_1["codigo_editor"] == $variable_4["ID"]){?>
+  	<option selected = 'selected' value="<?php echo $variable_4["ID"]?>"><?php echo $variable_4["Editor"]?></option>
+	  <?php }else {?>
+		<option value="<?php echo $variable_4["ID"]?>"><?php echo $variable_4["Editor"]?></option>
+	  <?php } ?>
+	  <?php }?>
+	</select>
+	</label><br />
+
 	<label>Lanzamiento
 		<input type="text" name="lanzamiento" value="<?php echo $variable_1["Lanzamiento"]?>" />
 	</label><br />
