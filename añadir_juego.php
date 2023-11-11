@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>EDITAR</title>
+<title>AÑADIR JUEGO</title>
 </head>
 
 <body>
@@ -31,10 +31,7 @@
 
 
 
-	$consulta = mysqli_query($conexion, "UPDATE juegos
-							 SET Nombre = '$nombre', codigo_genero = '$genero', codigo_desarrollador = '$desarrollador', codigo_editor = '$editor', Lanzamiento = '$lanzamiento', Descripcion_Chica = '$descripcion_chica',
-							Descripcion_Grande = '$descripcion_grande', Requisitos = '$requisitos', Ruta_Imagenes = '$ruta_imagenes' 
-							 WHERE ID = '$id'");
+	$consulta = mysqli_query($conexion, "INSERT INTO juegos (ID, Nombre, Lanzamiento, codigo_genero, codigo_desarrollador, codigo_editor, Descripcion_Chica, Descripcion_Grande, Requisitos, Ruta_Imagenes) VALUES ('', '$nombre', '$lanzamiento', '$genero', '$desarrollador', '$editor', '$descripcion_chica', '$descripcion_grande', '$requisitos', '$ruta_imagenes')");
 
 	header("Location:perfil.php");
 

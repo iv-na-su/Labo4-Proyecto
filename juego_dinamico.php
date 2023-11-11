@@ -28,23 +28,14 @@ $id = $_GET['ID'];
 $resultado_1 = mysqli_query($conexion, "SELECT * FROM juegos WHERE ID = '$id'");
 $variable_1 = mysqli_fetch_array($resultado_1);
 
-$flag=false;
-$resultado_2 = mysqli_query($conexion, "SELECT * FROM desarrollador");
-while( $flag==false and $variable_2 = mysqli_fetch_assoc($resultado_2) ){
-    if($variable_2["ID"] == $variable_1["codigo_desarrollador"]){
-        $flag = true;
-    }
-}
+$id_d = $variable_1["codigo_desarrollador"];
+$resultado_2 = mysqli_query($conexion, "SELECT * FROM desarrollador WHERE id='$id_d'");
+$variable_2 = mysqli_fetch_array($resultado_2);
 
-$flag=false;
 
-$resultado_3 = mysqli_query($conexion, "SELECT * FROM editor");
-while( $flag==false and $variable_3 = mysqli_fetch_assoc($resultado_3) ){
-    if($variable_3["ID"] == $variable_1["codigo_editor"]){
-        $flag = true;
-    }
-}
-
+$id_e = $variable_1["codigo_editor"];
+$resultado_3 = mysqli_query($conexion, "SELECT * FROM editor WHERE id='$id_e'");
+$variable_3 = mysqli_fetch_array($resultado_3);
 
 ?>
 
@@ -95,9 +86,9 @@ while( $flag==false and $variable_3 = mysqli_fetch_assoc($resultado_3) ){
         <h4>FECHA DE LANZAMIENTO: <?php echo $variable_1["Lanzamiento"]; ?>
         <br>
         <br>
-        DESARROLLADOR: <a href="" target="_blank"><?php echo $variable_2["Desarrollador"]; ?></a> 
+        DESARROLLADOR: <?php echo $variable_2["Desarrollador"]; ?>
         <br>
-        EDITOR: <a href="" target="_blank"><?php echo $variable_3["Editor"]; ?></a>  
+        EDITOR: <?php echo $variable_3["Editor"]; ?>
         </h4>
     </div>
 

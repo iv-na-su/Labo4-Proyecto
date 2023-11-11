@@ -26,7 +26,7 @@
 	$buscar = $_GET['buscar'];
 	echo "Resultados de búsqueda para: <em>".$buscar."</em><br>";
 
-	$consulta = mysqli_query($conexion, "SELECT * FROM juegos WHERE Nombre LIKE '%$buscar%' ");
+	$resultado_1 = mysqli_query($conexion, "SELECT * FROM juegos WHERE Nombre LIKE '%$buscar%' ");
 ?>
 </h3>
 </article>
@@ -34,32 +34,30 @@
 		<p>
 		<h2>Cantidad de Resultados:
 		<?php
-			$nros=mysqli_num_rows($consulta);
+			$nros=mysqli_num_rows($resultado_1);
 			echo $nros;
 		?>
 		</h2> 
 		</p>
-	    
+	    <section class="generos" >
+
+		
 		<?php
-			while($resultados=mysqli_fetch_array($consulta)) {
-		?>
+			while($variable_1=mysqli_fetch_array($resultado_1)) {?>
 
-	    <p>
-	    <?php	
-			echo "<img src='images/Capturas/".$resultados['Archivo']."/".$resultados['Archivo']."_Portada.jpg'>"."</img>";
-			echo "<br>";
-			echo "<a href='".$resultados['Archivo'].".php'>".$resultados['Nombre']."</a>";
-			$genero = $resultados['codigo_genero'];
-			echo "<br>";
-			echo "FECHA DE LANZAMIENTO: ".$resultados['Lanzamiento'];
-			echo "<br>";
-			$consulta_genero = mysqli_query($conexion, "SELECT * FROM generos WHERE id LIKE '%$genero%'");
+	    <div style="margin-bottom: 3%;">
+	    	
+			<a href="juego_dinamico.php?ID=<?php echo $variable_1["ID"];?>"><img src="<?php echo $variable_1['Ruta_Imagenes'].'_Portada.jpg'; ?>"  class="zoom">
+			<br><?php echo $variable_1["Nombre"]; ?></a>
 
-			while($resultado_genero=mysqli_fetch_array($consulta_genero)){
-				echo "GENERO: ".$resultado_genero['genero'];
-			}	
-		?>
-	    </p>
+			<?php $id_g = $variable_1["codigo_genero"]?>
+			<?php $resultado_2 = mysqli_query($conexion, "SELECT * FROM generos WHERE id='$id_g'");?>
+			<?php $variable_2 = mysqli_fetch_array($resultado_2)?>
+			
+			<p>GENERO: <?php echo $variable_2["genero"]; ?></p>
+			<p>FECHA DE LANZAMIENTO: <?php echo $variable_1["Lanzamiento"]; ?></p>
+		
+			</div>
 
 	    <?php
 			}
@@ -67,6 +65,7 @@
 			mysqli_free_result($consulta);
 			mysqli_close($conexion);
 		?>
+		</section>
 </article>
 </section>
 <footer>

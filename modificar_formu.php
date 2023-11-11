@@ -75,7 +75,7 @@ $resultado_4 = mysqli_query($conexion, "SELECT * FROM editor");
 	</label><br />
 
 	<label>Lanzamiento
-		<input type="text" name="lanzamiento" value="<?php echo $variable_1["Lanzamiento"]?>" />
+		<input type="date" name="lanzamiento" value="<?php echo $variable_1["Lanzamiento"]?>" />
 	</label><br />
 	<label>Descripcion_Chica
 		<input type="text" name="descripcion_chica" value="<?php echo $variable_1["Descripcion_Chica"]?>"/>
