@@ -400,10 +400,16 @@ ul.slider li {
 /*-------------------CIERRA BUSCADOR-------------------*/
 
 
+
+
+/*-------------------ABRE PERFIL-------------------*/
 table {
-  margin-left: 2.5%;
-  width: 95%;
   border: 1px solid #000;
+  width: 100%;
+}
+
+thead{
+  font-size: 1.2rem;
 }
 
 th, td {
@@ -415,6 +421,65 @@ th, td {
   padding: 0.3em;
   color: rgb(185, 177, 177);
 }
+
+tr{
+  width: auto;
+}
+
+.wrap{
+	margin:auto;
+  width: 95%;
+  
+}
+span{
+  font-size: 1.5rem;
+}
+
+
+ul.tabs{
+	width: 100%;
+	background: #363636;
+	list-style: none;
+	display: flex;
+}
+
+ul.tabs li{
+	width: 100%;
+}
+
+ul.tabs li a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 16px;
+	text-align: center;
+
+	display: block;
+	padding: 20px 0px;
+}
+
+.active{
+	background: #055887;
+}
+
+ul.tabs li a .tab-text{
+	margin-left: 8px;
+}
+
+.secciones{
+	width: 100%;
+}
+
+.secciones article{
+	padding: 5px;
+
+}
+
+.secciones article p{
+	text-align: justify;
+}
+
+
+/*-------------------CIERRA PERFIL-------------------*/
 
 
 .titulos{

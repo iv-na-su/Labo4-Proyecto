@@ -95,6 +95,16 @@ $resultado_4 = mysqli_query($conexion, "SELECT * FROM editor");
 </section>
 </article>
 
+<?php
+	
+
+	
+
+
+
+
+
+?>	
     
 
 </body>
