@@ -26,14 +26,14 @@
 	$descripcion_chica = $_POST['descripcion_chica'];
 	$descripcion_grande = $_POST['descripcion_grande'];
 	$requisitos = $_POST['requisitos'];
-	$portada = $_POST['portada'];
+	$ruta_imagenes = $_POST['ruta_imagenes'];
 
 
 
 
 	$consulta = mysqli_query($conexion, "UPDATE juegos
 							 SET Nombre = '$nombre', codigo_genero = '$genero', codigo_desarrollador = '$desarrollador', codigo_editor = '$editor', Lanzamiento = '$lanzamiento', Descripcion_Chica = '$descripcion_chica',
-							Descripcion_Grande = '$descripcion_grande', Requisitos = '$requisitos', Portada = '$portada' 
+							Descripcion_Grande = '$descripcion_grande', Requisitos = '$requisitos', Ruta_Imagenes = '$ruta_imagenes' 
 							 WHERE ID = '$id'");
 
 	header("Location:perfil.php");

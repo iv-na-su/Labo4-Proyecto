@@ -66,7 +66,7 @@
                         <th>Descripcion_Chica</th>
                         <th>Descripcion_Grande</th>
                         <th>Requisitos</th>
-                        <th>Portada</th>
+                        <th>Ruta_Imagenes</th>
                         <th>Opciones</th>
                     </thead>
                     <?php while($variable_1 = mysqli_fetch_assoc($resultado_1)){?>
@@ -101,7 +101,7 @@
                         <td><?php echo $variable_1["Descripcion_Chica"];?></td>
                         <td><?php echo $variable_1["Descripcion_Grande"];?></td>
                         <td><?php echo $variable_1["Requisitos"];?></td>
-                        <td><?php echo $variable_1["Portada"];?></td>
+                        <td><?php echo $variable_1["Ruta_Imagenes"];?></td>
                         <td><a href="modificar_formu.php?ID=<?php echo $variable_1["ID"];?>">Editar</a></td>
 
                     </tr>
@@ -114,14 +114,14 @@
                     <thead>
                         <th>ID</th>
                         <th>Genero</th>
-                        <th>Opciones</th>
+                        <!-- <th>Opciones</th> -->
                     </thead>
                     <?php $resultado_2 = mysqli_query($conexion, "SELECT * FROM generos");?>
                     <?php while($variable_2 = mysqli_fetch_assoc($resultado_2)){?>
                     <tr>
                         <td><?php echo $variable_2["id"];?></td>
                         <td><?php echo $variable_2["genero"];?></td>
-                        <td><a href="modificar_formu.php?ID=<?php echo $variable_1["ID"];?>">Editar</a></td>
+                       <!-- <td><a href="modificar_formu.php?ID=<?php echo $variable_1["ID"];?>">Editar</a></td> -->
                     </tr>
                     <?php }?>
                 </table>		
@@ -132,14 +132,14 @@
                     <thead>
                         <th>ID</th>
                         <th>Desarrollador</th>
-                        <th>Opciones</th>
+                        <!-- <th>Opciones</th> -->
                     </thead>
                     <?php $resultado_3 = mysqli_query($conexion, "SELECT * FROM desarrollador");?>
                     <?php while($variable_3 = mysqli_fetch_assoc($resultado_3)){?>
                     <tr>
                         <td><?php echo $variable_3["ID"];?></td>
                         <td><?php echo $variable_3["Desarrollador"];?></td>
-                        <td><a href="modificar_formu.php?ID=<?php echo $variable_1["ID"];?>">Editar</a></td>
+                       <!-- <td><a href="modificar_formu.php?ID=<?php echo $variable_1["ID"];?>">Editar</a></td> -->
                     </tr>
                     <?php }?>
                 </table>	
@@ -150,14 +150,14 @@
                     <thead>
                         <th>ID</th>
                         <th>Editor</th>
-                        <th>Opciones</th>
+                       <!-- <th>Opciones</th> -->
                     </thead>
                     <?php $resultado_4 = mysqli_query($conexion, "SELECT * FROM editor");?>
                     <?php while($variable_4 = mysqli_fetch_assoc($resultado_4)){?>
                     <tr>
                         <td><?php echo $variable_4["ID"];?></td>
                         <td><?php echo $variable_4["Editor"];?></td>
-                        <td><a href="modificar_formu.php?ID=<?php echo $variable_1["ID"];?>">Editar</a></td>
+                        <!-- <td><a href="modificar_formu.php?ID=<?php echo $variable_1["ID"];?>">Editar</a></td> -->
                     </tr>
                     <?php }?>
                 </table>	

@@ -58,6 +58,10 @@ while ($cont <= 7) {
 <section class="generos" id="accion">
     <h2>ACCIÓN</h2>
     <div>
+    <a href="juego_dinamico.php"><img src="images/wallpaper.jpg" alt="Portada de Cuphead" class="zoom"></a>
+    <h3>JUEGO DINAMICO</h3>
+</div>
+    <div>
         <a href="Cuphead.php"><img src="images/Capturas/Cuphead/Cuphead_Portada.jpg" alt="Portada de Cuphead" class="zoom"></a>
         <h3>CUPHEAD</h3>
     </div>

@@ -86,8 +86,8 @@ $resultado_4 = mysqli_query($conexion, "SELECT * FROM editor");
 	<label>Requisitos
 		<input type="text" name="requisitos"value="<?php echo $variable_1["Requisitos"]?>" />
 	</label><br />
-	<label>Portada
-		<input type="text" name="portada" value='<?php echo $variable_1["Portada"]?>' />
+	<label>Ruta_Imagenes
+		<input type="text" name="ruta_imagenes" value='<?php echo $variable_1["Ruta_Imagenes"]?>' />
 	</label><br />
 	<input type="submit" value="MODIFICAR"/>	
 
