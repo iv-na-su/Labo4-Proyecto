@@ -21,34 +21,52 @@
 
 
 <?php
-   include("conexion.php");
-   $resultado = mysqli_query($conexion, "SELECT * FROM juegos WHERE ID = 1");
-   $variable_1 = mysqli_fetch_assoc($resultado);
+	include("conexion.php");
+	$_SESSION['VARIABLE'] = session_id();
 
-   $resultado_2 = mysqli_query($conexion, "SELECT * FROM desarrollador WHERE ID = 1");
-   $variable_2 = mysqli_fetch_assoc($resultado_2);
+$id = $_GET['ID'];
+$resultado_1 = mysqli_query($conexion, "SELECT * FROM juegos WHERE ID = '$id'");
+$variable_1 = mysqli_fetch_array($resultado_1);
 
-   $resultado_3 = mysqli_query($conexion, "SELECT * FROM editor WHERE ID = 1");
-   $variable_3 = mysqli_fetch_assoc($resultado_3);
- ?>
- <h2 class = "titulos"><?php echo $variable["Nombre"]; ?></h2>
+$flag=false;
+$resultado_2 = mysqli_query($conexion, "SELECT * FROM desarrollador");
+while( $flag==false and $variable_2 = mysqli_fetch_assoc($resultado_2) ){
+    if($variable_2["ID"] == $variable_1["codigo_desarrollador"]){
+        $flag = true;
+    }
+}
+
+$flag=false;
+
+$resultado_3 = mysqli_query($conexion, "SELECT * FROM editor");
+while( $flag==false and $variable_3 = mysqli_fetch_assoc($resultado_3) ){
+    if($variable_3["ID"] == $variable_1["codigo_editor"]){
+        $flag = true;
+    }
+}
+
+
+?>
+
+
+ <h2 class = "titulos"><?php echo $variable_1["Nombre"]; ?></h2>
 
 <article class="juegos">
     <div class="galeria">
     <ul class="slider">
-    <li id="slide1"><img src="images/Capturas" alt="Imágen N° de "></li>
-    <li id="slide2"><img src="images/Capturas" alt="Imágen N° de "></li>
-    <li id="slide3"><img src="images/Capturas" alt="Imágen N° de "></li>
-    <li id="slide4"><img src="images/Capturas" alt="Imágen N° de "></li>
-    <li id="slide5"><img src="images/Capturas" alt="Imágen N° de "></li>
-    <li id="slide6"><img src="images/Capturas" alt="Imágen N° de "></li>
-    <li id="slide7"><img src="images/Capturas" alt="Imágen N° de "></li>
-    <li id="slide8"><img src="images/Capturas" alt="Imágen N° de "></li>
-    <li id="slide9"><img src="images/Capturas" alt="Imágen N° de "></li>
-    <li id="slide10"><img src="images/Capturas" alt="Imágen N° de "></li>
-    <li id="slide11"><img src="images/Capturas" alt="Imágen N° de "></li>
-    <li id="slide12"><img src="images/Capturas" alt="Imágen N° de "></li>
-    <li id="slide13"><img src="images/Capturas" alt="Imágen N° de "></li>
+    <li id="slide1"><img src="<?php echo $variable_1['Ruta_Imagenes'].'_1.jpg'; ?>"></li>
+    <li id="slide2"><img src="<?php echo $variable_1['Ruta_Imagenes'].'_2.jpg'; ?>"></li>
+    <li id="slide3"><img src="<?php echo $variable_1['Ruta_Imagenes'].'_3.jpg'; ?>"></li>
+    <li id="slide4"><img src="<?php echo $variable_1['Ruta_Imagenes'].'_4.jpg'; ?>"></li>
+    <li id="slide5"><img src="<?php echo $variable_1['Ruta_Imagenes'].'_5.jpg'; ?>"></li>
+    <li id="slide6"><img src="<?php echo $variable_1['Ruta_Imagenes'].'_6.jpg'; ?>"></li>
+    <li id="slide7"><img src="<?php echo $variable_1['Ruta_Imagenes'].'_7.jpg'; ?>"></li>
+    <li id="slide8"><img src="<?php echo $variable_1['Ruta_Imagenes'].'_8.jpg'; ?>"></li>
+    <li id="slide9"><img src="<?php echo $variable_1['Ruta_Imagenes'].'_9.jpg'; ?>"></li>
+    <li id="slide10"><img src="<?php echo $variable_1['Ruta_Imagenes'].'_10.jpg'; ?>"></li>
+    <li id="slide11"><img src="<?php echo $variable_1['Ruta_Imagenes'].'_11.jpg'; ?>"></li>
+    <li id="slide12"><img src="<?php echo $variable_1['Ruta_Imagenes'].'_12.jpg'; ?>"></li>
+    <li id="slide13"><img src="<?php echo $variable_1['Ruta_Imagenes'].'_13.jpg'; ?>"></li>
  </ul>
 
  <nav class = "navsl">
@@ -71,7 +89,7 @@
 </div>
 
     <div>
-        <?php echo $variable_1["Portada"]?> <!--SANTI, ESTA ES LA LINEA QUE PROVOCA EL ERROR-->
+        <img src="<?php echo $variable_1['Ruta_Imagenes'].'_Portada.jpg'; ?>"> 
         <p><?php echo $variable_1["Descripcion_Chica"]?></p>
         <br>
         <h4>FECHA DE LANZAMIENTO: <?php echo $variable_1["Lanzamiento"]; ?>
