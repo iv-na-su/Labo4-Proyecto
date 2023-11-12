@@ -33,7 +33,7 @@
     <a href="form_registro.php">Registrate</a> si no sos usuario.
     </section>
 </article>
-
+<br><br><br><br><br><br><br><br><br><br><br>
 <footer>
 <?php
     include("FOOTER.php");

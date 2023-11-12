@@ -68,7 +68,7 @@ p a{
   color: #418242;
 }
 .perfil{
-  margin-left: 10%;
+  margin-left: 30%;
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 2rem;
   color: white;
@@ -411,32 +411,30 @@ ul.slider li {
 
 /*-------------------ABRE PERFIL-------------------*/
 table {
+  border: 1px solid #000;
   width: 100%;
 }
 
 thead{
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 1.2rem;
+  padding: 0.3em;
 }
 
-th, td {
+th, td, tr {
   width: auto;
   text-align: left;
   vertical-align: top;
   border: 1px solid #000;
   border-spacing: 0;
   font-family: 'Roboto Condensed', sans-serif;
-  padding: 0.3em;
   border: solid;
   border-color: grey;
   color: rgb(185, 177, 177);
 }
 
-tr{
-  width: auto;
-}
 
-.wrap{ //Primer Cuadro
+.wrap{ 
 	margin:auto;
   width: 95%;
   
@@ -472,7 +470,7 @@ ul.tabs li a{
 	background: #055887;
 }
 
-ul.tabs li a .tab-text{ //Texto de Secciones
+ul.tabs li a .tab-text{
 	margin-left: 8px;
 }
 
@@ -481,15 +479,16 @@ ul.tabs li a .tab-text{ //Texto de Secciones
 }
 
 .secciones article{
-  border: none;
+
 	padding: 5px;
 
 }
 
 .secciones article p{
-  border: none;
+
 	text-align: justify;
 }
+
 
 
 /*-------------------CIERRA PERFIL-------------------*/

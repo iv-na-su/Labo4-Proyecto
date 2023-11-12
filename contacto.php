@@ -41,6 +41,7 @@
         </form>
     </section>
 </article>
+<br><br><br><br>
 <footer>
 <?php
     include("FOOTER.php");

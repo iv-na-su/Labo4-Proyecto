@@ -23,29 +23,29 @@
 <article>
     <?php
    include("conexion.php");
-   $usuario=$_POST['usuario'];
+   $id=$_SESSION['ID'];
 
-    $consulta=mysqli_query($conexion, "SELECT usuario FROM usuarios WHERE usuario='$usuario'");
+    $consulta=mysqli_query($conexion, "SELECT * FROM usuarios WHERE id='$id'");
 
-    $resultado=mysqli_num_rows($consulta);
+    $resultado=mysqli_fetch_assoc($consulta);
 
     $resultado_1 = mysqli_query($conexion, "SELECT * FROM juegos");
     ?>
 </article>
 
 <article class="perfil">
-    <h2> Nombre: <?php echo $_SESSION['NOMBRE']; ?>
+        <h2> Nombre: <?php echo $_SESSION['NOMBRE']; ?>
          <br>Apellido: <?php echo $_SESSION['APELLIDO']; ?> 
          <br>Nombre de Usuario: <?php echo $_SESSION['USUARIO']; ?>
          <br>Mail: <?php echo $_SESSION['MAIL']; ?>
-         <td><a href="modificar_usu.php?ID=<?php echo $variable_1["ID"];?>">Editar</a></td>
+         <br><a href="modificar_usuario_formu.php?ID=<?php echo $resultado["id"];?>">Editar</a>
          </h2>
 
 </article>
 
   <?php 
     if ($_SESSION['NIVEL'] == 1){?>
-        <h3 class="perfil"> <br><br>(ATENCIÓN: Ah iniciado sesión en un perfil de Administrador)<br> </h3>
+        <h3 class="perfil"> <br><br>TIPO DE PERFIL: ADMINISTRADOR<br> </h3>
 <div class="wrap">
 		<ul class="tabs">
 			<li><a href="#tab1"><span class="fa fa-gamepad"></span><span class="tab-text">Juegos</span></a></li>
@@ -107,7 +107,10 @@
                         <td><?php echo $variable_1["Descripcion_Grande"];?></td>
                         <td><?php echo $variable_1["Requisitos"];?></td>
                         <td><?php echo $variable_1["Ruta_Imagenes"];?></td>
-                        <td><a href="modificar_formu.php?ID=<?php echo $variable_1["ID"];?>">Editar</a></td>
+                        <td>
+                            <a  href="modificar_formu.php?ID=<?php echo $variable_1["ID"];?>">Editar</a><br><br><br>
+                            <a  href="borrar.php?ID=<?php echo $variable_1["ID"];?>">Borrar</a>
+                        </td>
 
                     </tr>
                     <?php }?>
@@ -191,7 +194,7 @@
 	</div>
 
 <?php } else{?>
-        <h2> Usted ah iniciado con un perfil comun</h2>
+        <h2> TIPO DE PERFIL: SUSCRIPTOR</h2>
 
 <?php } ?>
 
