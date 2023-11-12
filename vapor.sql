@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 12-11-2023 a las 18:27:42
+-- Tiempo de generación: 13-11-2023 a las 00:15:58
 -- Versión del servidor: 10.4.28-MariaDB
 -- Versión de PHP: 8.2.4
 
@@ -194,17 +194,7 @@ CREATE TABLE `usuarios` (
 INSERT INTO `usuarios` (`id`, `nombre`, `apellido`, `clave`, `mail`, `nivel`, `usuario`, `id_sesion`) VALUES
 (12, 'NAHUEL', 'SUAREZ', 'f42c336beeb8762ce4b8fe64440c9037', 'naahuel.suarez.2000@gmail.com', 1, 'nahuwu', NULL),
 (13, 'SANTIAGO', 'DIVIRGILIO', 'e10adc3949ba59abbe56e057f20f883e', 'santiagodivirgilio073@gmail.com', 1, 'graff0', 'dahnehrf624hqeqv2epqjfg39d'),
-(14, 'USUARIO', 'COMUN', '0485f41602de717ecb8039122d51eea2', 'noadmin@gmail.com', 0, 'noadmin', NULL),
-(16, '', '', '', '', 0, '', NULL),
-(17, '', '', '', '', 0, '', NULL),
-(18, '', '', '', '', 0, '', NULL),
-(19, '', '', '', '', 0, '', NULL),
-(20, '', '', '', '', 0, '', NULL),
-(21, '', '', '', '', 0, '', NULL),
-(22, '', '', '', '', 0, '', NULL),
-(23, '', '', '', '', 0, '', NULL),
-(24, '', '', '', '', 0, '', NULL),
-(25, '', '', '', '', 0, '', NULL);
+(14, 'USUARIO', 'COMUN', '0485f41602de717ecb8039122d51eea2', 'noadmin@gmail.com', 0, 'noadmin', NULL);
 
 --
 -- Índices para tablas volcadas
