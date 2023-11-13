@@ -11,11 +11,21 @@ $variable_1 = mysqli_fetch_array($resultado_1);
 <!doctype html>
 <html>
 <head>
-<meta charset="utf-8">
-<title>Modificar</title>
+    <link rel="icon" href="images/Vapor_Logo_Png.png" type="Images/png">
+    <title>Modificar</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/estilo_santi.css">
 </head>
 
 <body>
+	<img class="fondo" src="images/fondo_formu.jpg" alt="">
+<header>
+    <?php
+    include("NAV.php");
+    ?>
+</header>
 <?php 
 
 $resultado_2 = mysqli_query($conexion, "SELECT * FROM generos");
@@ -25,7 +35,7 @@ $resultado_3 = mysqli_query($conexion, "SELECT * FROM desarrollador");
 $resultado_4 = mysqli_query($conexion, "SELECT * FROM editor");
 ?>
 
-<article >
+<article class="formu_3">
 <section class="abm">
 	<p>Modificar
 	</p>
@@ -89,13 +99,17 @@ $resultado_4 = mysqli_query($conexion, "SELECT * FROM editor");
 	<label>Ruta_Imagenes
 		<input type="text" name="ruta_imagenes" value='<?php echo $variable_1["Ruta_Imagenes"]?>' />
 	</label><br />
-	<input type="submit" value="MODIFICAR"/>	
+	<input class="boton" type="submit" value="MODIFICAR"/>	
 
 </form>
 </section>
 </article>
 
-    
+<footer>
+<?php
+    include("FOOTER.php");
+    ?>
+</footer>
 
 </body>
 </html>

@@ -94,11 +94,6 @@ $variable_3 = mysqli_fetch_array($resultado_3);
 
 </article>
 
-<div class = "reseña">
-<h3>DEJA TU RESEÑA</h3>
-<textarea name="" id="" cols="30" rows="10"></textarea>
-</div>
-
 <div class= "acerca_de">
 <h3>ACERCA DE ESTE JUEGO</h3>
 <br>

@@ -1,8 +1,9 @@
 <!doctype html>
 <html>
 <head>
-<meta charset="utf-8">
-<title>Login de Usuarios</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/estilo_santi.css">
+	<title>Login de Usuarios</title>
 </head>
 
 <body>
@@ -30,20 +31,11 @@ if($resultado!=0){
 	$_SESSION['MAIL'] = $respuesta['mail'];
 
 	header("Location:perfil.php");
-
-}else{
-	echo"NO ES UN USUARIO REGISTRADO ";
-	echo("<a href='form_registro.php'>REGISTRATE</a>");
 }
-
-
-
-
-
-
-
-
-?>
+else{
+	echo '<h2 class="registro">NO ES UN USUARIO REGISTRADO </h2>';
+	echo('<a class="registro" href="form_registro.php">¡REGISTRATE!</a>');
+}?>
 
 </body>
 </html>

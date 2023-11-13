@@ -27,13 +27,13 @@
         </p>
         <form action="contacto.php" method="post">
             <br><label for="nom">Nombre:</label>
-            <input type="text" name="nombre" maxlength="10" id="identificador">
+            <input class="input_formu" type="text" name="nombre" maxlength="20" id="identificador"; width:150px>
             
             <br><label for="email">Email:</label>
-            <input type="email" name="email" maxlength="40" id="identificador">
+            <input class="input_formu" type="email" name="email" maxlength="40" id="identificador"; width:150px>
 
             <br><label for="comentario">Haga su comentario <strong>aquí:</strong></label><br>
-            <textarea arows="90" cols="40" maxlength="300" name="comentario"> 
+            <textarea class="input_formu" arows="90" cols="40" maxlength="300" name="comentario"> 
             </textarea>
 
             <br><input type="submit" value="Enviar" id="identificador">

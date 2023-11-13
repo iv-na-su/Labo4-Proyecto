@@ -11,12 +11,22 @@ $variable_1 = mysqli_fetch_array($resultado_1);
 <!doctype html>
 <html>
 <head>
-<meta charset="utf-8">
-<title>Modificar</title>
+    <link rel="icon" href="images/Vapor_Logo_Png.png" type="Images/png">
+    <title>Modificar</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/estilo_santi.css">
 </head>
 
 <body>
-<article >
+	<img class="fondo" src="images/fondo_formu.jpg" alt="">
+<header>
+    <?php
+    include("NAV.php");
+    ?>
+</header>
+<article class="formu_2">
 <section class="abm">
 	<p>Modificar Usuario
 	</p>
@@ -36,17 +46,21 @@ $variable_1 = mysqli_fetch_array($resultado_1);
 	<label>Usuario
 		<input type="text" name="usuario" value="<?php echo $variable_1["usuario"]?>" required />
 	</label><br />
-	<label>clave
+	<label>Clave
 		<input type="password" name="clave" value="" required/>
 	</label><br />
-	<input type="submit" value="MODIFICAR"/>	
+	<input class="boton" type="submit" value="MODIFICAR"/>	
 
 </form>
 </section>
-<p>SE CERRARA SU SESION AL MODIFICAR SUS DATOS</p>
+<h5>¡ATENCIÓN! Se cerrará su sesión al modificar sus datos</h5>
 </article>
 
-    
+<footer>
+<?php
+    include("FOOTER.php");
+    ?>
+</footer>
 
 </body>
 </html>

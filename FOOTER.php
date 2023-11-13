@@ -18,7 +18,7 @@ if ($_SESSION["VARIABLE"] != NULL){
             
     echo ('     
     <ul>
-        <li><a href = "iniciar_sesion.php">Iniciar Sesión</a></li>
+        <li><a href = "iniciar_sesion.php">Ingresar</a></li>
     </ul>');
     }
 ?>

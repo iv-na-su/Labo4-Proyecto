@@ -198,9 +198,7 @@
 
 <?php } ?>
 
-
-
-<article >
+<article>
 <a class="boton_cerrar" href="cerrar_sesion.php">Cerrar Sesión</a>
 </article>
 
@@ -238,8 +236,7 @@ $('ul.tabs li a:first').addClass('active');
 		return false;
 	});
 </script>
-
-
+?>
 <!-- Script de efecto zoom -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 
