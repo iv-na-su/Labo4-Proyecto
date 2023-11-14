@@ -8,17 +8,27 @@
 <!doctype html>
 <html>
 <head>
-<meta charset="utf-8">
-<title>AÑADIR DESARROLLADOR</title>
+    <link rel="icon" href="images/Vapor_Logo_Png.png" type="Images/png">
+    <title>Vapor: The Proyect</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/estilo_santi.css">
 </head>
 
 <body>
+<header>
+    <?php
+    include("NAV.php");
+    ?>
+</header>
+<img class="fondo" src="images/fondo_formu.jpg" alt="">
 <?php 
 
 
 ?>
 
-<article >
+<article class="formu">
 <section class="abm">
 	<p>AÑADIR
 	</p>
@@ -37,7 +47,11 @@
 </section>
 </article>
 
-    
+<footer>
+<?php
+    include("FOOTER.php");
+    ?>
+</footer>
 
 </body>
 </html>
