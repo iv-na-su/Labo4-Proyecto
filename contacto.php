@@ -21,6 +21,7 @@
 
 <article >
     <section class="formu">
+        <h3>CONTACTO</h3><br>
         <p>¿Quiere hacer algún comentario en cuanto a nuestra página web?<br>
                   ¡Todos sus mensajes son bienvenidos!<br>
             ¡Complete el formulario y envíelo!
@@ -28,20 +29,20 @@
         <form action="contacto.php" method="post">
             <br><label for="nom">Nombre:</label>
             <input class="input_formu" type="text" name="nombre" maxlength="20" id="identificador"; width:150px>
-            
+            <br>
             <br><label for="email">Email:</label>
             <input class="input_formu" type="email" name="email" maxlength="40" id="identificador"; width:150px>
-
-            <br><label for="comentario">Haga su comentario <strong>aquí:</strong></label><br>
-            <textarea class="input_formu" arows="90" cols="40" maxlength="300" name="comentario"> 
+            <br>
+            <br><label for="comentario">Haga su comentario <strong>aquí:</strong></label><br><br>
+            <textarea class="input_formu" arows="400" cols="60" maxlength="700" style="width: 645px; height: 128px;" name="comentario"> 
             </textarea>
-
+            <br>
             <br><input type="submit" value="Enviar" id="identificador">
             <input type="reset" value="Resetear Información" id="identificador">
         </form>
     </section>
 </article>
-<br><br><br><br>
+<br><br><br><br><br>
 <footer>
 <?php
     include("FOOTER.php");

@@ -1,16 +1,16 @@
 <html>
 <div>
-    <a href="index.php">Inicio</a>
+    <a href="index.php">INICIO</a>
 </div>
 <div>
-    <a href="juegos.php">Juegos</a>
+    <a href="juegos.php">JUEGOS</a>
 </div>
 <div>
 <?php 
 if ($_SESSION["VARIABLE"] != NULL){
     echo ('            
     <ul>
-        <li><a href = "perfil.php">Perfil</a></li>
+        <li><a href = "perfil.php">PERFIL</a></li>
     </ul>');
     }
         
@@ -18,13 +18,13 @@ if ($_SESSION["VARIABLE"] != NULL){
             
     echo ('     
     <ul>
-        <li><a href = "iniciar_sesion.php">Ingresar</a></li>
+        <li><a href = "iniciar_sesion.php">INGRESAR</a></li>
     </ul>');
     }
 ?>
 </div>
 <div>
-    <a href="contacto.php">Contacto</a>
+    <a href="contacto.php">CONTACTO</a>
 </div>
 
     <a href="https://es-la.facebook.com/" target="_blank"><img src="images/Icono_Facebook.png" alt="Facebook" class="redes"></a>

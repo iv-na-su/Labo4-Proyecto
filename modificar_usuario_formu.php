@@ -26,7 +26,7 @@ $variable_1 = mysqli_fetch_array($resultado_1);
     include("NAV.php");
     ?>
 </header>
-<article class="formu_2">
+<article class="formu">
 <section class="abm">
 	<p>Modificar Usuario
 	</p>

@@ -194,7 +194,7 @@
 	</div>
 
 <?php } else{?>
-        <h2> TIPO DE PERFIL: SUSCRIPTOR</h2>
+        <h3 class="perfil"> <br><br>TIPO DE PERFIL: SUSCRIPTOR<br> </h3>
 
 <?php } ?>
 

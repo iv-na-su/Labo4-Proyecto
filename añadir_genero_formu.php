@@ -18,7 +18,7 @@
 
 ?>
 
-<article >
+<article class="formu">
 <section class="abm">
 	<p>AÑADIR
 	</p>

@@ -11,6 +11,7 @@
 </head>
 
 <body>
+<img class="fondo" src="images/fondo_formu.jpg" alt="">
 <header>
     <?php
     include("NAV.php");
@@ -19,30 +20,30 @@
 
 <article >
     <section class="formu">
-        <p>REGISTRARSE
-        </p>
+        <h3>REGISTRARSE
+</h3><br>
         <form action="registro.php" method="post" >
-    	<label>Nombre
-        	<input type="text" name="nombre" required />
+    	<label>Nombre:
+        	<input type="text" name="nombre" required /><br>
         </label><br />
-		<label>Apellido
-        	<input type="text" name="apellido" required />
+		<label>Apellido:
+        	<input type="text" name="apellido" required /><br>
         </label><br />
-        <label>Email
-        	<input type="email" name="email" required />
+        <label>Email:
+        	<input type="email" name="email" required /><br>
         </label><br />
-        <label>Nombre de usuario
-        	<input name="usuario" type="text" maxlength="12" />
+        <label>Nombre de usuario:
+        	<input name="usuario" type="text" maxlength="12" /><br>
         </label><br />
-        <label>Contraseña
-        	<input type="password" name="password" maxlength="12" />
+        <label>Contraseña:
+        	<input type="password" name="password" maxlength="12" /><br>
         </label><br />
         <input type="submit" value="Registrarse"/>	
 
     </form>
     </section>
 </article>
-
+<br><br><br><br><br><br><br><br><br><br>
 <footer>
 <?php
     include("FOOTER.php");

@@ -35,7 +35,7 @@ $resultado_3 = mysqli_query($conexion, "SELECT * FROM desarrollador");
 $resultado_4 = mysqli_query($conexion, "SELECT * FROM editor");
 ?>
 
-<article class="formu_3">
+<article>
 <section class="abm">
 	<p>Modificar
 	</p>

@@ -22,7 +22,7 @@ $resultado_3 = mysqli_query($conexion, "SELECT * FROM desarrollador");
 $resultado_4 = mysqli_query($conexion, "SELECT * FROM editor");
 ?>
 
-<article >
+<article class="formu">
 <section class="abm">
 	<p>AÑADIR
 	</p>

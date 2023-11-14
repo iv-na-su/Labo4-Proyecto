@@ -20,16 +20,18 @@
 
 <article >
     <section class="formu">
-        <h2>Logueate</h2>
+        <h3>LOGUEATE</h3>
+        <br>
 	<form action="login.php" method="post">
-    	<label>Nombre de usuario
-        	<input name="usuario" type="text" maxlength="12" />
+    	<label>Nombre de usuario:
+        	<input name="usuario" type="text" maxlength="12" /><br>
         </label><br />
-        <label>Contraseña
-        	<input type="password" name="clave" maxlength="12" />
+        <label>Contraseña:
+        	<input type="password" name="clave" maxlength="12" /><br>
         </label><br />
-        	<input type="submit" value="Login"/>	
+        	<input type="submit" value="Login"/><br>
     </form>
+    <br>
     <a href="form_registro.php">Registrate</a> si no sos usuario.
     </section>
 </article>
