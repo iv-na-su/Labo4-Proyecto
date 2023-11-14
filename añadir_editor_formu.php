@@ -26,14 +26,14 @@
 
 <article class="formu">
 <section >
-	<p>AÑADIR
-	</p>
+	<h3>AÑADIR
+</h3>
 	<form action="añadir_editor.php" method="post" >
-	<label>ID
-		<input type="text" name="id" readonly="readonly" />
+	<label>ID:
+		<input type="text" name="id" readonly="readonly" /><br>
 	</label><br />
-	<label>Editor
-		<input type="text" name="editor" />
+	<label>Editor:
+		<input type="text" name="editor" /><br>
 	</label><br />
 
 	
@@ -42,7 +42,7 @@
 </form>
 </section>
 </article>
-
+<br><br><br><br><br><br><br><br><br>
 <footer>
 <?php
     include("FOOTER.php");

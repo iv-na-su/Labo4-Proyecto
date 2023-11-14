@@ -37,17 +37,18 @@ $resultado_4 = mysqli_query($conexion, "SELECT * FROM editor");
 
 <article class="formu">
 <section class="abm">
-	<p>Modificar
-	</p>
+	<h3>MODIFICAR
+</h3>
+	<br>
 	<form action="modificar.php" method="post" >
-	<label>ID
-		<input type="text" name="id" readonly="readonly" value="<?php echo $variable_1["ID"]?>" />
+	<label>ID:
+		<input type="text" name="id" readonly="readonly" value="<?php echo $variable_1["ID"]?>" /><br>
 	</label><br />
-	<label>Nombre
-		<input type="text" name="nombre" value="<?php echo $variable_1["Nombre"]?>" />
+	<label>Nombre:
+		<input type="text" name="nombre" value="<?php echo $variable_1["Nombre"]?>" /><br>
 	</label><br />
 
-	<label>Genero
+	<label>Genero:
 	<select name="genero">
 	<?php while($variable_2 = mysqli_fetch_assoc($resultado_2)){?>
 	<?php if($variable_1["codigo_genero"] == $variable_2["id"]){?>
@@ -58,8 +59,8 @@ $resultado_4 = mysqli_query($conexion, "SELECT * FROM editor");
 	  <?php }?>
 	</select>
 	</label><br />
-
-	<label>Desarrollador
+	<br>
+	<label>Desarrollador:
 	<select name="desarrollador">
 	<?php while($variable_3 = mysqli_fetch_assoc($resultado_3)){?>
 	<?php if($variable_1["codigo_desarrollador"] == $variable_3["ID"]){?>
@@ -70,9 +71,9 @@ $resultado_4 = mysqli_query($conexion, "SELECT * FROM editor");
 	  <?php }?>
 	</select>
 	</label><br />
+	<br>
 
-
-	<label>Editor
+	<label>Editor:
 	<select name="editor">
 	<?php while($variable_4 = mysqli_fetch_assoc($resultado_4)){?>
 	<?php if($variable_1["codigo_editor"] == $variable_4["ID"]){?>
@@ -83,21 +84,21 @@ $resultado_4 = mysqli_query($conexion, "SELECT * FROM editor");
 	  <?php }?>
 	</select>
 	</label><br />
-
-	<label>Lanzamiento
-		<input type="date" name="lanzamiento" value="<?php echo $variable_1["Lanzamiento"]?>" />
+	<br>
+	<label>Lanzamiento:
+		<input type="date" name="lanzamiento" value="<?php echo $variable_1["Lanzamiento"]?>" /><br>
 	</label><br />
-	<label>Descripcion_Chica
-		<input type="text" name="descripcion_chica" value="<?php echo $variable_1["Descripcion_Chica"]?>"/>
+	<label>Descripcion_Chica:
+		<input type="text" name="descripcion_chica" value="<?php echo $variable_1["Descripcion_Chica"]?>"/><br>
 	</label><br />
-	<label>Descripcion_Grande
-		<input type="text" name="descripcion_grande" type="text" value="<?php echo $variable_1["Descripcion_Grande"]?>"/>
+	<label>Descripcion_Grande:
+		<input type="text" name="descripcion_grande" type="text" value="<?php echo $variable_1["Descripcion_Grande"]?>"/><br>
 	</label><br />
-	<label>Requisitos
-		<input type="text" name="requisitos"value="<?php echo $variable_1["Requisitos"]?>" />
+	<label>Requisitos:
+		<input type="text" name="requisitos"value="<?php echo $variable_1["Requisitos"]?>" /><br>
 	</label><br />
-	<label>Ruta_Imagenes
-		<input type="text" name="ruta_imagenes" value='<?php echo $variable_1["Ruta_Imagenes"]?>' />
+	<label>Ruta_Imagenes:
+		<input type="text" name="ruta_imagenes" value='<?php echo $variable_1["Ruta_Imagenes"]?>' /><br>
 	</label><br />
 	<input class="boton" type="submit" value="MODIFICAR"/>	
 

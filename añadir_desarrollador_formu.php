@@ -30,14 +30,15 @@
 
 <article class="formu">
 <section class="abm">
-	<p>AÑADIR
-	</p>
+	<h3>AÑADIR
+</h3>
+<br>
 	<form action="añadir_desarrollador.php" method="post" >
-	<label>ID
-		<input type="text" name="id" readonly="readonly" />
+	<label>ID:
+		<input type="text" name="id" readonly="readonly" /><br>
 	</label><br />
-	<label>Desarrollador
-		<input type="text" name="desarrollador" />
+	<label>Desarrollador:
+		<input type="text" name="desarrollador" /><br>
 	</label><br />
 
 	
@@ -46,7 +47,7 @@
 </form>
 </section>
 </article>
-
+<br><br><br><br><br><br><br>
 <footer>
 <?php
     include("FOOTER.php");

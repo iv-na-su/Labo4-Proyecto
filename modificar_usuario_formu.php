@@ -28,26 +28,27 @@ $variable_1 = mysqli_fetch_array($resultado_1);
 </header>
 <article class="formu">
 <section class="abm">
-	<p>Modificar Usuario
-	</p>
+	<h3>MODIFICAR USUARIO
+</h3>
+
 	<form action="modificar_usuario.php" method="post" >
 	<label>
-		<input type="hidden" name="id" readonly="readonly" value="<?php echo $variable_1["id"]?>" />
+		<input type="hidden" name="id" readonly="readonly" value="<?php echo $variable_1["id"]?>" /><br>
+	</label><br>
+	<label>Nombre:
+		<input type="text" name="nombre" value="<?php echo $variable_1["nombre"]?>" /><br>
 	</label><br />
-	<label>Nombre
-		<input type="text" name="nombre" value="<?php echo $variable_1["nombre"]?>" />
+	<label>Apellido:
+		<input type="text" name="apellido" value="<?php echo $variable_1["apellido"]?>" /><br>
 	</label><br />
-	<label>Apellido
-		<input type="text" name="apellido" value="<?php echo $variable_1["apellido"]?>" />
+	<label>Mail:
+		<input type="email" name="mail" value="<?php echo $variable_1["mail"]?>" /><br>
 	</label><br />
-	<label>Mail
-		<input type="email" name="mail" value="<?php echo $variable_1["mail"]?>" />
+	<label>Usuario:
+		<input type="text" name="usuario" value="<?php echo $variable_1["usuario"]?>" required /><br>
 	</label><br />
-	<label>Usuario
-		<input type="text" name="usuario" value="<?php echo $variable_1["usuario"]?>" required />
-	</label><br />
-	<label>Clave
-		<input type="password" name="clave" value="" required/>
+	<label>Clave:
+		<input type="password" name="clave" value="" required/><br>
 	</label><br />
 	<input class="boton" type="submit" value="MODIFICAR"/>	
 

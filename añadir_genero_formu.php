@@ -26,14 +26,15 @@
 
 <article class="formu">
 <section class="abm">
-	<p>AÑADIR
-	</p>
+	<h3>AÑADIR
+</h3>
+<br>
 	<form action="añadir_genero.php" method="post" >
-	<label>ID
-		<input type="number" name="id" readonly="readonly" />
+	<label>ID:
+		<input type="number" name="id" readonly="readonly" /><br>
 	</label><br />
-	<label>Genero
-		<input type="text" name="genero" />
+	<label>Género:
+		<input type="text" name="genero" /><br>
 	</label><br />
 
 	
@@ -42,7 +43,7 @@
 </form>
 </section>
 </article>
-
+<br><br><br><br><br><br><br>
 <footer>
 <?php
     include("FOOTER.php");
