@@ -1,0 +1,11 @@
+USUARIO SUSCRIPTOR:
+usuario: noadmin
+contraseña: noadmin
+
+
+----------------------
+
+USUARIO ADMINISTRADOR:
+
+usuario:nahuwu
+contraseña: nahuelll
