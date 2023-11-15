@@ -1,0 +1,11 @@
+Admin:
+
+Nombre: Graffo
+Contraseña: 123456
+
+-------------------------
+
+Usuario común:
+
+Nombre: noadmin
+Contraseña: noadmin
