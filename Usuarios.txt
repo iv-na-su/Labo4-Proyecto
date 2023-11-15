@@ -1,11 +1,11 @@
-Admin:
+USUARIO SUSCRIPTOR:
+usuario: noadmin
+contraseña: noadmin
 
-Nombre: Graffo
-Contraseña: 123456
 
--------------------------
+----------------------
 
-Usuario común:
+USUARIO ADMINISTRADOR:
 
-Nombre: noadmin
-Contraseña: noadmin
+usuario:nahuwu
+contraseña: nahuelll
